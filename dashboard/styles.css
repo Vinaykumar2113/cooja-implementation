@@ -1,0 +1,356 @@
+/*
+ * Smart Environmental Monitoring & Energy-Efficient WSN Dashboard Styles
+ * Modern Dark Glassmorphic IoT Aesthetic (Catppuccin Mocha inspired)
+ */
+
+:root {
+  --bg-base: #11111b;
+  --bg-surface: #1e1e2e;
+  --bg-card: #252538;
+  --bg-card-hover: #2e2e44;
+  --border-color: #363a4f;
+  --text-main: #cdd6f4;
+  --text-muted: #a6adc8;
+  --text-dim: #6c7086;
+  
+  --accent-cyan: #89dceb;
+  --accent-blue: #89b4fa;
+  --accent-green: #a6e3a1;
+  --accent-yellow: #f9e2af;
+  --accent-peach: #fab387;
+  --accent-red: #f38ba8;
+  --accent-purple: #cba6f7;
+  
+  --glow-cyan: 0 0 20px rgba(137, 220, 235, 0.25);
+  --glow-green: 0 0 20px rgba(166, 227, 161, 0.25);
+  --glow-red: 0 0 25px rgba(243, 139, 168, 0.35);
+  
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: var(--text-main);
+  min-height: 100vh;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+/* Container */
+.dashboard-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.brand-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(137, 180, 250, 0.15);
+  color: var(--accent-blue);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px;
+  border: 1px solid rgba(137, 180, 250, 0.3);
+}
+
+.dashboard-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.dashboard-subtitle {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.header-status-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 10px 18px;
+  border-radius: 30px;
+}
+
+.pulsing-dot {
+  width: 10px;
+  height: 10px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--accent-green);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 16px var(--accent-green); }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+/* Alert Banner */
+.alert-banner {
+  background: rgba(243, 139, 168, 0.12);
+  border: 1px solid var(--accent-red);
+  box-shadow: var(--glow-red);
+  padding: 14px 20px;
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.alert-icon-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.alert-badge {
+  background: var(--accent-red);
+  color: #11111b;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+/* KPI Cards Grid */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: var(--radius-md);
+  transition: transform 0.2s, border-color 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-blue);
+}
+
+.kpi-label {
+  font-size: 12px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.kpi-value {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 6px 0 2px 0;
+  color: #fff;
+}
+
+.kpi-subtext {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.kpi-highlight-green { color: var(--accent-green); }
+.kpi-highlight-cyan { color: var(--accent-cyan); }
+.kpi-highlight-purple { color: var(--accent-purple); }
+.kpi-highlight-yellow { color: var(--accent-yellow); }
+
+/* Main Section Grid */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Canvas Topology Map */
+.topology-canvas-wrap {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background: #181825;
+  border-radius: var(--radius-sm);
+  border: 1px solid #313244;
+  overflow: hidden;
+}
+
+#topologyCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Telemetry Charts */
+.telemetry-chart-wrap {
+  width: 100%;
+  height: 380px;
+  background: #181825;
+  border-radius: var(--radius-sm);
+  border: 1px solid #313244;
+  padding: 12px;
+  position: relative;
+}
+
+#telemetryCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Node Table */
+.table-card {
+  margin-bottom: 24px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.mote-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.mote-table th {
+  background: #181825;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.mote-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #28283d;
+  color: var(--text-main);
+}
+
+.mote-table tr:hover td {
+  background-color: var(--bg-card);
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.badge-sink { background: rgba(137, 180, 250, 0.2); color: var(--accent-blue); }
+.badge-sensor { background: rgba(166, 227, 161, 0.2); color: var(--accent-green); }
+.badge-alert { background: rgba(243, 139, 168, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+
+/* SVG Visuals Grid */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 900px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.svg-container {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.svg-container img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+  display: block;
+}
+
+/* Footer */
+.dashboard-footer {
+  text-align: center;
+  padding: 24px 0;
+  color: var(--text-dim);
+  font-size: 13px;
+  border-top: 1px solid var(--border-color);
+}

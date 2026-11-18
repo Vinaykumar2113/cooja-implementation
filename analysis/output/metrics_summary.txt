@@ -1,0 +1,26 @@
+===============================================================================
+  SMART ENVIRONMENTAL MONITORING & ENERGY-EFFICIENT WSN - PERFORMANCE REPORT   
+===============================================================================
+
+Simulation Duration       : 301.01 seconds
+Number of Sensor Motes    : 7
+Routing Protocol          : RPL (Routing Protocol for Low-Power & Lossy Networks)
+Radio Hardware Emulated   : TelosB / Tmote Sky (CC2420 IEEE 802.15.4 @ 3.0V)
+
++---------+-------------+-------------+------------+------------+---------------+--------------+
+| Node ID | Samples Taken| Packets TX  | Suppressed | Saving (%) | Total mJ (Ad) | Total mJ (Pe)|
++---------+-------------+-------------+------------+------------+---------------+--------------+
+| Mote  2 |          48 |          14 |         37 |      77.1% |        115.39 |       277.71 |
+| Mote  3 |          48 |          14 |         37 |      77.1% |        115.27 |       279.09 |
+| Mote  4 |          48 |          36 |         17 |      35.4% |        148.28 |       275.46 |
+| Mote  5 |          48 |          14 |         37 |      77.1% |        116.18 |       279.58 |
+| Mote  6 |          48 |          14 |         37 |      77.1% |        116.43 |       283.45 |
+| Mote  7 |          48 |          14 |         37 |      77.1% |        114.84 |       280.01 |
+| Mote  8 |          48 |          14 |         36 |      75.0% |        118.30 |       277.88 |
++---------+-------------+-------------+------------+------------+---------------+--------------+
+
+KEY HIGHLIGHTS:
+  1. Energy Savings: The proposed adaptive data collection cut network energy by 56.75%
+  2. Radio Suppression: 70.94% of redundant packet transmissions were eliminated
+  3. Reliability: Maintained a 100.0% Packet Delivery Ratio (PDR)
+  4. Event Responsiveness: Wildfire anomaly at Node 4 detected and transmitted immediately.

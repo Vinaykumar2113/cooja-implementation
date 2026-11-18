@@ -1,0 +1,955 @@
+[0.00s] [Mote 1] =================================================================
+[0.00s] [Mote 1]   SMART ENVIRONMENTAL MONITORING & ENERGY-EFFICIENT WSN SINK     
+[0.00s] [Mote 1]   Node ID: 1 | Target: RPL DAG Root Collector                   
+[0.00s] [Mote 1] =================================================================
+[0.05s] [Mote 1] [SINK-INIT] RPL DAG root created with prefix fd00::/64
+[0.08s] [Mote 1] [SINK-INIT] Listening on UDP port 5678 for sensor reports
+[0.20s] [Mote 2] =================================================================
+[0.20s] [Mote 2]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.20s] [Mote 2]   Node ID: 2 | Mode: FIXED PERIODIC BASELINE
+[0.20s] [Mote 2] =================================================================
+[5.20s] [Mote 2] [NODE-2] Sensing loop active. Ready to transmit.
+[0.25s] [Mote 3] =================================================================
+[0.25s] [Mote 3]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.25s] [Mote 3]   Node ID: 3 | Mode: FIXED PERIODIC BASELINE
+[0.25s] [Mote 3] =================================================================
+[5.25s] [Mote 3] [NODE-3] Sensing loop active. Ready to transmit.
+[0.30s] [Mote 4] =================================================================
+[0.30s] [Mote 4]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.30s] [Mote 4]   Node ID: 4 | Mode: FIXED PERIODIC BASELINE
+[0.30s] [Mote 4] =================================================================
+[5.30s] [Mote 4] [NODE-4] Sensing loop active. Ready to transmit.
+[0.35s] [Mote 5] =================================================================
+[0.35s] [Mote 5]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.35s] [Mote 5]   Node ID: 5 | Mode: FIXED PERIODIC BASELINE
+[0.35s] [Mote 5] =================================================================
+[5.35s] [Mote 5] [NODE-5] Sensing loop active. Ready to transmit.
+[0.40s] [Mote 6] =================================================================
+[0.40s] [Mote 6]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.40s] [Mote 6]   Node ID: 6 | Mode: FIXED PERIODIC BASELINE
+[0.40s] [Mote 6] =================================================================
+[5.40s] [Mote 6] [NODE-6] Sensing loop active. Ready to transmit.
+[0.45s] [Mote 7] =================================================================
+[0.45s] [Mote 7]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.45s] [Mote 7]   Node ID: 7 | Mode: FIXED PERIODIC BASELINE
+[0.45s] [Mote 7] =================================================================
+[5.45s] [Mote 7] [NODE-7] Sensing loop active. Ready to transmit.
+[0.50s] [Mote 8] =================================================================
+[0.50s] [Mote 8]   SMART ENVIRONMENTAL SENSOR NODE INITIALIZING                   
+[0.50s] [Mote 8]   Node ID: 8 | Mode: FIXED PERIODIC BASELINE
+[0.50s] [Mote 8] =================================================================
+[5.50s] [Mote 8] [NODE-8] Sensing loop active. Ready to transmit.
+[10.24s] [Mote 2] [TX] Node=2 Seq=1 Type=DATA Temp=23.01C Humid=54.62% Light=61 CO2=425 Batt=3000mV Suppressed=0
+[10.26s] [Mote 1] [SINK-DATA] Time=10 Node=2 Seq=1 Type=NORMAL Temp=23.01C Humid=54.62% Light=61lux CO2=425ppm Batt=3000mV Hops=1 Energest[CPU=16581 LPM=321126 TX=1058 RX=5038]
+[10.36s] [Mote 3] [TX] Node=3 Seq=1 Type=DATA Temp=23.38C Humid=54.16% Light=83 CO2=441 Batt=3000mV Suppressed=0
+[10.38s] [Mote 1] [SINK-DATA] Time=10 Node=3 Seq=1 Type=NORMAL Temp=23.38C Humid=54.16% Light=83lux CO2=441ppm Batt=3000mV Hops=1 Energest[CPU=16514 LPM=321126 TX=1029 RX=4660]
+[10.48s] [Mote 4] [TX] Node=4 Seq=1 Type=DATA Temp=23.85C Humid=53.90% Light=115 CO2=462 Batt=3000mV Suppressed=0
+[10.51s] [Mote 1] [SINK-DATA] Time=10 Node=4 Seq=1 Type=NORMAL Temp=23.85C Humid=53.90% Light=115lux CO2=462ppm Batt=3000mV Hops=2 Energest[CPU=16117 LPM=321126 TX=989 RX=4972]
+[10.60s] [Mote 5] [TX] Node=5 Seq=1 Type=DATA Temp=24.16C Humid=53.32% Light=131 CO2=475 Batt=3000mV Suppressed=0
+[10.63s] [Mote 1] [SINK-DATA] Time=10 Node=5 Seq=1 Type=NORMAL Temp=24.16C Humid=53.32% Light=131lux CO2=475ppm Batt=3000mV Hops=2 Energest[CPU=16010 LPM=321126 TX=1039 RX=4869]
+[10.72s] [Mote 6] [TX] Node=6 Seq=1 Type=DATA Temp=24.57C Humid=52.94% Light=157 CO2=493 Batt=3000mV Suppressed=0
+[10.75s] [Mote 1] [SINK-DATA] Time=10 Node=6 Seq=1 Type=NORMAL Temp=24.57C Humid=52.94% Light=157lux CO2=493ppm Batt=3000mV Hops=2 Energest[CPU=16185 LPM=321126 TX=1007 RX=4739]
+[10.84s] [Mote 7] [TX] Node=7 Seq=1 Type=DATA Temp=24.83C Humid=52.26% Light=168 CO2=504 Batt=3000mV Suppressed=0
+[10.96s] [Mote 8] [TX] Node=8 Seq=1 Type=DATA Temp=25.21C Humid=51.82% Light=191 CO2=520 Batt=3000mV Suppressed=0
+[15.24s] [Mote 2] [TX] Node=2 Seq=2 Type=DATA Temp=23.14C Humid=54.63% Light=84 CO2=427 Batt=3000mV Suppressed=0
+[15.26s] [Mote 1] [SINK-DATA] Time=15 Node=2 Seq=2 Type=NORMAL Temp=23.14C Humid=54.63% Light=84lux CO2=427ppm Batt=3000mV Hops=1 Energest[CPU=17627 LPM=478412 TX=1610 RX=6909]
+[15.36s] [Mote 3] [TX] Node=3 Seq=2 Type=DATA Temp=23.61C Humid=54.37% Light=116 CO2=448 Batt=3000mV Suppressed=0
+[15.38s] [Mote 1] [SINK-DATA] Time=15 Node=3 Seq=2 Type=NORMAL Temp=23.61C Humid=54.37% Light=116lux CO2=448ppm Batt=3000mV Hops=1 Energest[CPU=17445 LPM=478412 TX=1502 RX=7224]
+[15.48s] [Mote 4] [TX] Node=4 Seq=2 Type=DATA Temp=23.85C Humid=53.65% Light=125 CO2=457 Batt=3000mV Suppressed=0
+[15.51s] [Mote 1] [SINK-DATA] Time=15 Node=4 Seq=2 Type=NORMAL Temp=23.85C Humid=53.65% Light=125lux CO2=457ppm Batt=3000mV Hops=2 Energest[CPU=17446 LPM=478412 TX=1555 RX=7121]
+[15.60s] [Mote 5] [TX] Node=5 Seq=2 Type=DATA Temp=24.19C Humid=53.13% Light=144 CO2=472 Batt=3000mV Suppressed=0
+[15.63s] [Mote 1] [SINK-DATA] Time=15 Node=5 Seq=2 Type=NORMAL Temp=24.19C Humid=53.13% Light=144lux CO2=472ppm Batt=3000mV Hops=2 Energest[CPU=17242 LPM=478412 TX=1510 RX=6722]
+[15.72s] [Mote 6] [TX] Node=6 Seq=2 Type=DATA Temp=24.52C Humid=52.59% Light=162 CO2=486 Batt=3000mV Suppressed=0
+[15.75s] [Mote 1] [SINK-DATA] Time=15 Node=6 Seq=2 Type=NORMAL Temp=24.52C Humid=52.59% Light=162lux CO2=486ppm Batt=3000mV Hops=2 Energest[CPU=17717 LPM=478412 TX=1469 RX=7229]
+[15.84s] [Mote 7] [TX] Node=7 Seq=2 Type=DATA Temp=25.04C Humid=52.43% Light=199 CO2=509 Batt=3000mV Suppressed=0
+[15.88s] [Mote 1] [SINK-DATA] Time=15 Node=7 Seq=2 Type=NORMAL Temp=25.04C Humid=52.43% Light=199lux CO2=509ppm Batt=3000mV Hops=3 Energest[CPU=18113 LPM=478412 TX=1514 RX=7220]
+[15.96s] [Mote 8] [TX] Node=8 Seq=2 Type=DATA Temp=25.36C Humid=51.87% Light=216 CO2=523 Batt=3000mV Suppressed=0
+[16.01s] [Mote 1] [SINK-DATA] Time=16 Node=8 Seq=2 Type=NORMAL Temp=25.36C Humid=51.87% Light=216lux CO2=523ppm Batt=3000mV Hops=3 Energest[CPU=17358 LPM=478412 TX=1534 RX=7220]
+[20.24s] [Mote 2] [TX] Node=2 Seq=3 Type=DATA Temp=23.38C Humid=54.86% Light=118 CO2=434 Batt=3000mV Suppressed=0
+[20.25s] [Mote 1] [SINK-DATA] Time=20 Node=2 Seq=3 Type=NORMAL Temp=23.38C Humid=54.86% Light=118lux CO2=434ppm Batt=3000mV Hops=1 Energest[CPU=18967 LPM=635698 TX=2088 RX=8999]
+[20.36s] [Mote 3] [TX] Node=3 Seq=3 Type=DATA Temp=23.62C Humid=54.14% Light=127 CO2=443 Batt=3000mV Suppressed=0
+[20.38s] [Mote 1] [SINK-DATA] Time=20 Node=3 Seq=3 Type=NORMAL Temp=23.62C Humid=54.14% Light=127lux CO2=443ppm Batt=3000mV Hops=1 Energest[CPU=19028 LPM=635698 TX=2030 RX=9070]
+[20.48s] [Mote 4] [TX] Node=4 Seq=3 Type=DATA Temp=23.96C Humid=53.62% Light=146 CO2=458 Batt=3000mV Suppressed=0
+[20.51s] [Mote 1] [SINK-DATA] Time=20 Node=4 Seq=3 Type=NORMAL Temp=23.96C Humid=53.62% Light=146lux CO2=458ppm Batt=3000mV Hops=2 Energest[CPU=18959 LPM=635698 TX=2019 RX=8928]
+[20.60s] [Mote 5] [TX] Node=5 Seq=3 Type=DATA Temp=24.33C Humid=53.16% Light=168 CO2=474 Batt=3000mV Suppressed=0
+[20.63s] [Mote 1] [SINK-DATA] Time=20 Node=5 Seq=3 Type=NORMAL Temp=24.33C Humid=53.16% Light=168lux CO2=474ppm Batt=3000mV Hops=2 Energest[CPU=18358 LPM=635698 TX=1995 RX=9304]
+[20.72s] [Mote 6] [TX] Node=6 Seq=3 Type=DATA Temp=24.73C Humid=52.76% Light=193 CO2=491 Batt=3000mV Suppressed=0
+[20.75s] [Mote 1] [SINK-DATA] Time=20 Node=6 Seq=3 Type=NORMAL Temp=24.73C Humid=52.76% Light=193lux CO2=491ppm Batt=3000mV Hops=2 Energest[CPU=18739 LPM=635698 TX=1920 RX=9538]
+[20.84s] [Mote 7] [TX] Node=7 Seq=3 Type=DATA Temp=25.12C Humid=52.34% Light=217 CO2=508 Batt=3000mV Suppressed=0
+[20.89s] [Mote 1] [SINK-DATA] Time=20 Node=7 Seq=3 Type=NORMAL Temp=25.12C Humid=52.34% Light=217lux CO2=508ppm Batt=3000mV Hops=3 Energest[CPU=19402 LPM=635698 TX=2022 RX=9532]
+[20.96s] [Mote 8] [TX] Node=8 Seq=3 Type=DATA Temp=25.31C Humid=51.52% Light=221 CO2=515 Batt=3000mV Suppressed=0
+[21.01s] [Mote 1] [SINK-DATA] Time=21 Node=8 Seq=3 Type=NORMAL Temp=25.31C Humid=51.52% Light=221lux CO2=515ppm Batt=3000mV Hops=3 Energest[CPU=18620 LPM=635698 TX=2002 RX=9426]
+[25.24s] [Mote 2] [TX] Node=2 Seq=4 Type=DATA Temp=23.48C Humid=54.81% Light=138 CO2=434 Batt=3000mV Suppressed=0
+[25.25s] [Mote 1] [SINK-DATA] Time=25 Node=2 Seq=4 Type=NORMAL Temp=23.48C Humid=54.81% Light=138lux CO2=434ppm Batt=3000mV Hops=1 Energest[CPU=20337 LPM=792984 TX=2557 RX=11119]
+[25.36s] [Mote 3] [TX] Node=3 Seq=4 Type=DATA Temp=23.68C Humid=54.01% Light=143 CO2=441 Batt=3000mV Suppressed=0
+[25.38s] [Mote 1] [SINK-DATA] Time=25 Node=3 Seq=4 Type=NORMAL Temp=23.68C Humid=54.01% Light=143lux CO2=441ppm Batt=3000mV Hops=1 Energest[CPU=20342 LPM=792984 TX=2586 RX=11166]
+[25.48s] [Mote 4] [TX] Node=4 Seq=4 Type=DATA Temp=24.14C Humid=53.73% Light=174 CO2=462 Batt=3000mV Suppressed=0
+[25.51s] [Mote 1] [SINK-DATA] Time=25 Node=4 Seq=4 Type=NORMAL Temp=24.14C Humid=53.73% Light=174lux CO2=462ppm Batt=3000mV Hops=2 Energest[CPU=20191 LPM=792984 TX=2512 RX=11360]
+[25.60s] [Mote 5] [TX] Node=5 Seq=4 Type=DATA Temp=24.38C Humid=53.01% Light=183 CO2=471 Batt=3000mV Suppressed=0
+[25.63s] [Mote 1] [SINK-DATA] Time=25 Node=5 Seq=4 Type=NORMAL Temp=24.38C Humid=53.01% Light=183lux CO2=471ppm Batt=3000mV Hops=2 Energest[CPU=19628 LPM=792984 TX=2467 RX=11551]
+[25.72s] [Mote 6] [TX] Node=6 Seq=4 Type=DATA Temp=24.72C Humid=52.49% Light=202 CO2=486 Batt=3000mV Suppressed=0
+[25.75s] [Mote 1] [SINK-DATA] Time=25 Node=6 Seq=4 Type=NORMAL Temp=24.72C Humid=52.49% Light=202lux CO2=486ppm Batt=3000mV Hops=2 Energest[CPU=20242 LPM=792984 TX=2472 RX=11874]
+[25.84s] [Mote 7] [TX] Node=7 Seq=4 Type=DATA Temp=25.15C Humid=52.15% Light=230 CO2=505 Batt=3000mV Suppressed=0
+[25.89s] [Mote 1] [SINK-DATA] Time=25 Node=7 Seq=4 Type=NORMAL Temp=25.15C Humid=52.15% Light=230lux CO2=505ppm Batt=3000mV Hops=3 Energest[CPU=20619 LPM=792984 TX=2558 RX=11558]
+[25.96s] [Mote 8] [TX] Node=8 Seq=4 Type=DATA Temp=25.43C Humid=51.51% Light=243 CO2=516 Batt=3000mV Suppressed=0
+[26.01s] [Mote 1] [SINK-DATA] Time=26 Node=8 Seq=4 Type=NORMAL Temp=25.43C Humid=51.51% Light=243lux CO2=516ppm Batt=3000mV Hops=3 Energest[CPU=19598 LPM=792984 TX=2582 RX=11874]
+[30.24s] [Mote 2] [TX] Node=2 Seq=5 Type=DATA Temp=23.60C Humid=54.80% Light=160 CO2=435 Batt=3000mV Suppressed=0
+[30.25s] [Mote 1] [SINK-DATA] Time=30 Node=2 Seq=5 Type=NORMAL Temp=23.60C Humid=54.80% Light=160lux CO2=435ppm Batt=3000mV Hops=1 Energest[CPU=21435 LPM=950270 TX=3096 RX=13278]
+[30.36s] [Mote 3] [TX] Node=3 Seq=5 Type=DATA Temp=23.83C Humid=54.06% Light=168 CO2=444 Batt=3000mV Suppressed=0
+[30.38s] [Mote 1] [SINK-DATA] Time=30 Node=3 Seq=5 Type=NORMAL Temp=23.83C Humid=54.06% Light=168lux CO2=444ppm Batt=3000mV Hops=1 Energest[CPU=21483 LPM=950270 TX=3062 RX=13115]
+[30.48s] [Mote 4] [TX] Node=4 Seq=5 Type=DATA Temp=24.30C Humid=53.80% Light=200 CO2=465 Batt=3000mV Suppressed=0
+[30.51s] [Mote 1] [SINK-DATA] Time=30 Node=4 Seq=5 Type=NORMAL Temp=24.30C Humid=53.80% Light=200lux CO2=465ppm Batt=3000mV Hops=2 Energest[CPU=21707 LPM=950270 TX=3001 RX=13938]
+[30.60s] [Mote 5] [TX] Node=5 Seq=5 Type=DATA Temp=24.63C Humid=53.26% Light=218 CO2=479 Batt=3000mV Suppressed=0
+[30.63s] [Mote 1] [SINK-DATA] Time=30 Node=5 Seq=5 Type=NORMAL Temp=24.63C Humid=53.26% Light=218lux CO2=479ppm Batt=3000mV Hops=2 Energest[CPU=21171 LPM=950270 TX=3043 RX=13826]
+[30.72s] [Mote 6] [TX] Node=6 Seq=5 Type=DATA Temp=24.90C Humid=52.60% Light=230 CO2=490 Batt=3000mV Suppressed=0
+[30.75s] [Mote 1] [SINK-DATA] Time=30 Node=6 Seq=5 Type=NORMAL Temp=24.90C Humid=52.60% Light=230lux CO2=490ppm Batt=3000mV Hops=2 Energest[CPU=21601 LPM=950270 TX=3004 RX=14316]
+[30.84s] [Mote 7] [TX] Node=7 Seq=5 Type=DATA Temp=25.35C Humid=52.30% Light=260 CO2=510 Batt=3000mV Suppressed=0
+[30.89s] [Mote 1] [SINK-DATA] Time=30 Node=7 Seq=5 Type=NORMAL Temp=25.35C Humid=52.30% Light=260lux CO2=510ppm Batt=3000mV Hops=3 Energest[CPU=21588 LPM=950270 TX=3128 RX=13810]
+[30.96s] [Mote 8] [TX] Node=8 Seq=5 Type=DATA Temp=25.66C Humid=51.72% Light=276 CO2=523 Batt=3000mV Suppressed=0
+[35.24s] [Mote 2] [TX] Node=2 Seq=6 Type=DATA Temp=23.51C Humid=54.37% Light=161 CO2=425 Batt=2999mV Suppressed=0
+[35.26s] [Mote 1] [SINK-DATA] Time=35 Node=2 Seq=6 Type=NORMAL Temp=23.51C Humid=54.37% Light=161lux CO2=425ppm Batt=2999mV Hops=1 Energest[CPU=22807 LPM=1107556 TX=3661 RX=15116]
+[35.36s] [Mote 3] [TX] Node=3 Seq=6 Type=DATA Temp=23.87C Humid=53.89% Light=182 CO2=441 Batt=2999mV Suppressed=0
+[35.38s] [Mote 1] [SINK-DATA] Time=35 Node=3 Seq=6 Type=NORMAL Temp=23.87C Humid=53.89% Light=182lux CO2=441ppm Batt=2999mV Hops=1 Energest[CPU=22676 LPM=1107556 TX=3531 RX=15575]
+[35.48s] [Mote 4] [TX] Node=4 Seq=6 Type=DATA Temp=24.38C Humid=53.71% Light=218 CO2=464 Batt=2999mV Suppressed=0
+[35.51s] [Mote 1] [SINK-DATA] Time=35 Node=4 Seq=6 Type=NORMAL Temp=24.38C Humid=53.71% Light=218lux CO2=464ppm Batt=2999mV Hops=2 Energest[CPU=23126 LPM=1107556 TX=3549 RX=16211]
+[35.60s] [Mote 5] [TX] Node=5 Seq=6 Type=DATA Temp=24.75C Humid=53.25% Light=240 CO2=480 Batt=2999mV Suppressed=0
+[35.63s] [Mote 1] [SINK-DATA] Time=35 Node=5 Seq=6 Type=NORMAL Temp=24.75C Humid=53.25% Light=240lux CO2=480ppm Batt=2999mV Hops=2 Energest[CPU=22113 LPM=1107556 TX=3608 RX=16211]
+[35.72s] [Mote 6] [TX] Node=6 Seq=6 Type=DATA Temp=24.94C Humid=52.43% Light=244 CO2=487 Batt=2999mV Suppressed=0
+[35.75s] [Mote 1] [SINK-DATA] Time=35 Node=6 Seq=6 Type=NORMAL Temp=24.94C Humid=52.43% Light=244lux CO2=487ppm Batt=2999mV Hops=2 Energest[CPU=23120 LPM=1107556 TX=3575 RX=16629]
+[35.84s] [Mote 7] [TX] Node=7 Seq=6 Type=DATA Temp=25.27C Humid=51.89% Light=262 CO2=501 Batt=2999mV Suppressed=0
+[35.89s] [Mote 1] [SINK-DATA] Time=35 Node=7 Seq=6 Type=NORMAL Temp=25.27C Humid=51.89% Light=262lux CO2=501ppm Batt=2999mV Hops=3 Energest[CPU=22949 LPM=1107556 TX=3604 RX=15961]
+[35.96s] [Mote 8] [TX] Node=8 Seq=6 Type=DATA Temp=25.74C Humid=51.63% Light=294 CO2=522 Batt=2999mV Suppressed=0
+[36.01s] [Mote 1] [SINK-DATA] Time=36 Node=8 Seq=6 Type=NORMAL Temp=25.74C Humid=51.63% Light=294lux CO2=522ppm Batt=2999mV Hops=3 Energest[CPU=21855 LPM=1107556 TX=3506 RX=16087]
+[40.24s] [Mote 2] [TX] Node=2 Seq=7 Type=DATA Temp=23.71C Humid=54.52% Light=191 CO2=430 Batt=2999mV Suppressed=0
+[40.26s] [Mote 1] [SINK-DATA] Time=40 Node=2 Seq=7 Type=NORMAL Temp=23.71C Humid=54.52% Light=191lux CO2=430ppm Batt=2999mV Hops=1 Energest[CPU=24243 LPM=1264842 TX=4151 RX=17288]
+[40.36s] [Mote 3] [TX] Node=3 Seq=7 Type=DATA Temp=24.05C Humid=54.00% Light=210 CO2=445 Batt=2999mV Suppressed=0
+[40.38s] [Mote 1] [SINK-DATA] Time=40 Node=3 Seq=7 Type=NORMAL Temp=24.05C Humid=54.00% Light=210lux CO2=445ppm Batt=2999mV Hops=1 Energest[CPU=23972 LPM=1264842 TX=4085 RX=18168]
+[40.48s] [Mote 4] [TX] Node=4 Seq=7 Type=DATA Temp=24.40C Humid=53.50% Light=230 CO2=460 Batt=2999mV Suppressed=0
+[40.51s] [Mote 1] [SINK-DATA] Time=40 Node=4 Seq=7 Type=NORMAL Temp=24.40C Humid=53.50% Light=230lux CO2=460ppm Batt=2999mV Hops=2 Energest[CPU=24079 LPM=1264842 TX=4084 RX=18078]
+[40.60s] [Mote 5] [TX] Node=5 Seq=7 Type=DATA Temp=24.73C Humid=52.96% Light=248 CO2=474 Batt=2999mV Suppressed=0
+[40.63s] [Mote 1] [SINK-DATA] Time=40 Node=5 Seq=7 Type=NORMAL Temp=24.73C Humid=52.96% Light=248lux CO2=474ppm Batt=2999mV Hops=2 Energest[CPU=23707 LPM=1264842 TX=4156 RX=18301]
+[40.72s] [Mote 6] [TX] Node=6 Seq=7 Type=DATA Temp=25.02C Humid=52.34% Light=262 CO2=486 Batt=2999mV Suppressed=0
+[40.75s] [Mote 1] [SINK-DATA] Time=40 Node=6 Seq=7 Type=NORMAL Temp=25.02C Humid=52.34% Light=262lux CO2=486ppm Batt=2999mV Hops=2 Energest[CPU=24692 LPM=1264842 TX=4063 RX=18770]
+[40.84s] [Mote 7] [TX] Node=7 Seq=7 Type=DATA Temp=25.55C Humid=52.20% Light=300 CO2=510 Batt=2999mV Suppressed=0
+[40.89s] [Mote 1] [SINK-DATA] Time=40 Node=7 Seq=7 Type=NORMAL Temp=25.55C Humid=52.20% Light=300lux CO2=510ppm Batt=2999mV Hops=3 Energest[CPU=23993 LPM=1264842 TX=4143 RX=18078]
+[40.96s] [Mote 8] [TX] Node=8 Seq=7 Type=DATA Temp=25.72C Humid=51.34% Light=302 CO2=516 Batt=2999mV Suppressed=0
+[41.01s] [Mote 1] [SINK-DATA] Time=41 Node=8 Seq=7 Type=NORMAL Temp=25.72C Humid=51.34% Light=302lux CO2=516ppm Batt=2999mV Hops=3 Energest[CPU=23156 LPM=1264842 TX=3989 RX=18496]
+[45.24s] [Mote 2] [TX] Node=2 Seq=8 Type=DATA Temp=23.86C Humid=54.57% Light=216 CO2=433 Batt=2999mV Suppressed=0
+[45.26s] [Mote 1] [SINK-DATA] Time=45 Node=2 Seq=8 Type=NORMAL Temp=23.86C Humid=54.57% Light=216lux CO2=433ppm Batt=2999mV Hops=1 Energest[CPU=25528 LPM=1422128 TX=4685 RX=19218]
+[45.36s] [Mote 3] [TX] Node=3 Seq=8 Type=DATA Temp=24.16C Humid=53.97% Light=231 CO2=445 Batt=2999mV Suppressed=0
+[45.38s] [Mote 1] [SINK-DATA] Time=45 Node=3 Seq=8 Type=NORMAL Temp=24.16C Humid=53.97% Light=231lux CO2=445ppm Batt=2999mV Hops=1 Energest[CPU=25558 LPM=1422128 TX=4643 RX=20488]
+[45.48s] [Mote 4] [TX] Node=4 Seq=8 Type=DATA Temp=24.50C Humid=53.45% Light=250 CO2=460 Batt=2999mV Suppressed=0
+[45.51s] [Mote 1] [SINK-DATA] Time=45 Node=4 Seq=8 Type=NORMAL Temp=24.50C Humid=53.45% Light=250lux CO2=460ppm Batt=2999mV Hops=2 Energest[CPU=25295 LPM=1422128 TX=4580 RX=20097]
+[45.60s] [Mote 5] [TX] Node=5 Seq=8 Type=DATA Temp=24.79C Humid=52.83% Light=264 CO2=472 Batt=2999mV Suppressed=0
+[45.63s] [Mote 1] [SINK-DATA] Time=45 Node=5 Seq=8 Type=NORMAL Temp=24.79C Humid=52.83% Light=264lux CO2=472ppm Batt=2999mV Hops=2 Energest[CPU=25104 LPM=1422128 TX=4655 RX=20332]
+[45.72s] [Mote 6] [TX] Node=6 Seq=8 Type=DATA Temp=25.27C Humid=52.59% Light=297 CO2=493 Batt=2999mV Suppressed=0
+[45.75s] [Mote 1] [SINK-DATA] Time=45 Node=6 Seq=8 Type=NORMAL Temp=25.27C Humid=52.59% Light=297lux CO2=493ppm Batt=2999mV Hops=2 Energest[CPU=25894 LPM=1422128 TX=4538 RX=21089]
+[45.84s] [Mote 7] [TX] Node=7 Seq=8 Type=DATA Temp=25.55C Humid=51.95% Light=310 CO2=505 Batt=2999mV Suppressed=0
+[45.89s] [Mote 1] [SINK-DATA] Time=45 Node=7 Seq=8 Type=NORMAL Temp=25.55C Humid=51.95% Light=310lux CO2=505ppm Batt=2999mV Hops=3 Energest[CPU=25432 LPM=1422128 TX=4602 RX=20555]
+[45.96s] [Mote 8] [TX] Node=8 Seq=8 Type=DATA Temp=25.92C Humid=51.49% Light=332 CO2=521 Batt=2999mV Suppressed=0
+[46.01s] [Mote 1] [SINK-DATA] Time=46 Node=8 Seq=8 Type=NORMAL Temp=25.92C Humid=51.49% Light=332lux CO2=521ppm Batt=2999mV Hops=3 Energest[CPU=24688 LPM=1422128 TX=4472 RX=20907]
+[50.24s] [Mote 2] [TX] Node=2 Seq=9 Type=DATA Temp=23.94C Humid=54.48% Light=234 CO2=432 Batt=2999mV Suppressed=0
+[50.26s] [Mote 1] [SINK-DATA] Time=50 Node=2 Seq=9 Type=NORMAL Temp=23.94C Humid=54.48% Light=234lux CO2=432ppm Batt=2999mV Hops=1 Energest[CPU=26613 LPM=1579414 TX=5177 RX=21756]
+[50.36s] [Mote 3] [TX] Node=3 Seq=9 Type=DATA Temp=24.34C Humid=54.08% Light=259 CO2=449 Batt=2999mV Suppressed=0
+[50.38s] [Mote 1] [SINK-DATA] Time=50 Node=3 Seq=9 Type=NORMAL Temp=24.34C Humid=54.08% Light=259lux CO2=449ppm Batt=2999mV Hops=1 Energest[CPU=26831 LPM=1579414 TX=5153 RX=22742]
+[50.48s] [Mote 4] [TX] Node=4 Seq=9 Type=DATA Temp=24.57C Humid=53.34% Light=267 CO2=458 Batt=2999mV Suppressed=0
+[50.51s] [Mote 1] [SINK-DATA] Time=50 Node=4 Seq=9 Type=NORMAL Temp=24.57C Humid=53.34% Light=267lux CO2=458ppm Batt=2999mV Hops=2 Energest[CPU=26654 LPM=1579414 TX=5089 RX=22443]
+[50.60s] [Mote 5] [TX] Node=5 Seq=9 Type=DATA Temp=25.03C Humid=53.06% Light=298 CO2=479 Batt=2999mV Suppressed=0
+[50.63s] [Mote 1] [SINK-DATA] Time=50 Node=5 Seq=9 Type=NORMAL Temp=25.03C Humid=53.06% Light=298lux CO2=479ppm Batt=2999mV Hops=2 Energest[CPU=26484 LPM=1579414 TX=5154 RX=22508]
+[50.72s] [Mote 6] [TX] Node=6 Seq=9 Type=DATA Temp=25.32C Humid=52.44% Light=312 CO2=491 Batt=2999mV Suppressed=0
+[50.75s] [Mote 1] [SINK-DATA] Time=50 Node=6 Seq=9 Type=NORMAL Temp=25.32C Humid=52.44% Light=312lux CO2=491ppm Batt=2999mV Hops=2 Energest[CPU=27266 LPM=1579414 TX=5060 RX=23685]
+[50.84s] [Mote 7] [TX] Node=7 Seq=9 Type=DATA Temp=25.74C Humid=52.08% Light=339 CO2=509 Batt=2999mV Suppressed=0
+[50.89s] [Mote 1] [SINK-DATA] Time=50 Node=7 Seq=9 Type=NORMAL Temp=25.74C Humid=52.08% Light=339lux CO2=509ppm Batt=2999mV Hops=3 Energest[CPU=26760 LPM=1579414 TX=5093 RX=22559]
+[50.96s] [Mote 8] [TX] Node=8 Seq=9 Type=DATA Temp=26.05C Humid=51.50% Light=355 CO2=522 Batt=2999mV Suppressed=0
+[51.01s] [Mote 1] [SINK-DATA] Time=51 Node=8 Seq=9 Type=NORMAL Temp=26.05C Humid=51.50% Light=355lux CO2=522ppm Batt=2999mV Hops=3 Energest[CPU=25844 LPM=1579414 TX=4935 RX=23363]
+[55.24s] [Mote 2] [TX] Node=2 Seq=10 Type=DATA Temp=24.06C Humid=54.47% Light=256 CO2=433 Batt=2999mV Suppressed=0
+[55.26s] [Mote 1] [SINK-DATA] Time=55 Node=2 Seq=10 Type=NORMAL Temp=24.06C Humid=54.47% Light=256lux CO2=433ppm Batt=2999mV Hops=1 Energest[CPU=28080 LPM=1736700 TX=5653 RX=24284]
+[55.36s] [Mote 3] [TX] Node=3 Seq=10 Type=DATA Temp=24.30C Humid=53.75% Light=265 CO2=442 Batt=2999mV Suppressed=0
+[55.38s] [Mote 1] [SINK-DATA] Time=55 Node=3 Seq=10 Type=NORMAL Temp=24.30C Humid=53.75% Light=265lux CO2=442ppm Batt=2999mV Hops=1 Energest[CPU=28022 LPM=1736700 TX=5624 RX=25323]
+[55.48s] [Mote 4] [TX] Node=4 Seq=10 Type=DATA Temp=24.62C Humid=53.19% Light=282 CO2=456 Batt=2999mV Suppressed=0
+[55.51s] [Mote 1] [SINK-DATA] Time=55 Node=4 Seq=10 Type=NORMAL Temp=24.62C Humid=53.19% Light=282lux CO2=456ppm Batt=2999mV Hops=2 Energest[CPU=28079 LPM=1736700 TX=5576 RX=24690]
+[55.60s] [Mote 5] [TX] Node=5 Seq=10 Type=DATA Temp=24.95C Humid=52.65% Light=300 CO2=470 Batt=2999mV Suppressed=0
+[55.63s] [Mote 1] [SINK-DATA] Time=55 Node=5 Seq=10 Type=NORMAL Temp=24.95C Humid=52.65% Light=300lux CO2=470ppm Batt=2999mV Hops=2 Energest[CPU=27611 LPM=1736700 TX=5719 RX=24665]
+[55.72s] [Mote 6] [TX] Node=6 Seq=10 Type=DATA Temp=25.37C Humid=52.29% Light=327 CO2=488 Batt=2999mV Suppressed=0
+[55.75s] [Mote 1] [SINK-DATA] Time=55 Node=6 Seq=10 Type=NORMAL Temp=25.37C Humid=52.29% Light=327lux CO2=488ppm Batt=2999mV Hops=2 Energest[CPU=28571 LPM=1736700 TX=5638 RX=25867]
+[55.84s] [Mote 7] [TX] Node=7 Seq=10 Type=DATA Temp=25.65C Humid=51.65% Light=340 CO2=500 Batt=2999mV Suppressed=0
+[55.89s] [Mote 1] [SINK-DATA] Time=55 Node=7 Seq=10 Type=NORMAL Temp=25.65C Humid=51.65% Light=340lux CO2=500ppm Batt=2999mV Hops=3 Energest[CPU=27743 LPM=1736700 TX=5638 RX=24588]
+[55.96s] [Mote 8] [TX] Node=8 Seq=10 Type=DATA Temp=26.04C Humid=51.23% Light=364 CO2=517 Batt=2999mV Suppressed=0
+[60.24s] [Mote 2] [TX] Node=2 Seq=11 Type=DATA Temp=24.15C Humid=54.40% Light=275 CO2=432 Batt=2999mV Suppressed=0
+[60.26s] [Mote 1] [SINK-DATA] Time=60 Node=2 Seq=11 Type=NORMAL Temp=24.15C Humid=54.40% Light=275lux CO2=432ppm Batt=2999mV Hops=1 Energest[CPU=29463 LPM=1893986 TX=6138 RX=26861]
+[60.36s] [Mote 3] [TX] Node=3 Seq=11 Type=DATA Temp=24.43C Humid=53.76% Light=288 CO2=444 Batt=2999mV Suppressed=0
+[60.38s] [Mote 1] [SINK-DATA] Time=60 Node=3 Seq=11 Type=NORMAL Temp=24.43C Humid=53.76% Light=288lux CO2=444ppm Batt=2999mV Hops=1 Energest[CPU=28927 LPM=1893986 TX=6094 RX=27142]
+[60.48s] [Mote 4] [TX] Node=4 Seq=11 Type=DATA Temp=24.79C Humid=53.28% Light=309 CO2=459 Batt=2999mV Suppressed=0
+[60.51s] [Mote 1] [SINK-DATA] Time=60 Node=4 Seq=11 Type=NORMAL Temp=24.79C Humid=53.28% Light=309lux CO2=459ppm Batt=2999mV Hops=2 Energest[CPU=29132 LPM=1893986 TX=6134 RX=26603]
+[60.60s] [Mote 5] [TX] Node=5 Seq=11 Type=DATA Temp=25.18C Humid=52.86% Light=333 CO2=476 Batt=2999mV Suppressed=0
+[60.63s] [Mote 1] [SINK-DATA] Time=60 Node=5 Seq=11 Type=NORMAL Temp=25.18C Humid=52.86% Light=333lux CO2=476ppm Batt=2999mV Hops=2 Energest[CPU=28635 LPM=1893986 TX=6181 RX=26709]
+[60.72s] [Mote 6] [TX] Node=6 Seq=11 Type=DATA Temp=25.43C Humid=52.16% Light=343 CO2=486 Batt=2999mV Suppressed=0
+[60.75s] [Mote 1] [SINK-DATA] Time=60 Node=6 Seq=11 Type=NORMAL Temp=25.43C Humid=52.16% Light=343lux CO2=486ppm Batt=2999mV Hops=2 Energest[CPU=30108 LPM=1893986 TX=6205 RX=27731]
+[60.84s] [Mote 7] [TX] Node=7 Seq=11 Type=DATA Temp=25.91C Humid=51.92% Light=376 CO2=508 Batt=2999mV Suppressed=0
+[60.89s] [Mote 1] [SINK-DATA] Time=60 Node=7 Seq=11 Type=NORMAL Temp=25.91C Humid=51.92% Light=376lux CO2=508ppm Batt=2999mV Hops=3 Energest[CPU=29154 LPM=1893986 TX=6092 RX=27035]
+[60.96s] [Mote 8] [TX] Node=8 Seq=11 Type=DATA Temp=26.10C Humid=51.10% Light=380 CO2=515 Batt=2999mV Suppressed=0
+[61.01s] [Mote 1] [SINK-DATA] Time=61 Node=8 Seq=11 Type=NORMAL Temp=26.10C Humid=51.10% Light=380lux CO2=515ppm Batt=2999mV Hops=3 Energest[CPU=27892 LPM=1893986 TX=5994 RX=27551]
+[60.90s] [Mote 1] --- [NETWORK-SUMMARY @ 60 s] ---
+[60.91s] [Mote 1] Total Nodes Registered: 7
+[60.92s] [Mote 1] Total Packets Received: 73 | Total Expected: 77 | Global PDR: 94.81%
+[60.95s] [Mote 1]   Node  2: PktsRecv=11   Lost=0   PDR=100.0% LastSeen=0   s Temp=24.15C Batt=2999mV
+[60.96s] [Mote 1]   Node  3: PktsRecv=11   Lost=0   PDR=100.0% LastSeen=0   s Temp=24.43C Batt=2999mV
+[60.97s] [Mote 1]   Node  4: PktsRecv=11   Lost=0   PDR=100.0% LastSeen=0   s Temp=24.79C Batt=2999mV
+[60.98s] [Mote 1]   Node  5: PktsRecv=11   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.18C Batt=2999mV
+[60.99s] [Mote 1]   Node  6: PktsRecv=11   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.43C Batt=2999mV
+[61.00s] [Mote 1]   Node  7: PktsRecv=10   Lost=1   PDR=90.9% LastSeen=0   s Temp=25.91C Batt=2999mV
+[61.01s] [Mote 1]   Node  8: PktsRecv=8    Lost=3   PDR=72.7% LastSeen=0   s Temp=26.10C Batt=2999mV
+[60.99s] [Mote 1] ------------------------------------
+[65.24s] [Mote 2] [TX] Node=2 Seq=12 Type=DATA Temp=24.12C Humid=54.09% Light=282 CO2=426 Batt=2998mV Suppressed=0
+[65.25s] [Mote 1] [SINK-DATA] Time=65 Node=2 Seq=12 Type=NORMAL Temp=24.12C Humid=54.09% Light=282lux CO2=426ppm Batt=2998mV Hops=1 Energest[CPU=30609 LPM=2051272 TX=6694 RX=28852]
+[65.16s] [Mote 2] [ENERGY-MOTE-2] Total_mJ=75.70 (CPU=5.04, LPM=10.33, TX=10.66, RX=49.66)
+[65.17s] [Mote 2] [MOTE-2-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.36s] [Mote 3] [TX] Node=3 Seq=12 Type=DATA Temp=24.62C Humid=53.89% Light=317 CO2=448 Batt=2998mV Suppressed=0
+[65.38s] [Mote 1] [SINK-DATA] Time=65 Node=3 Seq=12 Type=NORMAL Temp=24.62C Humid=53.89% Light=317lux CO2=448ppm Batt=2998mV Hops=1 Energest[CPU=30196 LPM=2051272 TX=6561 RX=29480]
+[65.24s] [Mote 3] [ENERGY-MOTE-3] Total_mJ=76.50 (CPU=4.98, LPM=10.33, TX=10.45, RX=50.74)
+[65.25s] [Mote 3] [MOTE-3-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.48s] [Mote 4] [TX] Node=4 Seq=12 Type=DATA Temp=24.95C Humid=53.35% Light=335 CO2=462 Batt=2998mV Suppressed=0
+[65.32s] [Mote 4] [ENERGY-MOTE-4] Total_mJ=75.43 (CPU=5.03, LPM=10.33, TX=10.50, RX=49.57)
+[65.33s] [Mote 4] [MOTE-4-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.60s] [Mote 5] [TX] Node=5 Seq=12 Type=DATA Temp=25.15C Humid=52.55% Light=340 CO2=470 Batt=2998mV Suppressed=0
+[65.63s] [Mote 1] [SINK-DATA] Time=65 Node=5 Seq=12 Type=NORMAL Temp=25.15C Humid=52.55% Light=340lux CO2=470ppm Batt=2998mV Hops=2 Energest[CPU=29931 LPM=2051272 TX=6726 RX=28768]
+[65.40s] [Mote 5] [ENERGY-MOTE-5] Total_mJ=75.49 (CPU=4.93, LPM=10.33, TX=10.71, RX=49.52)
+[65.41s] [Mote 5] [MOTE-5-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.72s] [Mote 6] [TX] Node=6 Seq=12 Type=DATA Temp=25.70C Humid=52.45% Light=380 CO2=495 Batt=2998mV Suppressed=0
+[65.75s] [Mote 1] [SINK-DATA] Time=65 Node=6 Seq=12 Type=NORMAL Temp=25.70C Humid=52.45% Light=380lux CO2=495ppm Batt=2998mV Hops=2 Energest[CPU=31077 LPM=2051272 TX=6743 RX=29777]
+[65.48s] [Mote 6] [ENERGY-MOTE-6] Total_mJ=77.44 (CPU=5.12, LPM=10.33, TX=10.74, RX=51.25)
+[65.49s] [Mote 6] [MOTE-6-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.84s] [Mote 7] [TX] Node=7 Seq=12 Type=DATA Temp=25.86C Humid=51.57% Light=381 CO2=500 Batt=2998mV Suppressed=0
+[65.89s] [Mote 1] [SINK-DATA] Time=65 Node=7 Seq=12 Type=NORMAL Temp=25.86C Humid=51.57% Light=381lux CO2=500ppm Batt=2998mV Hops=3 Energest[CPU=30649 LPM=2051272 TX=6627 RX=28971]
+[65.56s] [Mote 7] [ENERGY-MOTE-7] Total_mJ=75.80 (CPU=5.05, LPM=10.33, TX=10.56, RX=49.86)
+[65.57s] [Mote 7] [MOTE-7-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[65.96s] [Mote 8] [TX] Node=8 Seq=12 Type=DATA Temp=26.34C Humid=51.33% Light=414 CO2=522 Batt=2998mV Suppressed=0
+[66.00s] [Mote 1] [SINK-DATA] Time=66 Node=8 Seq=12 Type=NORMAL Temp=26.34C Humid=51.33% Light=414lux CO2=522ppm Batt=2998mV Hops=3 Energest[CPU=29138 LPM=2051272 TX=6488 RX=30148]
+[65.64s] [Mote 8] [ENERGY-MOTE-8] Total_mJ=77.36 (CPU=4.80, LPM=10.33, TX=10.34, RX=51.89)
+[65.65s] [Mote 8] [MOTE-8-EFFICIENCY] Samples=12 Transmitted=12 Suppressed=0 RadioSaving=0.0%
+[70.24s] [Mote 2] [TX] Node=2 Seq=13 Type=DATA Temp=24.22C Humid=54.04% Light=302 CO2=426 Batt=2998mV Suppressed=0
+[70.25s] [Mote 1] [SINK-DATA] Time=70 Node=2 Seq=13 Type=NORMAL Temp=24.22C Humid=54.04% Light=302lux CO2=426ppm Batt=2998mV Hops=1 Energest[CPU=31999 LPM=2208558 TX=7190 RX=30790]
+[70.36s] [Mote 3] [TX] Node=3 Seq=13 Type=DATA Temp=24.61C Humid=53.62% Light=326 CO2=443 Batt=2998mV Suppressed=0
+[70.38s] [Mote 1] [SINK-DATA] Time=70 Node=3 Seq=13 Type=NORMAL Temp=24.61C Humid=53.62% Light=326lux CO2=443ppm Batt=2998mV Hops=1 Energest[CPU=31564 LPM=2208558 TX=7020 RX=31580]
+[70.48s] [Mote 4] [TX] Node=4 Seq=13 Type=DATA Temp=24.99C Humid=53.18% Light=349 CO2=459 Batt=2998mV Suppressed=0
+[70.51s] [Mote 1] [SINK-DATA] Time=70 Node=4 Seq=13 Type=NORMAL Temp=24.99C Humid=53.18% Light=349lux CO2=459ppm Batt=2998mV Hops=2 Energest[CPU=31655 LPM=2208558 TX=7049 RX=30925]
+[70.60s] [Mote 5] [TX] Node=5 Seq=13 Type=DATA Temp=25.26C Humid=52.52% Light=361 CO2=470 Batt=2998mV Suppressed=0
+[70.63s] [Mote 1] [SINK-DATA] Time=70 Node=5 Seq=13 Type=NORMAL Temp=25.26C Humid=52.52% Light=361lux CO2=470ppm Batt=2998mV Hops=2 Energest[CPU=31387 LPM=2208558 TX=7297 RX=30827]
+[70.72s] [Mote 6] [TX] Node=6 Seq=13 Type=DATA Temp=25.61C Humid=52.02% Light=381 CO2=485 Batt=2998mV Suppressed=0
+[70.75s] [Mote 1] [SINK-DATA] Time=70 Node=6 Seq=13 Type=NORMAL Temp=25.61C Humid=52.02% Light=381lux CO2=485ppm Batt=2998mV Hops=2 Energest[CPU=32172 LPM=2208558 TX=7266 RX=31942]
+[70.84s] [Mote 7] [TX] Node=7 Seq=13 Type=DATA Temp=26.06C Humid=51.72% Light=411 CO2=505 Batt=2998mV Suppressed=0
+[70.89s] [Mote 1] [SINK-DATA] Time=70 Node=7 Seq=13 Type=NORMAL Temp=26.06C Humid=51.72% Light=411lux CO2=505ppm Batt=2998mV Hops=3 Energest[CPU=31888 LPM=2208558 TX=7146 RX=30898]
+[70.96s] [Mote 8] [TX] Node=8 Seq=13 Type=DATA Temp=26.40C Humid=51.20% Light=430 CO2=520 Batt=2998mV Suppressed=0
+[71.00s] [Mote 1] [SINK-DATA] Time=71 Node=8 Seq=13 Type=NORMAL Temp=26.40C Humid=51.20% Light=430lux CO2=520ppm Batt=2998mV Hops=3 Energest[CPU=30447 LPM=2208558 TX=7050 RX=32343]
+[75.24s] [Mote 2] [TX] Node=2 Seq=14 Type=DATA Temp=24.46C Humid=54.27% Light=336 CO2=433 Batt=2998mV Suppressed=0
+[75.25s] [Mote 1] [SINK-DATA] Time=75 Node=2 Seq=14 Type=NORMAL Temp=24.46C Humid=54.27% Light=336lux CO2=433ppm Batt=2998mV Hops=1 Energest[CPU=33407 LPM=2365844 TX=7767 RX=32966]
+[75.36s] [Mote 3] [TX] Node=3 Seq=14 Type=DATA Temp=24.78C Humid=53.71% Light=353 CO2=446 Batt=2998mV Suppressed=0
+[75.38s] [Mote 1] [SINK-DATA] Time=75 Node=3 Seq=14 Type=NORMAL Temp=24.78C Humid=53.71% Light=353lux CO2=446ppm Batt=2998mV Hops=1 Energest[CPU=32548 LPM=2365844 TX=7578 RX=33460]
+[75.48s] [Mote 4] [TX] Node=4 Seq=14 Type=DATA Temp=25.03C Humid=53.01% Light=363 CO2=456 Batt=2998mV Suppressed=0
+[75.51s] [Mote 1] [SINK-DATA] Time=75 Node=4 Seq=14 Type=NORMAL Temp=25.03C Humid=53.01% Light=363lux CO2=456ppm Batt=2998mV Hops=2 Energest[CPU=32739 LPM=2365844 TX=7574 RX=33053]
+[75.60s] [Mote 5] [TX] Node=5 Seq=14 Type=DATA Temp=25.49C Humid=52.73% Light=394 CO2=477 Batt=2998mV Suppressed=0
+[75.63s] [Mote 1] [SINK-DATA] Time=75 Node=5 Seq=14 Type=NORMAL Temp=25.49C Humid=52.73% Light=394lux CO2=477ppm Batt=2998mV Hops=2 Energest[CPU=32963 LPM=2365844 TX=7822 RX=32940]
+[75.72s] [Mote 6] [TX] Node=6 Seq=14 Type=DATA Temp=25.84C Humid=52.23% Light=414 CO2=492 Batt=2998mV Suppressed=0
+[75.75s] [Mote 1] [SINK-DATA] Time=75 Node=6 Seq=14 Type=NORMAL Temp=25.84C Humid=52.23% Light=414lux CO2=492ppm Batt=2998mV Hops=2 Energest[CPU=33508 LPM=2365844 TX=7758 RX=34448]
+[75.84s] [Mote 7] [TX] Node=7 Seq=14 Type=DATA Temp=26.18C Humid=51.71% Light=433 CO2=506 Batt=2998mV Suppressed=0
+[75.89s] [Mote 1] [SINK-DATA] Time=75 Node=7 Seq=14 Type=NORMAL Temp=26.18C Humid=51.71% Light=433lux CO2=506ppm Batt=2998mV Hops=3 Energest[CPU=32831 LPM=2365844 TX=7686 RX=33327]
+[75.96s] [Mote 8] [TX] Node=8 Seq=14 Type=DATA Temp=26.60C Humid=51.35% Light=460 CO2=525 Batt=2998mV Suppressed=0
+[76.00s] [Mote 1] [SINK-DATA] Time=76 Node=8 Seq=14 Type=NORMAL Temp=26.60C Humid=51.35% Light=460lux CO2=525ppm Batt=2998mV Hops=3 Energest[CPU=31405 LPM=2365844 TX=7519 RX=34830]
+[80.24s] [Mote 2] [TX] Node=2 Seq=15 Type=DATA Temp=24.44C Humid=53.98% Light=344 CO2=427 Batt=2998mV Suppressed=0
+[80.25s] [Mote 1] [SINK-DATA] Time=80 Node=2 Seq=15 Type=NORMAL Temp=24.44C Humid=53.98% Light=344lux CO2=427ppm Batt=2998mV Hops=1 Energest[CPU=34832 LPM=2523130 TX=8257 RX=34797]
+[80.36s] [Mote 3] [TX] Node=3 Seq=15 Type=DATA Temp=24.79C Humid=53.48% Light=364 CO2=442 Batt=2998mV Suppressed=0
+[80.38s] [Mote 1] [SINK-DATA] Time=80 Node=3 Seq=15 Type=NORMAL Temp=24.79C Humid=53.48% Light=364lux CO2=442ppm Batt=2998mV Hops=1 Energest[CPU=34142 LPM=2523130 TX=8140 RX=35295]
+[80.48s] [Mote 4] [TX] Node=4 Seq=15 Type=DATA Temp=25.22C Humid=53.14% Light=392 CO2=461 Batt=2998mV Suppressed=0
+[80.51s] [Mote 1] [SINK-DATA] Time=80 Node=4 Seq=15 Type=NORMAL Temp=25.22C Humid=53.14% Light=392lux CO2=461ppm Batt=2998mV Hops=2 Energest[CPU=34299 LPM=2523130 TX=8117 RX=35223]
+[80.60s] [Mote 5] [TX] Node=5 Seq=15 Type=DATA Temp=25.59C Humid=52.68% Light=414 CO2=477 Batt=2998mV Suppressed=0
+[80.63s] [Mote 1] [SINK-DATA] Time=80 Node=5 Seq=15 Type=NORMAL Temp=25.59C Humid=52.68% Light=414lux CO2=477ppm Batt=2998mV Hops=2 Energest[CPU=33896 LPM=2523130 TX=8311 RX=35435]
+[80.72s] [Mote 6] [TX] Node=6 Seq=15 Type=DATA Temp=25.82C Humid=51.94% Light=422 CO2=486 Batt=2998mV Suppressed=0
+[80.75s] [Mote 1] [SINK-DATA] Time=80 Node=6 Seq=15 Type=NORMAL Temp=25.82C Humid=51.94% Light=422lux CO2=486ppm Batt=2998mV Hops=2 Energest[CPU=34788 LPM=2523130 TX=8321 RX=37029]
+[80.84s] [Mote 7] [TX] Node=7 Seq=15 Type=DATA Temp=26.25C Humid=51.60% Light=450 CO2=505 Batt=2998mV Suppressed=0
+[80.89s] [Mote 1] [SINK-DATA] Time=80 Node=7 Seq=15 Type=NORMAL Temp=26.25C Humid=51.60% Light=450lux CO2=505ppm Batt=2998mV Hops=3 Energest[CPU=34273 LPM=2523130 TX=8229 RX=35534]
+[80.96s] [Mote 8] [TX] Node=8 Seq=15 Type=DATA Temp=26.55C Humid=51.00% Light=465 CO2=517 Batt=2998mV Suppressed=0
+[81.00s] [Mote 1] [SINK-DATA] Time=81 Node=8 Seq=15 Type=NORMAL Temp=26.55C Humid=51.00% Light=465lux CO2=517ppm Batt=2998mV Hops=3 Energest[CPU=32560 LPM=2523130 TX=7998 RX=36656]
+[85.24s] [Mote 2] [TX] Node=2 Seq=16 Type=DATA Temp=24.58C Humid=54.01% Light=368 CO2=429 Batt=2998mV Suppressed=0
+[85.25s] [Mote 1] [SINK-DATA] Time=85 Node=2 Seq=16 Type=NORMAL Temp=24.58C Humid=54.01% Light=368lux CO2=429ppm Batt=2998mV Hops=1 Energest[CPU=36128 LPM=2680416 TX=8737 RX=36865]
+[85.36s] [Mote 3] [TX] Node=3 Seq=16 Type=DATA Temp=25.00C Humid=53.65% Light=395 CO2=447 Batt=2998mV Suppressed=0
+[85.38s] [Mote 1] [SINK-DATA] Time=85 Node=3 Seq=16 Type=NORMAL Temp=25.00C Humid=53.65% Light=395lux CO2=447ppm Batt=2998mV Hops=1 Energest[CPU=35261 LPM=2680416 TX=8663 RX=37805]
+[85.48s] [Mote 4] [TX] Node=4 Seq=16 Type=DATA Temp=25.25C Humid=52.95% Light=405 CO2=457 Batt=2998mV Suppressed=0
+[85.51s] [Mote 1] [SINK-DATA] Time=85 Node=4 Seq=16 Type=NORMAL Temp=25.25C Humid=52.95% Light=405lux CO2=457ppm Batt=2998mV Hops=2 Energest[CPU=35337 LPM=2680416 TX=8585 RX=37485]
+[85.60s] [Mote 5] [TX] Node=5 Seq=16 Type=DATA Temp=25.65C Humid=52.55% Light=430 CO2=475 Batt=2998mV Suppressed=0
+[85.63s] [Mote 1] [SINK-DATA] Time=85 Node=5 Seq=16 Type=NORMAL Temp=25.65C Humid=52.55% Light=430lux CO2=475ppm Batt=2998mV Hops=2 Energest[CPU=35251 LPM=2680416 TX=8783 RX=37933]
+[85.72s] [Mote 6] [TX] Node=6 Seq=16 Type=DATA Temp=25.95C Humid=51.95% Light=445 CO2=487 Batt=2998mV Suppressed=0
+[85.75s] [Mote 1] [SINK-DATA] Time=85 Node=6 Seq=16 Type=NORMAL Temp=25.95C Humid=51.95% Light=445lux CO2=487ppm Batt=2998mV Hops=2 Energest[CPU=35754 LPM=2680416 TX=8845 RX=39136]
+[85.84s] [Mote 7] [TX] Node=7 Seq=16 Type=DATA Temp=26.41C Humid=51.67% Light=476 CO2=508 Batt=2998mV Suppressed=0
+[85.89s] [Mote 1] [SINK-DATA] Time=85 Node=7 Seq=16 Type=NORMAL Temp=26.41C Humid=51.67% Light=476lux CO2=508ppm Batt=2998mV Hops=3 Energest[CPU=35826 LPM=2680416 TX=8723 RX=37704]
+[85.96s] [Mote 8] [TX] Node=8 Seq=16 Type=DATA Temp=26.75C Humid=51.15% Light=495 CO2=522 Batt=2998mV Suppressed=0
+[90.24s] [Mote 2] [TX] Node=2 Seq=17 Type=DATA Temp=24.77C Humid=54.14% Light=397 CO2=433 Batt=2998mV Suppressed=0
+[90.25s] [Mote 1] [SINK-DATA] Time=90 Node=2 Seq=17 Type=NORMAL Temp=24.77C Humid=54.14% Light=397lux CO2=433ppm Batt=2998mV Hops=1 Energest[CPU=37595 LPM=2837702 TX=9281 RX=39143]
+[90.36s] [Mote 3] [TX] Node=3 Seq=17 Type=DATA Temp=25.07C Humid=53.54% Light=412 CO2=446 Batt=2998mV Suppressed=0
+[90.38s] [Mote 1] [SINK-DATA] Time=90 Node=3 Seq=17 Type=NORMAL Temp=25.07C Humid=53.54% Light=412lux CO2=446ppm Batt=2998mV Hops=1 Energest[CPU=36249 LPM=2837702 TX=9129 RX=39921]
+[90.48s] [Mote 4] [TX] Node=4 Seq=17 Type=DATA Temp=25.43C Humid=53.06% Light=433 CO2=461 Batt=2998mV Suppressed=0
+[90.51s] [Mote 1] [SINK-DATA] Time=90 Node=4 Seq=17 Type=NORMAL Temp=25.43C Humid=53.06% Light=433lux CO2=461ppm Batt=2998mV Hops=2 Energest[CPU=36727 LPM=2837702 TX=9140 RX=40072]
+[90.60s] [Mote 5] [TX] Node=5 Seq=17 Type=DATA Temp=25.85C Humid=52.70% Light=460 CO2=480 Batt=2998mV Suppressed=0
+[90.63s] [Mote 1] [SINK-DATA] Time=90 Node=5 Seq=17 Type=NORMAL Temp=25.85C Humid=52.70% Light=460lux CO2=480ppm Batt=2998mV Hops=2 Energest[CPU=36226 LPM=2837702 TX=9265 RX=40057]
+[90.72s] [Mote 6] [TX] Node=6 Seq=17 Type=DATA Temp=26.17C Humid=52.14% Light=477 CO2=493 Batt=2998mV Suppressed=0
+[90.75s] [Mote 1] [SINK-DATA] Time=90 Node=6 Seq=17 Type=NORMAL Temp=26.17C Humid=52.14% Light=477lux CO2=493ppm Batt=2998mV Hops=2 Energest[CPU=37131 LPM=2837702 TX=9383 RX=41067]
+[90.84s] [Mote 7] [TX] Node=7 Seq=17 Type=DATA Temp=26.51C Humid=51.62% Light=496 CO2=508 Batt=2998mV Suppressed=0
+[90.89s] [Mote 1] [SINK-DATA] Time=90 Node=7 Seq=17 Type=NORMAL Temp=26.51C Humid=51.62% Light=496lux CO2=508ppm Batt=2998mV Hops=3 Energest[CPU=36912 LPM=2837702 TX=9206 RX=39947]
+[90.96s] [Mote 8] [TX] Node=8 Seq=17 Type=DATA Temp=26.74C Humid=50.88% Light=504 CO2=517 Batt=2998mV Suppressed=0
+[91.00s] [Mote 1] [SINK-DATA] Time=91 Node=8 Seq=17 Type=NORMAL Temp=26.74C Humid=50.88% Light=504lux CO2=517ppm Batt=2998mV Hops=3 Energest[CPU=34621 LPM=2837702 TX=8964 RX=41028]
+[95.24s] [Mote 2] [TX] Node=2 Seq=18 Type=DATA Temp=24.77C Humid=53.89% Light=407 CO2=428 Batt=2997mV Suppressed=0
+[95.25s] [Mote 1] [SINK-DATA] Time=95 Node=2 Seq=18 Type=NORMAL Temp=24.77C Humid=53.89% Light=407lux CO2=428ppm Batt=2997mV Hops=1 Energest[CPU=38660 LPM=2994988 TX=9813 RX=41669]
+[95.36s] [Mote 3] [TX] Node=3 Seq=18 Type=DATA Temp=25.13C Humid=53.41% Light=428 CO2=444 Batt=2997mV Suppressed=0
+[95.38s] [Mote 1] [SINK-DATA] Time=95 Node=3 Seq=18 Type=NORMAL Temp=25.13C Humid=53.41% Light=428lux CO2=444ppm Batt=2997mV Hops=1 Energest[CPU=37680 LPM=2994988 TX=9651 RX=41801]
+[95.48s] [Mote 4] [TX] Node=4 Seq=18 Type=DATA Temp=25.60C Humid=53.15% Light=460 CO2=465 Batt=2997mV Suppressed=0
+[95.51s] [Mote 1] [SINK-DATA] Time=95 Node=4 Seq=18 Type=NORMAL Temp=25.60C Humid=53.15% Light=460lux CO2=465ppm Batt=2997mV Hops=2 Energest[CPU=38191 LPM=2994988 TX=9660 RX=42000]
+[95.60s] [Mote 5] [TX] Node=5 Seq=18 Type=DATA Temp=25.95C Humid=52.65% Light=480 CO2=480 Batt=2997mV Suppressed=0
+[95.63s] [Mote 1] [SINK-DATA] Time=95 Node=5 Seq=18 Type=NORMAL Temp=25.95C Humid=52.65% Light=480lux CO2=480ppm Batt=2997mV Hops=2 Energest[CPU=37672 LPM=2994988 TX=9738 RX=42371]
+[95.72s] [Mote 6] [TX] Node=6 Seq=18 Type=DATA Temp=26.29C Humid=52.13% Light=499 CO2=494 Batt=2997mV Suppressed=0
+[95.75s] [Mote 1] [SINK-DATA] Time=95 Node=6 Seq=18 Type=NORMAL Temp=26.29C Humid=52.13% Light=499lux CO2=494ppm Batt=2997mV Hops=2 Energest[CPU=38625 LPM=2994988 TX=9872 RX=43042]
+[95.84s] [Mote 7] [TX] Node=7 Seq=18 Type=DATA Temp=26.46C Humid=51.27% Light=501 CO2=500 Batt=2997mV Suppressed=0
+[95.89s] [Mote 1] [SINK-DATA] Time=95 Node=7 Seq=18 Type=NORMAL Temp=26.46C Humid=51.27% Light=501lux CO2=500ppm Batt=2997mV Hops=3 Energest[CPU=38431 LPM=2994988 TX=9742 RX=42324]
+[95.96s] [Mote 8] [TX] Node=8 Seq=18 Type=DATA Temp=27.00C Humid=51.15% Light=540 CO2=525 Batt=2997mV Suppressed=0
+[96.00s] [Mote 1] [SINK-DATA] Time=96 Node=8 Seq=18 Type=NORMAL Temp=27.00C Humid=51.15% Light=540lux CO2=525ppm Batt=2997mV Hops=3 Energest[CPU=35550 LPM=2994988 TX=9434 RX=42874]
+[100.24s] [Mote 2] [TX] Node=2 Seq=19 Type=DATA Temp=24.98C Humid=54.06% Light=438 CO2=434 Batt=2997mV Suppressed=0
+[100.25s] [Mote 1] [SINK-DATA] Time=100 Node=2 Seq=19 Type=NORMAL Temp=24.98C Humid=54.06% Light=438lux CO2=434ppm Batt=2997mV Hops=1 Energest[CPU=39831 LPM=3152274 TX=10316 RX=44254]
+[100.36s] [Mote 3] [TX] Node=3 Seq=19 Type=DATA Temp=25.35C Humid=53.60% Light=460 CO2=450 Batt=2997mV Suppressed=0
+[100.38s] [Mote 1] [SINK-DATA] Time=100 Node=3 Seq=19 Type=NORMAL Temp=25.35C Humid=53.60% Light=460lux CO2=450ppm Batt=2997mV Hops=1 Energest[CPU=39234 LPM=3152274 TX=10108 RX=44110]
+[100.48s] [Mote 4] [TX] Node=4 Seq=19 Type=DATA Temp=25.57C Humid=52.84% Light=467 CO2=458 Batt=2997mV Suppressed=0
+[100.51s] [Mote 1] [SINK-DATA] Time=100 Node=4 Seq=19 Type=NORMAL Temp=25.57C Humid=52.84% Light=467lux CO2=458ppm Batt=2997mV Hops=2 Energest[CPU=39748 LPM=3152274 TX=10187 RX=44294]
+[100.60s] [Mote 5] [TX] Node=5 Seq=19 Type=DATA Temp=25.87C Humid=52.24% Light=482 CO2=471 Batt=2997mV Suppressed=0
+[100.63s] [Mote 1] [SINK-DATA] Time=100 Node=5 Seq=19 Type=NORMAL Temp=25.87C Humid=52.24% Light=482lux CO2=471ppm Batt=2997mV Hops=2 Energest[CPU=38987 LPM=3152274 TX=10264 RX=44635]
+[100.72s] [Mote 6] [TX] Node=6 Seq=19 Type=DATA Temp=26.35C Humid=52.00% Light=515 CO2=492 Batt=2997mV Suppressed=0
+[100.75s] [Mote 1] [SINK-DATA] Time=100 Node=6 Seq=19 Type=NORMAL Temp=26.35C Humid=52.00% Light=515lux CO2=492ppm Batt=2997mV Hops=2 Energest[CPU=39686 LPM=3152274 TX=10434 RX=45267]
+[100.84s] [Mote 7] [TX] Node=7 Seq=19 Type=DATA Temp=26.65C Humid=51.40% Light=530 CO2=505 Batt=2997mV Suppressed=0
+[100.89s] [Mote 1] [SINK-DATA] Time=100 Node=7 Seq=19 Type=NORMAL Temp=26.65C Humid=51.40% Light=530lux CO2=505ppm Batt=2997mV Hops=3 Energest[CPU=39679 LPM=3152274 TX=10228 RX=44444]
+[100.96s] [Mote 8] [TX] Node=8 Seq=19 Type=DATA Temp=27.01C Humid=50.92% Light=551 CO2=520 Batt=2997mV Suppressed=0
+[101.00s] [Mote 1] [SINK-DATA] Time=101 Node=8 Seq=19 Type=NORMAL Temp=27.01C Humid=50.92% Light=551lux CO2=520ppm Batt=2997mV Hops=3 Energest[CPU=36803 LPM=3152274 TX=9986 RX=44807]
+[105.24s] [Mote 2] [TX] Node=2 Seq=20 Type=DATA Temp=25.04C Humid=53.93% Light=454 CO2=432 Batt=2997mV Suppressed=0
+[105.25s] [Mote 1] [SINK-DATA] Time=105 Node=2 Seq=20 Type=NORMAL Temp=25.04C Humid=53.93% Light=454lux CO2=432ppm Batt=2997mV Hops=1 Energest[CPU=40839 LPM=3309560 TX=10847 RX=46301]
+[105.36s] [Mote 3] [TX] Node=3 Seq=20 Type=DATA Temp=25.28C Humid=53.21% Light=463 CO2=441 Batt=2997mV Suppressed=0
+[105.38s] [Mote 1] [SINK-DATA] Time=105 Node=3 Seq=20 Type=NORMAL Temp=25.28C Humid=53.21% Light=463lux CO2=441ppm Batt=2997mV Hops=1 Energest[CPU=40594 LPM=3309560 TX=10621 RX=46054]
+[105.48s] [Mote 4] [TX] Node=4 Seq=20 Type=DATA Temp=25.65C Humid=52.75% Light=485 CO2=457 Batt=2997mV Suppressed=0
+[105.51s] [Mote 1] [SINK-DATA] Time=105 Node=4 Seq=20 Type=NORMAL Temp=25.65C Humid=52.75% Light=485lux CO2=457ppm Batt=2997mV Hops=2 Energest[CPU=41041 LPM=3309560 TX=10744 RX=46348]
+[105.60s] [Mote 5] [TX] Node=5 Seq=20 Type=DATA Temp=26.00C Humid=52.25% Light=505 CO2=472 Batt=2997mV Suppressed=0
+[105.63s] [Mote 1] [SINK-DATA] Time=105 Node=5 Seq=20 Type=NORMAL Temp=26.00C Humid=52.25% Light=505lux CO2=472ppm Batt=2997mV Hops=2 Energest[CPU=40478 LPM=3309560 TX=10794 RX=46629]
+[105.72s] [Mote 6] [TX] Node=6 Seq=20 Type=DATA Temp=26.39C Humid=51.83% Light=529 CO2=489 Batt=2997mV Suppressed=0
+[105.75s] [Mote 1] [SINK-DATA] Time=105 Node=6 Seq=20 Type=NORMAL Temp=26.39C Humid=51.83% Light=529lux CO2=489ppm Batt=2997mV Hops=2 Energest[CPU=41113 LPM=3309560 TX=11003 RX=47577]
+[105.84s] [Mote 7] [TX] Node=7 Seq=20 Type=DATA Temp=26.79C Humid=51.43% Light=554 CO2=507 Batt=2997mV Suppressed=0
+[105.89s] [Mote 1] [SINK-DATA] Time=105 Node=7 Seq=20 Type=NORMAL Temp=26.79C Humid=51.43% Light=554lux CO2=507ppm Batt=2997mV Hops=3 Energest[CPU=40671 LPM=3309560 TX=10778 RX=46761]
+[105.96s] [Mote 8] [TX] Node=8 Seq=20 Type=DATA Temp=27.01C Humid=50.67% Light=561 CO2=515 Batt=2997mV Suppressed=0
+[106.00s] [Mote 1] [SINK-DATA] Time=106 Node=8 Seq=20 Type=NORMAL Temp=27.01C Humid=50.67% Light=561lux CO2=515ppm Batt=2997mV Hops=3 Energest[CPU=37923 LPM=3309560 TX=10526 RX=46656]
+[110.24s] [Mote 2] [TX] Node=2 Seq=21 Type=DATA Temp=25.17C Humid=53.94% Light=477 CO2=433 Batt=2997mV Suppressed=0
+[110.25s] [Mote 1] [SINK-DATA] Time=110 Node=2 Seq=21 Type=NORMAL Temp=25.17C Humid=53.94% Light=477lux CO2=433ppm Batt=2997mV Hops=1 Energest[CPU=42350 LPM=3466846 TX=11417 RX=48393]
+[110.36s] [Mote 3] [TX] Node=3 Seq=21 Type=DATA Temp=25.43C Humid=53.26% Light=488 CO2=444 Batt=2997mV Suppressed=0
+[110.38s] [Mote 1] [SINK-DATA] Time=110 Node=3 Seq=21 Type=NORMAL Temp=25.43C Humid=53.26% Light=488lux CO2=444ppm Batt=2997mV Hops=1 Energest[CPU=41604 LPM=3466846 TX=11181 RX=47991]
+[110.48s] [Mote 4] [TX] Node=4 Seq=21 Type=DATA Temp=25.82C Humid=52.84% Light=512 CO2=461 Batt=2997mV Suppressed=0
+[110.51s] [Mote 1] [SINK-DATA] Time=110 Node=4 Seq=21 Type=NORMAL Temp=25.82C Humid=52.84% Light=512lux CO2=461ppm Batt=2997mV Hops=2 Energest[CPU=42353 LPM=3466846 TX=11287 RX=48194]
+[110.60s] [Mote 5] [TX] Node=5 Seq=21 Type=DATA Temp=26.22C Humid=52.44% Light=537 CO2=478 Batt=2997mV Suppressed=0
+[110.63s] [Mote 1] [SINK-DATA] Time=110 Node=5 Seq=21 Type=NORMAL Temp=26.22C Humid=52.44% Light=537lux CO2=478ppm Batt=2997mV Hops=2 Energest[CPU=41953 LPM=3466846 TX=11293 RX=48800]
+[110.72s] [Mote 6] [TX] Node=6 Seq=21 Type=DATA Temp=26.57C Humid=51.94% Light=557 CO2=493 Batt=2997mV Suppressed=0
+[110.75s] [Mote 1] [SINK-DATA] Time=110 Node=6 Seq=21 Type=NORMAL Temp=26.57C Humid=51.94% Light=557lux CO2=493ppm Batt=2997mV Hops=2 Energest[CPU=42408 LPM=3466846 TX=11582 RX=49838]
+[110.84s] [Mote 7] [TX] Node=7 Seq=21 Type=DATA Temp=26.78C Humid=51.16% Light=563 CO2=501 Batt=2997mV Suppressed=0
+[110.89s] [Mote 1] [SINK-DATA] Time=110 Node=7 Seq=21 Type=NORMAL Temp=26.78C Humid=51.16% Light=563lux CO2=501ppm Batt=2997mV Hops=3 Energest[CPU=42209 LPM=3466846 TX=11258 RX=48692]
+[110.96s] [Mote 8] [TX] Node=8 Seq=21 Type=DATA Temp=27.14C Humid=50.68% Light=584 CO2=517 Batt=2997mV Suppressed=0
+[111.00s] [Mote 1] [SINK-DATA] Time=111 Node=8 Seq=21 Type=NORMAL Temp=27.14C Humid=50.68% Light=584lux CO2=517ppm Batt=2997mV Hops=3 Energest[CPU=39170 LPM=3466846 TX=11069 RX=49229]
+[115.24s] [Mote 2] [TX] Node=2 Seq=22 Type=DATA Temp=25.11C Humid=53.57% Light=481 CO2=425 Batt=2997mV Suppressed=0
+[115.25s] [Mote 1] [SINK-DATA] Time=115 Node=2 Seq=22 Type=NORMAL Temp=25.11C Humid=53.57% Light=481lux CO2=425ppm Batt=2997mV Hops=1 Energest[CPU=43771 LPM=3624132 TX=11969 RX=50705]
+[115.36s] [Mote 3] [TX] Node=3 Seq=22 Type=DATA Temp=25.61C Humid=53.37% Light=516 CO2=448 Batt=2997mV Suppressed=0
+[115.38s] [Mote 1] [SINK-DATA] Time=115 Node=3 Seq=22 Type=NORMAL Temp=25.61C Humid=53.37% Light=516lux CO2=448ppm Batt=2997mV Hops=1 Energest[CPU=42644 LPM=3624132 TX=11716 RX=50276]
+[115.48s] [Mote 4] [TX] Node=4 Seq=22 Type=DATA Temp=25.99C Humid=52.93% Light=539 CO2=464 Batt=2997mV Suppressed=0
+[115.51s] [Mote 1] [SINK-DATA] Time=115 Node=4 Seq=22 Type=NORMAL Temp=25.99C Humid=52.93% Light=539lux CO2=464ppm Batt=2997mV Hops=2 Energest[CPU=43873 LPM=3624132 TX=11772 RX=50329]
+[115.60s] [Mote 5] [TX] Node=5 Seq=22 Type=DATA Temp=26.25C Humid=52.25% Light=550 CO2=475 Batt=2997mV Suppressed=0
+[115.63s] [Mote 1] [SINK-DATA] Time=115 Node=5 Seq=22 Type=NORMAL Temp=26.25C Humid=52.25% Light=550lux CO2=475ppm Batt=2997mV Hops=2 Energest[CPU=43255 LPM=3624132 TX=11819 RX=51207]
+[115.72s] [Mote 6] [TX] Node=6 Seq=22 Type=DATA Temp=26.68C Humid=51.91% Light=578 CO2=494 Batt=2997mV Suppressed=0
+[115.75s] [Mote 1] [SINK-DATA] Time=115 Node=6 Seq=22 Type=NORMAL Temp=26.68C Humid=51.91% Light=578lux CO2=494ppm Batt=2997mV Hops=2 Energest[CPU=43829 LPM=3624132 TX=12157 RX=52363]
+[115.84s] [Mote 7] [TX] Node=7 Seq=22 Type=DATA Temp=26.88C Humid=51.11% Light=583 CO2=501 Batt=2997mV Suppressed=0
+[115.89s] [Mote 1] [SINK-DATA] Time=115 Node=7 Seq=22 Type=NORMAL Temp=26.88C Humid=51.11% Light=583lux CO2=501ppm Batt=2997mV Hops=3 Energest[CPU=43126 LPM=3624132 TX=11802 RX=50831]
+[115.96s] [Mote 8] [TX] Node=8 Seq=22 Type=DATA Temp=27.40C Humid=50.95% Light=620 CO2=525 Batt=2997mV Suppressed=0
+[120.24s] [Mote 2] [TX] Node=2 Seq=23 Type=DATA Temp=25.38C Humid=53.86% Light=518 CO2=434 Batt=2997mV Suppressed=0
+[120.25s] [Mote 1] [SINK-DATA] Time=120 Node=2 Seq=23 Type=NORMAL Temp=25.38C Humid=53.86% Light=518lux CO2=434ppm Batt=2997mV Hops=1 Energest[CPU=45156 LPM=3781418 TX=12486 RX=53176]
+[120.36s] [Mote 3] [TX] Node=3 Seq=23 Type=DATA Temp=25.71C Humid=53.32% Light=536 CO2=448 Batt=2997mV Suppressed=0
+[120.38s] [Mote 1] [SINK-DATA] Time=120 Node=3 Seq=23 Type=NORMAL Temp=25.71C Humid=53.32% Light=536lux CO2=448ppm Batt=2997mV Hops=1 Energest[CPU=43596 LPM=3781418 TX=12288 RX=52250]
+[120.48s] [Mote 4] [TX] Node=4 Seq=23 Type=DATA Temp=48.47C Humid=52.64% Light=547 CO2=1338 Batt=2997mV Suppressed=0
+[120.60s] [Mote 5] [TX] Node=5 Seq=23 Type=DATA Temp=26.39C Humid=52.28% Light=574 CO2=477 Batt=2997mV Suppressed=0
+[120.63s] [Mote 1] [SINK-DATA] Time=120 Node=5 Seq=23 Type=NORMAL Temp=26.39C Humid=52.28% Light=574lux CO2=477ppm Batt=2997mV Hops=2 Energest[CPU=44267 LPM=3781418 TX=12317 RX=53026]
+[120.72s] [Mote 6] [TX] Node=6 Seq=23 Type=DATA Temp=26.66C Humid=51.62% Light=586 CO2=488 Batt=2997mV Suppressed=0
+[120.75s] [Mote 1] [SINK-DATA] Time=120 Node=6 Seq=23 Type=NORMAL Temp=26.66C Humid=51.62% Light=586lux CO2=488ppm Batt=2997mV Hops=2 Energest[CPU=44884 LPM=3781418 TX=12712 RX=54870]
+[120.84s] [Mote 7] [TX] Node=7 Seq=23 Type=DATA Temp=26.96C Humid=51.02% Light=601 CO2=500 Batt=2997mV Suppressed=0
+[120.89s] [Mote 1] [SINK-DATA] Time=120 Node=7 Seq=23 Type=NORMAL Temp=26.96C Humid=51.02% Light=601lux CO2=500ppm Batt=2997mV Hops=3 Energest[CPU=44652 LPM=3781418 TX=12372 RX=53384]
+[120.96s] [Mote 8] [TX] Node=8 Seq=23 Type=DATA Temp=27.40C Humid=50.70% Light=630 CO2=520 Batt=2997mV Suppressed=0
+[121.00s] [Mote 1] [SINK-DATA] Time=121 Node=8 Seq=23 Type=NORMAL Temp=27.40C Humid=50.70% Light=630lux CO2=520ppm Batt=2997mV Hops=3 Energest[CPU=42098 LPM=3781418 TX=12100 RX=54145]
+[120.90s] [Mote 1] --- [NETWORK-SUMMARY @ 120 s] ---
+[120.91s] [Mote 1] Total Nodes Registered: 7
+[120.92s] [Mote 1] Total Packets Received: 153 | Total Expected: 161 | Global PDR: 95.03%
+[120.95s] [Mote 1]   Node  2: PktsRecv=23   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.38C Batt=2997mV
+[120.96s] [Mote 1]   Node  3: PktsRecv=23   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.71C Batt=2997mV
+[120.97s] [Mote 1]   Node  4: PktsRecv=21   Lost=2   PDR=91.3% LastSeen=0   s Temp=48.47C Batt=2997mV
+[120.98s] [Mote 1]   Node  5: PktsRecv=23   Lost=0   PDR=100.0% LastSeen=0   s Temp=26.39C Batt=2997mV
+[120.99s] [Mote 1]   Node  6: PktsRecv=23   Lost=0   PDR=100.0% LastSeen=0   s Temp=26.66C Batt=2997mV
+[121.00s] [Mote 1]   Node  7: PktsRecv=22   Lost=1   PDR=95.7% LastSeen=0   s Temp=26.96C Batt=2997mV
+[121.01s] [Mote 1]   Node  8: PktsRecv=18   Lost=5   PDR=78.3% LastSeen=0   s Temp=27.40C Batt=2997mV
+[120.99s] [Mote 1] ------------------------------------
+[125.24s] [Mote 2] [TX] Node=2 Seq=24 Type=DATA Temp=25.35C Humid=53.55% Light=525 CO2=427 Batt=2996mV Suppressed=0
+[125.25s] [Mote 1] [SINK-DATA] Time=125 Node=2 Seq=24 Type=NORMAL Temp=25.35C Humid=53.55% Light=525lux CO2=427ppm Batt=2996mV Hops=1 Energest[CPU=46545 LPM=3938704 TX=13032 RX=55297]
+[125.16s] [Mote 2] [ENERGY-MOTE-2] Total_mJ=143.44 (CPU=7.67, LPM=19.83, TX=20.76, RX=95.18)
+[125.17s] [Mote 2] [MOTE-2-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.36s] [Mote 3] [TX] Node=3 Seq=24 Type=DATA Temp=25.76C Humid=53.17% Light=551 CO2=445 Batt=2996mV Suppressed=0
+[125.38s] [Mote 1] [SINK-DATA] Time=125 Node=3 Seq=24 Type=NORMAL Temp=25.76C Humid=53.17% Light=551lux CO2=445ppm Batt=2996mV Hops=1 Energest[CPU=45041 LPM=3938704 TX=12825 RX=54609]
+[125.24s] [Mote 3] [ENERGY-MOTE-3] Total_mJ=141.68 (CPU=7.42, LPM=19.83, TX=20.43, RX=93.99)
+[125.25s] [Mote 3] [MOTE-3-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.48s] [Mote 4] [TX] Node=4 Seq=24 Type=DATA Temp=48.65C Humid=52.75% Light=575 CO2=1342 Batt=2996mV Suppressed=0
+[125.51s] [Mote 1] [SINK-DATA] Time=125 Node=4 Seq=24 Type=NORMAL Temp=48.65C Humid=52.75% Light=575lux CO2=1342ppm Batt=2996mV Hops=2 Energest[CPU=47004 LPM=3938704 TX=12836 RX=54704]
+[125.32s] [Mote 4] [ENERGY-MOTE-4] Total_mJ=142.18 (CPU=7.75, LPM=19.83, TX=20.45, RX=94.16)
+[125.33s] [Mote 4] [MOTE-4-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.60s] [Mote 5] [TX] Node=5 Seq=24 Type=DATA Temp=26.44C Humid=52.13% Light=589 CO2=474 Batt=2996mV Suppressed=0
+[125.63s] [Mote 1] [SINK-DATA] Time=125 Node=5 Seq=24 Type=NORMAL Temp=26.44C Humid=52.13% Light=589lux CO2=474ppm Batt=2996mV Hops=2 Energest[CPU=45419 LPM=3938704 TX=12838 RX=55397]
+[125.40s] [Mote 5] [ENERGY-MOTE-5] Total_mJ=143.12 (CPU=7.48, LPM=19.83, TX=20.45, RX=95.35)
+[125.41s] [Mote 5] [MOTE-5-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.72s] [Mote 6] [TX] Node=6 Seq=24 Type=DATA Temp=26.76C Humid=51.57% Light=606 CO2=488 Batt=2996mV Suppressed=0
+[125.75s] [Mote 1] [SINK-DATA] Time=125 Node=6 Seq=24 Type=NORMAL Temp=26.76C Humid=51.57% Light=606lux CO2=488ppm Batt=2996mV Hops=2 Energest[CPU=46088 LPM=3938704 TX=13235 RX=57391]
+[125.48s] [Mote 6] [ENERGY-MOTE-6] Total_mJ=147.29 (CPU=7.60, LPM=19.83, TX=21.08, RX=98.78)
+[125.49s] [Mote 6] [MOTE-6-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.84s] [Mote 7] [TX] Node=7 Seq=24 Type=DATA Temp=27.16C Humid=51.17% Light=631 CO2=505 Batt=2996mV Suppressed=0
+[125.89s] [Mote 1] [SINK-DATA] Time=125 Node=7 Seq=24 Type=NORMAL Temp=27.16C Humid=51.17% Light=631lux CO2=505ppm Batt=2996mV Hops=3 Energest[CPU=46052 LPM=3938704 TX=12903 RX=55675]
+[125.56s] [Mote 7] [ENERGY-MOTE-7] Total_mJ=143.80 (CPU=7.59, LPM=19.83, TX=20.55, RX=95.83)
+[125.57s] [Mote 7] [MOTE-7-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[125.96s] [Mote 8] [TX] Node=8 Seq=24 Type=DATA Temp=27.58C Humid=50.81% Light=658 CO2=524 Batt=2996mV Suppressed=0
+[126.00s] [Mote 1] [SINK-DATA] Time=126 Node=8 Seq=24 Type=NORMAL Temp=27.58C Humid=50.81% Light=658lux CO2=524ppm Batt=2996mV Hops=3 Energest[CPU=43278 LPM=3938704 TX=12623 RX=56069]
+[125.64s] [Mote 8] [ENERGY-MOTE-8] Total_mJ=143.58 (CPU=7.13, LPM=19.83, TX=20.11, RX=96.51)
+[125.65s] [Mote 8] [MOTE-8-EFFICIENCY] Samples=24 Transmitted=24 Suppressed=0 RadioSaving=0.0%
+[130.24s] [Mote 2] [TX] Node=2 Seq=25 Type=DATA Temp=25.44C Humid=53.48% Light=544 CO2=427 Batt=2996mV Suppressed=0
+[130.25s] [Mote 1] [SINK-DATA] Time=130 Node=2 Seq=25 Type=NORMAL Temp=25.44C Humid=53.48% Light=544lux CO2=427ppm Batt=2996mV Hops=1 Energest[CPU=47833 LPM=4095990 TX=13583 RX=57450]
+[130.36s] [Mote 3] [TX] Node=3 Seq=25 Type=DATA Temp=25.89C Humid=53.18% Light=574 CO2=447 Batt=2996mV Suppressed=0
+[130.38s] [Mote 1] [SINK-DATA] Time=130 Node=3 Seq=25 Type=NORMAL Temp=25.89C Humid=53.18% Light=574lux CO2=447ppm Batt=2996mV Hops=1 Energest[CPU=46235 LPM=4095990 TX=13295 RX=56763]
+[130.48s] [Mote 4] [TX] Node=4 Seq=25 Type=DATA Temp=48.77C Humid=52.74% Light=597 CO2=1343 Batt=2996mV Suppressed=0
+[130.51s] [Mote 1] [SINK-DATA] Time=130 Node=4 Seq=25 Type=NORMAL Temp=48.77C Humid=52.74% Light=597lux CO2=1343ppm Batt=2996mV Hops=2 Energest[CPU=48394 LPM=4095990 TX=13340 RX=56710]
+[130.60s] [Mote 5] [TX] Node=5 Seq=25 Type=DATA Temp=26.48C Humid=51.96% Light=603 CO2=471 Batt=2996mV Suppressed=0
+[130.63s] [Mote 1] [SINK-DATA] Time=130 Node=5 Seq=25 Type=NORMAL Temp=26.48C Humid=51.96% Light=603lux CO2=471ppm Batt=2996mV Hops=2 Energest[CPU=46894 LPM=4095990 TX=13357 RX=57337]
+[130.72s] [Mote 6] [TX] Node=6 Seq=25 Type=DATA Temp=26.81C Humid=51.42% Light=621 CO2=485 Batt=2996mV Suppressed=0
+[130.75s] [Mote 1] [SINK-DATA] Time=130 Node=6 Seq=25 Type=NORMAL Temp=26.81C Humid=51.42% Light=621lux CO2=485ppm Batt=2996mV Hops=2 Energest[CPU=47588 LPM=4095990 TX=13746 RX=59439]
+[130.84s] [Mote 7] [TX] Node=7 Seq=25 Type=DATA Temp=27.22C Humid=51.04% Light=647 CO2=503 Batt=2996mV Suppressed=0
+[130.96s] [Mote 8] [TX] Node=8 Seq=25 Type=DATA Temp=27.65C Humid=50.70% Light=675 CO2=522 Batt=2996mV Suppressed=0
+[135.24s] [Mote 2] [TX] Node=2 Seq=26 Type=DATA Temp=25.55C Humid=53.45% Light=565 CO2=427 Batt=2996mV Suppressed=0
+[135.25s] [Mote 1] [SINK-DATA] Time=135 Node=2 Seq=26 Type=NORMAL Temp=25.55C Humid=53.45% Light=565lux CO2=427ppm Batt=2996mV Hops=1 Energest[CPU=48873 LPM=4253276 TX=14034 RX=59813]
+[135.36s] [Mote 3] [TX] Node=3 Seq=26 Type=DATA Temp=25.91C Humid=52.97% Light=586 CO2=443 Batt=2996mV Suppressed=0
+[135.38s] [Mote 1] [SINK-DATA] Time=135 Node=3 Seq=26 Type=NORMAL Temp=25.91C Humid=52.97% Light=586lux CO2=443ppm Batt=2996mV Hops=1 Energest[CPU=47622 LPM=4253276 TX=13867 RX=59229]
+[135.48s] [Mote 4] [TX] Node=4 Seq=26 Type=DATA Temp=48.90C Humid=52.75% Light=620 CO2=1345 Batt=2996mV Suppressed=0
+[135.51s] [Mote 1] [SINK-DATA] Time=135 Node=4 Seq=26 Type=NORMAL Temp=48.90C Humid=52.75% Light=620lux CO2=1345ppm Batt=2996mV Hops=2 Energest[CPU=49588 LPM=4253276 TX=13872 RX=58802]
+[135.60s] [Mote 5] [TX] Node=5 Seq=26 Type=DATA Temp=26.56C Humid=51.87% Light=621 CO2=470 Batt=2996mV Suppressed=0
+[135.63s] [Mote 1] [SINK-DATA] Time=135 Node=5 Seq=26 Type=NORMAL Temp=26.56C Humid=51.87% Light=621lux CO2=470ppm Batt=2996mV Hops=2 Energest[CPU=47885 LPM=4253276 TX=13866 RX=59684]
+[135.72s] [Mote 6] [TX] Node=6 Seq=26 Type=DATA Temp=26.91C Humid=51.37% Light=641 CO2=485 Batt=2996mV Suppressed=0
+[135.75s] [Mote 1] [SINK-DATA] Time=135 Node=6 Seq=26 Type=NORMAL Temp=26.91C Humid=51.37% Light=641lux CO2=485ppm Batt=2996mV Hops=2 Energest[CPU=48667 LPM=4253276 TX=14302 RX=61419]
+[135.84s] [Mote 7] [TX] Node=7 Seq=26 Type=DATA Temp=27.34C Humid=51.03% Light=669 CO2=504 Batt=2996mV Suppressed=0
+[135.88s] [Mote 1] [SINK-DATA] Time=135 Node=7 Seq=26 Type=NORMAL Temp=27.34C Humid=51.03% Light=669lux CO2=504ppm Batt=2996mV Hops=3 Energest[CPU=48801 LPM=4253276 TX=13986 RX=60118]
+[135.96s] [Mote 8] [TX] Node=8 Seq=26 Type=DATA Temp=27.79C Humid=50.73% Light=699 CO2=524 Batt=2996mV Suppressed=0
+[140.24s] [Mote 2] [TX] Node=2 Seq=27 Type=DATA Temp=25.80C Humid=53.70% Light=600 CO2=435 Batt=2996mV Suppressed=0
+[140.25s] [Mote 1] [SINK-DATA] Time=140 Node=2 Seq=27 Type=NORMAL Temp=25.80C Humid=53.70% Light=600lux CO2=435ppm Batt=2996mV Hops=1 Energest[CPU=50116 LPM=4410562 TX=14556 RX=62078]
+[140.36s] [Mote 3] [TX] Node=3 Seq=27 Type=DATA Temp=26.09C Humid=53.08% Light=614 CO2=447 Batt=2996mV Suppressed=0
+[140.38s] [Mote 1] [SINK-DATA] Time=140 Node=3 Seq=27 Type=NORMAL Temp=26.09C Humid=53.08% Light=614lux CO2=447ppm Batt=2996mV Hops=1 Energest[CPU=49027 LPM=4410562 TX=14351 RX=61545]
+[140.48s] [Mote 4] [TX] Node=4 Seq=27 Type=DATA Temp=48.94C Humid=52.58% Light=634 CO2=1342 Batt=2996mV Suppressed=0
+[140.51s] [Mote 1] [SINK-DATA] Time=140 Node=4 Seq=27 Type=NORMAL Temp=48.94C Humid=52.58% Light=634lux CO2=1342ppm Batt=2996mV Hops=2 Energest[CPU=50603 LPM=4410562 TX=14406 RX=60768]
+[140.60s] [Mote 5] [TX] Node=5 Seq=27 Type=DATA Temp=26.75C Humid=52.00% Light=650 CO2=475 Batt=2996mV Suppressed=0
+[140.63s] [Mote 1] [SINK-DATA] Time=140 Node=5 Seq=27 Type=NORMAL Temp=26.75C Humid=52.00% Light=650lux CO2=475ppm Batt=2996mV Hops=2 Energest[CPU=48975 LPM=4410562 TX=14319 RX=62238]
+[140.72s] [Mote 6] [TX] Node=6 Seq=27 Type=DATA Temp=27.19C Humid=51.68% Light=679 CO2=494 Batt=2996mV Suppressed=0
+[140.75s] [Mote 1] [SINK-DATA] Time=140 Node=6 Seq=27 Type=NORMAL Temp=27.19C Humid=51.68% Light=679lux CO2=494ppm Batt=2996mV Hops=2 Energest[CPU=50148 LPM=4410562 TX=14801 RX=63398]
+[140.84s] [Mote 7] [TX] Node=7 Seq=27 Type=DATA Temp=27.45C Humid=51.00% Light=690 CO2=505 Batt=2996mV Suppressed=0
+[140.96s] [Mote 8] [TX] Node=8 Seq=27 Type=DATA Temp=27.74C Humid=50.38% Light=704 CO2=517 Batt=2996mV Suppressed=0
+[141.00s] [Mote 1] [SINK-DATA] Time=141 Node=8 Seq=27 Type=NORMAL Temp=27.74C Humid=50.38% Light=704lux CO2=517ppm Batt=2996mV Hops=3 Energest[CPU=47095 LPM=4410562 TX=14157 RX=62973]
+[145.24s] [Mote 2] [TX] Node=2 Seq=28 Type=DATA Temp=25.82C Humid=53.49% Light=612 CO2=431 Batt=2996mV Suppressed=0
+[145.25s] [Mote 1] [SINK-DATA] Time=145 Node=2 Seq=28 Type=NORMAL Temp=25.82C Humid=53.49% Light=612lux CO2=431ppm Batt=2996mV Hops=1 Energest[CPU=51270 LPM=4567848 TX=15007 RX=64145]
+[145.36s] [Mote 3] [TX] Node=3 Seq=28 Type=DATA Temp=26.23C Humid=53.11% Light=638 CO2=449 Batt=2996mV Suppressed=0
+[145.38s] [Mote 1] [SINK-DATA] Time=145 Node=3 Seq=28 Type=NORMAL Temp=26.23C Humid=53.11% Light=638lux CO2=449ppm Batt=2996mV Hops=1 Energest[CPU=50200 LPM=4567848 TX=14885 RX=63654]
+[145.48s] [Mote 4] [TX] Node=4 Seq=28 Type=DATA Temp=49.01C Humid=52.47% Light=651 CO2=1340 Batt=2996mV Suppressed=0
+[145.51s] [Mote 1] [SINK-DATA] Time=145 Node=4 Seq=28 Type=NORMAL Temp=49.01C Humid=52.47% Light=651lux CO2=1340ppm Batt=2996mV Hops=2 Energest[CPU=51514 LPM=4567848 TX=14922 RX=63237]
+[145.60s] [Mote 5] [TX] Node=5 Seq=28 Type=DATA Temp=26.84C Humid=51.93% Light=669 CO2=474 Batt=2996mV Suppressed=0
+[145.63s] [Mote 1] [SINK-DATA] Time=145 Node=5 Seq=28 Type=NORMAL Temp=26.84C Humid=51.93% Light=669lux CO2=474ppm Batt=2996mV Hops=2 Energest[CPU=49938 LPM=4567848 TX=14799 RX=64514]
+[145.72s] [Mote 6] [TX] Node=6 Seq=28 Type=DATA Temp=27.13C Humid=51.31% Light=683 CO2=486 Batt=2996mV Suppressed=0
+[145.75s] [Mote 1] [SINK-DATA] Time=145 Node=6 Seq=28 Type=NORMAL Temp=27.13C Humid=51.31% Light=683lux CO2=486ppm Batt=2996mV Hops=2 Energest[CPU=51562 LPM=4567848 TX=15330 RX=65904]
+[145.84s] [Mote 7] [TX] Node=7 Seq=28 Type=DATA Temp=27.52C Humid=50.89% Light=707 CO2=503 Batt=2996mV Suppressed=0
+[145.88s] [Mote 1] [SINK-DATA] Time=145 Node=7 Seq=28 Type=NORMAL Temp=27.52C Humid=50.89% Light=707lux CO2=503ppm Batt=2996mV Hops=3 Energest[CPU=51318 LPM=4567848 TX=15089 RX=64874]
+[145.96s] [Mote 8] [TX] Node=8 Seq=28 Type=DATA Temp=27.94C Humid=50.53% Light=734 CO2=522 Batt=2996mV Suppressed=0
+[146.00s] [Mote 1] [SINK-DATA] Time=146 Node=8 Seq=28 Type=NORMAL Temp=27.94C Humid=50.53% Light=734lux CO2=522ppm Batt=2996mV Hops=3 Energest[CPU=48131 LPM=4567848 TX=14729 RX=64929]
+[150.24s] [Mote 2] [TX] Node=2 Seq=29 Type=DATA Temp=25.97C Humid=53.54% Light=637 CO2=433 Batt=2996mV Suppressed=0
+[150.25s] [Mote 1] [SINK-DATA] Time=150 Node=2 Seq=29 Type=NORMAL Temp=25.97C Humid=53.54% Light=637lux CO2=433ppm Batt=2996mV Hops=1 Energest[CPU=52790 LPM=4725134 TX=15552 RX=66370]
+[150.36s] [Mote 3] [TX] Node=3 Seq=29 Type=DATA Temp=26.22C Humid=52.84% Light=647 CO2=443 Batt=2996mV Suppressed=0
+[150.38s] [Mote 1] [SINK-DATA] Time=150 Node=3 Seq=29 Type=NORMAL Temp=26.22C Humid=52.84% Light=647lux CO2=443ppm Batt=2996mV Hops=1 Energest[CPU=51650 LPM=4725134 TX=15390 RX=66234]
+[150.48s] [Mote 4] [TX] Node=4 Seq=29 Type=DATA Temp=49.14C Humid=52.48% Light=674 CO2=1342 Batt=2996mV Suppressed=0
+[150.51s] [Mote 1] [SINK-DATA] Time=150 Node=4 Seq=29 Type=NORMAL Temp=49.14C Humid=52.48% Light=674lux CO2=1342ppm Batt=2996mV Hops=2 Energest[CPU=53024 LPM=4725134 TX=15392 RX=65575]
+[150.60s] [Mote 5] [TX] Node=5 Seq=29 Type=DATA Temp=26.88C Humid=51.76% Light=683 CO2=471 Batt=2996mV Suppressed=0
+[150.63s] [Mote 1] [SINK-DATA] Time=150 Node=5 Seq=29 Type=NORMAL Temp=26.88C Humid=51.76% Light=683lux CO2=471ppm Batt=2996mV Hops=2 Energest[CPU=51208 LPM=4725134 TX=15268 RX=66891]
+[150.72s] [Mote 6] [TX] Node=6 Seq=29 Type=DATA Temp=27.38C Humid=51.56% Light=718 CO2=494 Batt=2996mV Suppressed=0
+[150.75s] [Mote 1] [SINK-DATA] Time=150 Node=6 Seq=29 Type=NORMAL Temp=27.38C Humid=51.56% Light=718lux CO2=494ppm Batt=2996mV Hops=2 Energest[CPU=53022 LPM=4725134 TX=15909 RX=67911]
+[150.84s] [Mote 7] [TX] Node=7 Seq=29 Type=DATA Temp=27.69C Humid=50.98% Light=734 CO2=507 Batt=2996mV Suppressed=0
+[150.88s] [Mote 1] [SINK-DATA] Time=150 Node=7 Seq=29 Type=NORMAL Temp=27.69C Humid=50.98% Light=734lux CO2=507ppm Batt=2996mV Hops=3 Energest[CPU=52386 LPM=4725134 TX=15622 RX=67206]
+[150.96s] [Mote 8] [TX] Node=8 Seq=29 Type=DATA Temp=28.06C Humid=50.52% Light=756 CO2=523 Batt=2996mV Suppressed=0
+[151.00s] [Mote 1] [SINK-DATA] Time=151 Node=8 Seq=29 Type=NORMAL Temp=28.06C Humid=50.52% Light=756lux CO2=523ppm Batt=2996mV Hops=3 Energest[CPU=49241 LPM=4725134 TX=15304 RX=66822]
+[155.24s] [Mote 2] [TX] Node=2 Seq=30 Type=DATA Temp=26.06C Humid=53.47% Light=656 CO2=433 Batt=2995mV Suppressed=0
+[155.25s] [Mote 1] [SINK-DATA] Time=155 Node=2 Seq=30 Type=NORMAL Temp=26.06C Humid=53.47% Light=656lux CO2=433ppm Batt=2995mV Hops=1 Energest[CPU=53746 LPM=4882420 TX=16118 RX=68305]
+[155.36s] [Mote 3] [TX] Node=3 Seq=30 Type=DATA Temp=26.39C Humid=52.93% Light=674 CO2=447 Batt=2995mV Suppressed=0
+[155.38s] [Mote 1] [SINK-DATA] Time=155 Node=3 Seq=30 Type=NORMAL Temp=26.39C Humid=52.93% Light=674lux CO2=447ppm Batt=2995mV Hops=1 Energest[CPU=53127 LPM=4882420 TX=15854 RX=68606]
+[155.48s] [Mote 4] [TX] Node=4 Seq=30 Type=DATA Temp=49.18C Humid=52.31% Light=688 CO2=1339 Batt=2995mV Suppressed=0
+[155.51s] [Mote 1] [SINK-DATA] Time=155 Node=4 Seq=30 Type=NORMAL Temp=49.18C Humid=52.31% Light=688lux CO2=1339ppm Batt=2995mV Hops=2 Energest[CPU=54239 LPM=4882420 TX=15847 RX=67780]
+[155.60s] [Mote 5] [TX] Node=5 Seq=30 Type=DATA Temp=27.08C Humid=51.91% Light=713 CO2=476 Batt=2995mV Suppressed=0
+[155.63s] [Mote 1] [SINK-DATA] Time=155 Node=5 Seq=30 Type=NORMAL Temp=27.08C Humid=51.91% Light=713lux CO2=476ppm Batt=2995mV Hops=2 Energest[CPU=52331 LPM=4882420 TX=15736 RX=68737]
+[155.72s] [Mote 6] [TX] Node=6 Seq=30 Type=DATA Temp=27.45C Humid=51.45% Light=735 CO2=492 Batt=2995mV Suppressed=0
+[155.84s] [Mote 7] [TX] Node=7 Seq=30 Type=DATA Temp=27.69C Humid=50.73% Light=744 CO2=502 Batt=2995mV Suppressed=0
+[155.88s] [Mote 1] [SINK-DATA] Time=155 Node=7 Seq=30 Type=NORMAL Temp=27.69C Humid=50.73% Light=744lux CO2=502ppm Batt=2995mV Hops=3 Energest[CPU=53704 LPM=4882420 TX=16118 RX=69793]
+[155.96s] [Mote 8] [TX] Node=8 Seq=30 Type=DATA Temp=28.12C Humid=50.39% Light=772 CO2=521 Batt=2995mV Suppressed=0
+[156.00s] [Mote 1] [SINK-DATA] Time=156 Node=8 Seq=30 Type=NORMAL Temp=28.12C Humid=50.39% Light=772lux CO2=521ppm Batt=2995mV Hops=3 Energest[CPU=50802 LPM=4882420 TX=15861 RX=69005]
+[160.24s] [Mote 2] [TX] Node=2 Seq=31 Type=DATA Temp=26.17C Humid=53.44% Light=677 CO2=433 Batt=2995mV Suppressed=0
+[160.25s] [Mote 1] [SINK-DATA] Time=160 Node=2 Seq=31 Type=NORMAL Temp=26.17C Humid=53.44% Light=677lux CO2=433ppm Batt=2995mV Hops=1 Energest[CPU=55032 LPM=5039706 TX=16664 RX=70187]
+[160.36s] [Mote 3] [TX] Node=3 Seq=31 Type=DATA Temp=26.52C Humid=52.94% Light=697 CO2=448 Batt=2995mV Suppressed=0
+[160.38s] [Mote 1] [SINK-DATA] Time=160 Node=3 Seq=31 Type=NORMAL Temp=26.52C Humid=52.94% Light=697lux CO2=448ppm Batt=2995mV Hops=1 Energest[CPU=54383 LPM=5039706 TX=16334 RX=70588]
+[160.48s] [Mote 4] [TX] Node=4 Seq=31 Type=DATA Temp=49.20C Humid=52.10% Light=700 CO2=1335 Batt=2995mV Suppressed=0
+[160.51s] [Mote 1] [SINK-DATA] Time=160 Node=4 Seq=31 Type=NORMAL Temp=49.20C Humid=52.10% Light=700lux CO2=1335ppm Batt=2995mV Hops=2 Energest[CPU=55269 LPM=5039706 TX=16354 RX=69583]
+[160.60s] [Mote 5] [TX] Node=5 Seq=31 Type=DATA Temp=27.17C Humid=51.84% Light=732 CO2=476 Batt=2995mV Suppressed=0
+[160.63s] [Mote 1] [SINK-DATA] Time=160 Node=5 Seq=31 Type=NORMAL Temp=27.17C Humid=51.84% Light=732lux CO2=476ppm Batt=2995mV Hops=2 Energest[CPU=53705 LPM=5039706 TX=16294 RX=71081]
+[160.72s] [Mote 6] [TX] Node=6 Seq=31 Type=DATA Temp=27.44C Humid=51.18% Light=744 CO2=487 Batt=2995mV Suppressed=0
+[160.75s] [Mote 1] [SINK-DATA] Time=160 Node=6 Seq=31 Type=NORMAL Temp=27.44C Humid=51.18% Light=744lux CO2=487ppm Batt=2995mV Hops=2 Energest[CPU=55140 LPM=5039706 TX=16941 RX=71935]
+[160.84s] [Mote 7] [TX] Node=7 Seq=31 Type=DATA Temp=27.88C Humid=50.86% Light=773 CO2=506 Batt=2995mV Suppressed=0
+[160.88s] [Mote 1] [SINK-DATA] Time=160 Node=7 Seq=31 Type=NORMAL Temp=27.88C Humid=50.86% Light=773lux CO2=506ppm Batt=2995mV Hops=3 Energest[CPU=54719 LPM=5039706 TX=16576 RX=72269]
+[160.96s] [Mote 8] [TX] Node=8 Seq=31 Type=DATA Temp=28.12C Humid=50.14% Light=782 CO2=516 Batt=2995mV Suppressed=0
+[165.24s] [Mote 2] [TX] Node=2 Seq=32 Type=DATA Temp=26.11C Humid=53.07% Light=681 CO2=425 Batt=2995mV Suppressed=0
+[165.25s] [Mote 1] [SINK-DATA] Time=165 Node=2 Seq=32 Type=NORMAL Temp=26.11C Humid=53.07% Light=681lux CO2=425ppm Batt=2995mV Hops=1 Energest[CPU=55966 LPM=5196992 TX=17228 RX=72599]
+[165.36s] [Mote 3] [TX] Node=3 Seq=32 Type=DATA Temp=26.52C Humid=52.69% Light=707 CO2=443 Batt=2995mV Suppressed=0
+[165.38s] [Mote 1] [SINK-DATA] Time=165 Node=3 Seq=32 Type=NORMAL Temp=26.52C Humid=52.69% Light=707lux CO2=443ppm Batt=2995mV Hops=1 Energest[CPU=55328 LPM=5196992 TX=16886 RX=72837]
+[165.48s] [Mote 4] [TX] Node=4 Seq=32 Type=DATA Temp=49.39C Humid=52.23% Light=729 CO2=1339 Batt=2995mV Suppressed=0
+[165.51s] [Mote 1] [SINK-DATA] Time=165 Node=4 Seq=32 Type=NORMAL Temp=49.39C Humid=52.23% Light=729lux CO2=1339ppm Batt=2995mV Hops=2 Energest[CPU=56226 LPM=5196992 TX=16839 RX=71898]
+[165.60s] [Mote 5] [TX] Node=5 Seq=32 Type=DATA Temp=27.34C Humid=51.93% Light=759 CO2=479 Batt=2995mV Suppressed=0
+[165.63s] [Mote 1] [SINK-DATA] Time=165 Node=5 Seq=32 Type=NORMAL Temp=27.34C Humid=51.93% Light=759lux CO2=479ppm Batt=2995mV Hops=2 Energest[CPU=55194 LPM=5196992 TX=16825 RX=73472]
+[165.72s] [Mote 6] [TX] Node=6 Seq=32 Type=DATA Temp=27.54C Humid=51.13% Light=764 CO2=487 Batt=2995mV Suppressed=0
+[165.75s] [Mote 1] [SINK-DATA] Time=165 Node=6 Seq=32 Type=NORMAL Temp=27.54C Humid=51.13% Light=764lux CO2=487ppm Batt=2995mV Hops=2 Energest[CPU=56368 LPM=5196992 TX=17451 RX=74044]
+[165.84s] [Mote 7] [TX] Node=7 Seq=32 Type=DATA Temp=27.94C Humid=50.73% Light=789 CO2=504 Batt=2995mV Suppressed=0
+[165.88s] [Mote 1] [SINK-DATA] Time=165 Node=7 Seq=32 Type=NORMAL Temp=27.94C Humid=50.73% Light=789lux CO2=504ppm Batt=2995mV Hops=3 Energest[CPU=56152 LPM=5196992 TX=17082 RX=74492]
+[165.96s] [Mote 8] [TX] Node=8 Seq=32 Type=DATA Temp=28.33C Humid=50.31% Light=813 CO2=521 Batt=2995mV Suppressed=0
+[166.00s] [Mote 1] [SINK-DATA] Time=166 Node=8 Seq=32 Type=NORMAL Temp=28.33C Humid=50.31% Light=813lux CO2=521ppm Batt=2995mV Hops=3 Energest[CPU=53188 LPM=5196992 TX=16866 RX=73457]
+[170.24s] [Mote 2] [TX] Node=2 Seq=33 Type=DATA Temp=26.32C Humid=53.24% Light=712 CO2=431 Batt=2995mV Suppressed=0
+[170.25s] [Mote 1] [SINK-DATA] Time=170 Node=2 Seq=33 Type=NORMAL Temp=26.32C Humid=53.24% Light=712lux CO2=431ppm Batt=2995mV Hops=1 Energest[CPU=56914 LPM=5354278 TX=17766 RX=75057]
+[170.36s] [Mote 3] [TX] Node=3 Seq=33 Type=DATA Temp=26.59C Humid=52.58% Light=724 CO2=442 Batt=2995mV Suppressed=0
+[170.38s] [Mote 1] [SINK-DATA] Time=170 Node=3 Seq=33 Type=NORMAL Temp=26.59C Humid=52.58% Light=724lux CO2=442ppm Batt=2995mV Hops=1 Energest[CPU=56554 LPM=5354278 TX=17442 RX=75055]
+[170.48s] [Mote 4] [TX] Node=4 Seq=33 Type=DATA Temp=49.47C Humid=52.14% Light=747 CO2=1338 Batt=2995mV Suppressed=0
+[170.51s] [Mote 1] [SINK-DATA] Time=170 Node=4 Seq=33 Type=NORMAL Temp=49.47C Humid=52.14% Light=747lux CO2=1338ppm Batt=2995mV Hops=2 Energest[CPU=57314 LPM=5354278 TX=17410 RX=73944]
+[170.60s] [Mote 5] [TX] Node=5 Seq=33 Type=DATA Temp=27.42C Humid=51.84% Light=777 CO2=478 Batt=2995mV Suppressed=0
+[170.63s] [Mote 1] [SINK-DATA] Time=170 Node=5 Seq=33 Type=NORMAL Temp=27.42C Humid=51.84% Light=777lux CO2=478ppm Batt=2995mV Hops=2 Energest[CPU=56241 LPM=5354278 TX=17393 RX=75331]
+[170.72s] [Mote 6] [TX] Node=6 Seq=33 Type=DATA Temp=27.67C Humid=51.14% Light=787 CO2=488 Batt=2995mV Suppressed=0
+[170.75s] [Mote 1] [SINK-DATA] Time=170 Node=6 Seq=33 Type=NORMAL Temp=27.67C Humid=51.14% Light=787lux CO2=488ppm Batt=2995mV Hops=2 Energest[CPU=57694 LPM=5354278 TX=17935 RX=76241]
+[170.84s] [Mote 7] [TX] Node=7 Seq=33 Type=DATA Temp=28.06C Humid=50.72% Light=811 CO2=505 Batt=2995mV Suppressed=0
+[170.96s] [Mote 8] [TX] Node=8 Seq=33 Type=DATA Temp=28.42C Humid=50.24% Light=832 CO2=521 Batt=2995mV Suppressed=0
+[171.00s] [Mote 1] [SINK-DATA] Time=171 Node=8 Seq=33 Type=NORMAL Temp=28.42C Humid=50.24% Light=832lux CO2=521ppm Batt=2995mV Hops=3 Energest[CPU=54283 LPM=5354278 TX=17329 RX=75531]
+[175.24s] [Mote 2] [TX] Node=2 Seq=34 Type=DATA Temp=26.36C Humid=53.07% Light=726 CO2=428 Batt=2995mV Suppressed=0
+[175.25s] [Mote 1] [SINK-DATA] Time=175 Node=2 Seq=34 Type=NORMAL Temp=26.36C Humid=53.07% Light=726lux CO2=428ppm Batt=2995mV Hops=1 Energest[CPU=58431 LPM=5511564 TX=18226 RX=76931]
+[175.36s] [Mote 3] [TX] Node=3 Seq=34 Type=DATA Temp=26.71C Humid=52.57% Light=746 CO2=443 Batt=2995mV Suppressed=0
+[175.38s] [Mote 1] [SINK-DATA] Time=175 Node=3 Seq=34 Type=NORMAL Temp=26.71C Humid=52.57% Light=746lux CO2=443ppm Batt=2995mV Hops=1 Energest[CPU=58055 LPM=5511564 TX=17947 RX=77345]
+[175.48s] [Mote 4] [TX] Node=4 Seq=34 Type=DATA Temp=49.56C Humid=52.07% Light=766 CO2=1338 Batt=2995mV Suppressed=0
+[175.51s] [Mote 1] [SINK-DATA] Time=175 Node=4 Seq=34 Type=NORMAL Temp=49.56C Humid=52.07% Light=766lux CO2=1338ppm Batt=2995mV Hops=2 Energest[CPU=58554 LPM=5511564 TX=17937 RX=75759]
+[175.60s] [Mote 5] [TX] Node=5 Seq=34 Type=DATA Temp=27.54C Humid=51.83% Light=799 CO2=479 Batt=2995mV Suppressed=0
+[175.63s] [Mote 1] [SINK-DATA] Time=175 Node=5 Seq=34 Type=NORMAL Temp=27.54C Humid=51.83% Light=799lux CO2=479ppm Batt=2995mV Hops=2 Energest[CPU=57261 LPM=5511564 TX=17965 RX=77379]
+[175.72s] [Mote 6] [TX] Node=6 Seq=34 Type=DATA Temp=27.80C Humid=51.15% Light=810 CO2=490 Batt=2995mV Suppressed=0
+[175.75s] [Mote 1] [SINK-DATA] Time=175 Node=6 Seq=34 Type=NORMAL Temp=27.80C Humid=51.15% Light=810lux CO2=490ppm Batt=2995mV Hops=2 Energest[CPU=59000 LPM=5511564 TX=18446 RX=78606]
+[175.84s] [Mote 7] [TX] Node=7 Seq=34 Type=DATA Temp=28.25C Humid=50.85% Light=840 CO2=510 Batt=2995mV Suppressed=0
+[175.88s] [Mote 1] [SINK-DATA] Time=175 Node=7 Seq=34 Type=NORMAL Temp=28.25C Humid=50.85% Light=840lux CO2=510ppm Batt=2995mV Hops=3 Energest[CPU=58679 LPM=5511564 TX=18121 RX=79098]
+[175.96s] [Mote 8] [TX] Node=8 Seq=34 Type=DATA Temp=28.55C Humid=50.25% Light=855 CO2=522 Batt=2995mV Suppressed=0
+[176.00s] [Mote 1] [SINK-DATA] Time=176 Node=8 Seq=34 Type=NORMAL Temp=28.55C Humid=50.25% Light=855lux CO2=522ppm Batt=2995mV Hops=3 Energest[CPU=55450 LPM=5511564 TX=17871 RX=77856]
+[180.24s] [Mote 2] [TX] Node=2 Seq=35 Type=DATA Temp=22.91C Humid=54.92% Light=31 CO2=430 Batt=2995mV Suppressed=0
+[180.25s] [Mote 1] [SINK-DATA] Time=180 Node=2 Seq=35 Type=NORMAL Temp=22.91C Humid=54.92% Light=31lux CO2=430ppm Batt=2995mV Hops=1 Energest[CPU=59811 LPM=5668850 TX=18757 RX=78939]
+[180.36s] [Mote 3] [TX] Node=3 Seq=35 Type=DATA Temp=23.19C Humid=54.28% Light=44 CO2=442 Batt=2995mV Suppressed=0
+[180.38s] [Mote 1] [SINK-DATA] Time=180 Node=3 Seq=35 Type=NORMAL Temp=23.19C Humid=54.28% Light=44lux CO2=442ppm Batt=2995mV Hops=1 Energest[CPU=59001 LPM=5668850 TX=18453 RX=79904]
+[180.48s] [Mote 4] [TX] Node=4 Seq=35 Type=DATA Temp=46.04C Humid=53.78% Light=64 CO2=1337 Batt=2995mV Suppressed=0
+[180.51s] [Mote 1] [SINK-DATA] Time=180 Node=4 Seq=35 Type=NORMAL Temp=46.04C Humid=53.78% Light=64lux CO2=1337ppm Batt=2995mV Hops=2 Energest[CPU=60020 LPM=5668850 TX=18493 RX=77861]
+[180.60s] [Mote 5] [TX] Node=5 Seq=35 Type=DATA Temp=23.92C Humid=53.34% Light=87 CO2=473 Batt=2995mV Suppressed=0
+[180.63s] [Mote 1] [SINK-DATA] Time=180 Node=5 Seq=35 Type=NORMAL Temp=23.92C Humid=53.34% Light=87lux CO2=473ppm Batt=2995mV Hops=2 Energest[CPU=58396 LPM=5668850 TX=18512 RX=79762]
+[180.72s] [Mote 6] [TX] Node=6 Seq=35 Type=DATA Temp=24.35C Humid=53.00% Light=115 CO2=492 Batt=2995mV Suppressed=0
+[180.75s] [Mote 1] [SINK-DATA] Time=180 Node=6 Seq=35 Type=NORMAL Temp=24.35C Humid=53.00% Light=115lux CO2=492ppm Batt=2995mV Hops=2 Energest[CPU=60570 LPM=5668850 TX=18982 RX=80669]
+[180.84s] [Mote 7] [TX] Node=7 Seq=35 Type=DATA Temp=24.60C Humid=52.30% Light=125 CO2=502 Batt=2995mV Suppressed=0
+[180.88s] [Mote 1] [SINK-DATA] Time=180 Node=7 Seq=35 Type=NORMAL Temp=24.60C Humid=52.30% Light=125lux CO2=502ppm Batt=2995mV Hops=3 Energest[CPU=60236 LPM=5668850 TX=18696 RX=81369]
+[180.96s] [Mote 8] [TX] Node=8 Seq=35 Type=DATA Temp=25.07C Humid=52.04% Light=157 CO2=523 Batt=2995mV Suppressed=0
+[181.00s] [Mote 1] [SINK-DATA] Time=181 Node=8 Seq=35 Type=NORMAL Temp=25.07C Humid=52.04% Light=157lux CO2=523ppm Batt=2995mV Hops=3 Energest[CPU=56710 LPM=5668850 TX=18364 RX=79799]
+[180.90s] [Mote 1] --- [NETWORK-SUMMARY @ 180 s] ---
+[180.91s] [Mote 1] Total Nodes Registered: 7
+[180.92s] [Mote 1] Total Packets Received: 230 | Total Expected: 245 | Global PDR: 93.88%
+[180.95s] [Mote 1]   Node  2: PktsRecv=35   Lost=0   PDR=100.0% LastSeen=0   s Temp=22.91C Batt=2995mV
+[180.96s] [Mote 1]   Node  3: PktsRecv=35   Lost=0   PDR=100.0% LastSeen=0   s Temp=23.19C Batt=2995mV
+[180.97s] [Mote 1]   Node  4: PktsRecv=33   Lost=2   PDR=94.3% LastSeen=0   s Temp=46.04C Batt=2995mV
+[180.98s] [Mote 1]   Node  5: PktsRecv=35   Lost=0   PDR=100.0% LastSeen=0   s Temp=23.92C Batt=2995mV
+[180.99s] [Mote 1]   Node  6: PktsRecv=34   Lost=1   PDR=97.1% LastSeen=0   s Temp=24.35C Batt=2995mV
+[181.00s] [Mote 1]   Node  7: PktsRecv=31   Lost=4   PDR=88.6% LastSeen=0   s Temp=24.60C Batt=2995mV
+[181.01s] [Mote 1]   Node  8: PktsRecv=27   Lost=8   PDR=77.1% LastSeen=0   s Temp=25.07C Batt=2995mV
+[180.99s] [Mote 1] ------------------------------------
+[185.24s] [Mote 2] [TX] Node=2 Seq=36 Type=DATA Temp=22.91C Humid=54.67% Light=41 CO2=425 Batt=2994mV Suppressed=0
+[185.25s] [Mote 1] [SINK-DATA] Time=185 Node=2 Seq=36 Type=NORMAL Temp=22.91C Humid=54.67% Light=41lux CO2=425ppm Batt=2994mV Hops=1 Energest[CPU=61266 LPM=5826136 TX=19222 RX=81275]
+[185.16s] [Mote 2] [ENERGY-MOTE-2] Total_mJ=209.94 (CPU=10.10, LPM=29.34, TX=30.62, RX=139.89)
+[185.17s] [Mote 2] [MOTE-2-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.36s] [Mote 3] [TX] Node=3 Seq=36 Type=DATA Temp=23.25C Humid=54.15% Light=60 CO2=440 Batt=2994mV Suppressed=0
+[185.38s] [Mote 1] [SINK-DATA] Time=185 Node=3 Seq=36 Type=NORMAL Temp=23.25C Humid=54.15% Light=60lux CO2=440ppm Batt=2994mV Hops=1 Energest[CPU=59977 LPM=5826136 TX=18915 RX=82486]
+[185.24s] [Mote 3] [ENERGY-MOTE-3] Total_mJ=211.33 (CPU=9.88, LPM=29.34, TX=30.13, RX=141.97)
+[185.25s] [Mote 3] [MOTE-3-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.48s] [Mote 4] [TX] Node=4 Seq=36 Type=DATA Temp=46.14C Humid=53.73% Light=84 CO2=1337 Batt=2994mV Suppressed=0
+[185.32s] [Mote 4] [ENERGY-MOTE-4] Total_mJ=206.98 (CPU=10.15, LPM=29.34, TX=30.27, RX=137.23)
+[185.33s] [Mote 4] [MOTE-4-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.60s] [Mote 5] [TX] Node=5 Seq=36 Type=DATA Temp=23.96C Humid=53.17% Light=101 CO2=470 Batt=2994mV Suppressed=0
+[185.63s] [Mote 1] [SINK-DATA] Time=185 Node=5 Seq=36 Type=NORMAL Temp=23.96C Humid=53.17% Light=101lux CO2=470ppm Batt=2994mV Hops=2 Energest[CPU=59813 LPM=5826136 TX=19078 RX=81944]
+[185.40s] [Mote 5] [ENERGY-MOTE-5] Total_mJ=210.63 (CPU=9.86, LPM=29.34, TX=30.39, RX=141.04)
+[185.41s] [Mote 5] [MOTE-5-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.72s] [Mote 6] [TX] Node=6 Seq=36 Type=DATA Temp=24.45C Humid=52.95% Light=135 CO2=492 Batt=2994mV Suppressed=0
+[185.48s] [Mote 6] [ENERGY-MOTE-6] Total_mJ=213.84 (CPU=10.24, LPM=29.34, TX=31.15, RX=143.11)
+[185.49s] [Mote 6] [MOTE-6-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.84s] [Mote 7] [TX] Node=7 Seq=36 Type=DATA Temp=24.65C Humid=52.15% Light=140 CO2=500 Batt=2994mV Suppressed=0
+[185.88s] [Mote 1] [SINK-DATA] Time=185 Node=7 Seq=36 Type=NORMAL Temp=24.65C Humid=52.15% Light=140lux CO2=500ppm Batt=2994mV Hops=3 Energest[CPU=61680 LPM=5826136 TX=19251 RX=83181]
+[185.56s] [Mote 7] [ENERGY-MOTE-7] Total_mJ=213.34 (CPU=10.16, LPM=29.34, TX=30.67, RX=143.17)
+[185.57s] [Mote 7] [MOTE-7-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[185.96s] [Mote 8] [TX] Node=8 Seq=36 Type=DATA Temp=25.16C Humid=51.97% Light=176 CO2=523 Batt=2994mV Suppressed=0
+[186.00s] [Mote 1] [SINK-DATA] Time=186 Node=8 Seq=36 Type=NORMAL Temp=25.16C Humid=51.97% Light=176lux CO2=523ppm Batt=2994mV Hops=3 Energest[CPU=57891 LPM=5826136 TX=18887 RX=81616]
+[185.64s] [Mote 8] [ENERGY-MOTE-8] Total_mJ=209.44 (CPU=9.54, LPM=29.34, TX=30.09, RX=140.48)
+[185.65s] [Mote 8] [MOTE-8-EFFICIENCY] Samples=36 Transmitted=36 Suppressed=0 RadioSaving=0.0%
+[190.24s] [Mote 2] [TX] Node=2 Seq=37 Type=DATA Temp=23.03C Humid=54.66% Light=63 CO2=426 Batt=2994mV Suppressed=0
+[190.25s] [Mote 1] [SINK-DATA] Time=190 Node=2 Seq=37 Type=NORMAL Temp=23.03C Humid=54.66% Light=63lux CO2=426ppm Batt=2994mV Hops=1 Energest[CPU=62856 LPM=5983422 TX=19782 RX=83258]
+[190.36s] [Mote 3] [TX] Node=3 Seq=37 Type=DATA Temp=23.41C Humid=54.22% Light=86 CO2=443 Batt=2994mV Suppressed=0
+[190.38s] [Mote 1] [SINK-DATA] Time=190 Node=3 Seq=37 Type=NORMAL Temp=23.41C Humid=54.22% Light=86lux CO2=443ppm Batt=2994mV Hops=1 Energest[CPU=61413 LPM=5983422 TX=19403 RX=84532]
+[190.48s] [Mote 4] [TX] Node=4 Seq=37 Type=DATA Temp=46.32C Humid=53.84% Light=112 CO2=1341 Batt=2994mV Suppressed=0
+[190.51s] [Mote 1] [SINK-DATA] Time=190 Node=4 Seq=37 Type=NORMAL Temp=46.32C Humid=53.84% Light=112lux CO2=1341ppm Batt=2994mV Hops=2 Energest[CPU=62723 LPM=5983422 TX=19542 RX=81803]
+[190.60s] [Mote 5] [TX] Node=5 Seq=37 Type=DATA Temp=24.12C Humid=53.24% Light=127 CO2=473 Batt=2994mV Suppressed=0
+[190.63s] [Mote 1] [SINK-DATA] Time=190 Node=5 Seq=37 Type=NORMAL Temp=24.12C Humid=53.24% Light=127lux CO2=473ppm Batt=2994mV Hops=2 Energest[CPU=61128 LPM=5983422 TX=19645 RX=84322]
+[190.72s] [Mote 6] [TX] Node=6 Seq=37 Type=DATA Temp=24.42C Humid=52.64% Light=142 CO2=486 Batt=2994mV Suppressed=0
+[190.75s] [Mote 1] [SINK-DATA] Time=190 Node=6 Seq=37 Type=NORMAL Temp=24.42C Humid=52.64% Light=142lux CO2=486ppm Batt=2994mV Hops=2 Energest[CPU=63283 LPM=5983422 TX=20081 RX=85644]
+[190.84s] [Mote 7] [TX] Node=7 Seq=37 Type=DATA Temp=24.87C Humid=52.34% Light=172 CO2=506 Batt=2994mV Suppressed=0
+[190.88s] [Mote 1] [SINK-DATA] Time=190 Node=7 Seq=37 Type=NORMAL Temp=24.87C Humid=52.34% Light=172lux CO2=506ppm Batt=2994mV Hops=3 Energest[CPU=63245 LPM=5983422 TX=19709 RX=85076]
+[190.96s] [Mote 8] [TX] Node=8 Seq=37 Type=DATA Temp=25.30C Humid=52.00% Light=200 CO2=525 Batt=2994mV Suppressed=0
+[195.24s] [Mote 2] [TX] Node=2 Seq=38 Type=DATA Temp=23.23C Humid=54.81% Light=93 CO2=431 Batt=2994mV Suppressed=0
+[195.25s] [Mote 1] [SINK-DATA] Time=195 Node=2 Seq=38 Type=NORMAL Temp=23.23C Humid=54.81% Light=93lux CO2=431ppm Batt=2994mV Hops=1 Energest[CPU=63931 LPM=6140708 TX=20253 RX=85569]
+[195.36s] [Mote 3] [TX] Node=3 Seq=38 Type=DATA Temp=23.46C Humid=54.07% Light=101 CO2=440 Batt=2994mV Suppressed=0
+[195.38s] [Mote 1] [SINK-DATA] Time=195 Node=3 Seq=38 Type=NORMAL Temp=23.46C Humid=54.07% Light=101lux CO2=440ppm Batt=2994mV Hops=1 Energest[CPU=62652 LPM=6140708 TX=19877 RX=86872]
+[195.48s] [Mote 4] [TX] Node=4 Seq=38 Type=DATA Temp=46.31C Humid=53.57% Light=121 CO2=1335 Batt=2994mV Suppressed=0
+[195.51s] [Mote 1] [SINK-DATA] Time=195 Node=4 Seq=38 Type=NORMAL Temp=46.31C Humid=53.57% Light=121lux CO2=1335ppm Batt=2994mV Hops=2 Energest[CPU=64203 LPM=6140708 TX=20113 RX=83880]
+[195.60s] [Mote 5] [TX] Node=5 Seq=38 Type=DATA Temp=24.33C Humid=53.41% Light=158 CO2=479 Batt=2994mV Suppressed=0
+[195.63s] [Mote 1] [SINK-DATA] Time=195 Node=5 Seq=38 Type=NORMAL Temp=24.33C Humid=53.41% Light=158lux CO2=479ppm Batt=2994mV Hops=2 Energest[CPU=62728 LPM=6140708 TX=20166 RX=86678]
+[195.72s] [Mote 6] [TX] Node=6 Seq=38 Type=DATA Temp=24.56C Humid=52.67% Light=166 CO2=488 Batt=2994mV Suppressed=0
+[195.75s] [Mote 1] [SINK-DATA] Time=195 Node=6 Seq=38 Type=NORMAL Temp=24.56C Humid=52.67% Light=166lux CO2=488ppm Batt=2994mV Hops=2 Energest[CPU=64366 LPM=6140708 TX=20611 RX=87460]
+[195.84s] [Mote 7] [TX] Node=7 Seq=38 Type=DATA Temp=24.90C Humid=52.15% Light=185 CO2=502 Batt=2994mV Suppressed=0
+[195.88s] [Mote 1] [SINK-DATA] Time=195 Node=7 Seq=38 Type=NORMAL Temp=24.90C Humid=52.15% Light=185lux CO2=502ppm Batt=2994mV Hops=3 Energest[CPU=64552 LPM=6140708 TX=20178 RX=87182]
+[195.96s] [Mote 8] [TX] Node=8 Seq=38 Type=DATA Temp=25.37C Humid=51.89% Light=217 CO2=523 Batt=2994mV Suppressed=0
+[196.00s] [Mote 1] [SINK-DATA] Time=196 Node=8 Seq=38 Type=NORMAL Temp=25.37C Humid=51.89% Light=217lux CO2=523ppm Batt=2994mV Hops=3 Energest[CPU=60836 LPM=6140708 TX=20007 RX=85966]
+[200.24s] [Mote 2] [TX] Node=2 Seq=39 Type=DATA Temp=23.31C Humid=54.72% Light=111 CO2=430 Batt=2994mV Suppressed=0
+[200.25s] [Mote 1] [SINK-DATA] Time=200 Node=2 Seq=39 Type=NORMAL Temp=23.31C Humid=54.72% Light=111lux CO2=430ppm Batt=2994mV Hops=1 Energest[CPU=64974 LPM=6297994 TX=20723 RX=87881]
+[200.36s] [Mote 3] [TX] Node=3 Seq=39 Type=DATA Temp=23.65C Humid=54.20% Light=130 CO2=445 Batt=2994mV Suppressed=0
+[200.38s] [Mote 1] [SINK-DATA] Time=200 Node=3 Seq=39 Type=NORMAL Temp=23.65C Humid=54.20% Light=130lux CO2=445ppm Batt=2994mV Hops=1 Energest[CPU=63999 LPM=6297994 TX=20386 RX=88749]
+[200.48s] [Mote 4] [TX] Node=4 Seq=39 Type=DATA Temp=46.50C Humid=53.70% Light=150 CO2=1340 Batt=2994mV Suppressed=0
+[200.60s] [Mote 5] [TX] Node=5 Seq=39 Type=DATA Temp=24.32C Humid=53.14% Light=167 CO2=473 Batt=2994mV Suppressed=0
+[200.63s] [Mote 1] [SINK-DATA] Time=200 Node=5 Seq=39 Type=NORMAL Temp=24.32C Humid=53.14% Light=167lux CO2=473ppm Batt=2994mV Hops=2 Energest[CPU=63907 LPM=6297994 TX=20731 RX=88980]
+[200.72s] [Mote 6] [TX] Node=6 Seq=39 Type=DATA Temp=24.78C Humid=52.86% Light=198 CO2=494 Batt=2994mV Suppressed=0
+[200.75s] [Mote 1] [SINK-DATA] Time=200 Node=6 Seq=39 Type=NORMAL Temp=24.78C Humid=52.86% Light=198lux CO2=494ppm Batt=2994mV Hops=2 Energest[CPU=65650 LPM=6297994 TX=21171 RX=89450]
+[200.84s] [Mote 7] [TX] Node=7 Seq=39 Type=DATA Temp=24.97C Humid=52.04% Light=202 CO2=501 Batt=2994mV Suppressed=0
+[200.96s] [Mote 8] [TX] Node=8 Seq=39 Type=DATA Temp=25.50C Humid=51.90% Light=240 CO2=525 Batt=2994mV Suppressed=0
+[201.00s] [Mote 1] [SINK-DATA] Time=201 Node=8 Seq=39 Type=NORMAL Temp=25.50C Humid=51.90% Light=240lux CO2=525ppm Batt=2994mV Hops=3 Energest[CPU=61893 LPM=6297994 TX=20554 RX=88494]
+[205.24s] [Mote 2] [TX] Node=2 Seq=40 Type=DATA Temp=23.33C Humid=54.51% Light=123 CO2=426 Batt=2994mV Suppressed=0
+[205.25s] [Mote 1] [SINK-DATA] Time=205 Node=2 Seq=40 Type=NORMAL Temp=23.33C Humid=54.51% Light=123lux CO2=426ppm Batt=2994mV Hops=1 Energest[CPU=66272 LPM=6455280 TX=21254 RX=90050]
+[205.36s] [Mote 3] [TX] Node=3 Seq=40 Type=DATA Temp=23.73C Humid=54.11% Light=148 CO2=444 Batt=2994mV Suppressed=0
+[205.38s] [Mote 1] [SINK-DATA] Time=205 Node=3 Seq=40 Type=NORMAL Temp=23.73C Humid=54.11% Light=148lux CO2=444ppm Batt=2994mV Hops=1 Energest[CPU=65214 LPM=6455280 TX=20949 RX=90917]
+[205.48s] [Mote 4] [TX] Node=4 Seq=40 Type=DATA Temp=46.64C Humid=53.73% Light=174 CO2=1342 Batt=2994mV Suppressed=0
+[205.51s] [Mote 1] [SINK-DATA] Time=205 Node=4 Seq=40 Type=NORMAL Temp=46.64C Humid=53.73% Light=174lux CO2=1342ppm Batt=2994mV Hops=2 Energest[CPU=66720 LPM=6455280 TX=21161 RX=88713]
+[205.60s] [Mote 5] [TX] Node=5 Seq=40 Type=DATA Temp=24.35C Humid=52.95% Light=180 CO2=470 Batt=2994mV Suppressed=0
+[205.63s] [Mote 1] [SINK-DATA] Time=205 Node=5 Seq=40 Type=NORMAL Temp=24.35C Humid=52.95% Light=180lux CO2=470ppm Batt=2994mV Hops=2 Energest[CPU=65331 LPM=6455280 TX=21285 RX=90885]
+[205.72s] [Mote 6] [TX] Node=6 Seq=40 Type=DATA Temp=24.89C Humid=52.83% Light=219 CO2=494 Batt=2994mV Suppressed=0
+[205.75s] [Mote 1] [SINK-DATA] Time=205 Node=6 Seq=40 Type=NORMAL Temp=24.89C Humid=52.83% Light=219lux CO2=494ppm Batt=2994mV Hops=2 Energest[CPU=67117 LPM=6455280 TX=21644 RX=91861]
+[205.84s] [Mote 7] [TX] Node=7 Seq=40 Type=DATA Temp=25.18C Humid=52.21% Light=233 CO2=506 Batt=2994mV Suppressed=0
+[205.88s] [Mote 1] [SINK-DATA] Time=205 Node=7 Seq=40 Type=NORMAL Temp=25.18C Humid=52.21% Light=233lux CO2=506ppm Batt=2994mV Hops=3 Energest[CPU=66833 LPM=6455280 TX=21156 RX=91332]
+[205.96s] [Mote 8] [TX] Node=8 Seq=40 Type=DATA Temp=25.56C Humid=51.77% Light=256 CO2=523 Batt=2994mV Suppressed=0
+[206.00s] [Mote 1] [SINK-DATA] Time=206 Node=8 Seq=40 Type=NORMAL Temp=25.56C Humid=51.77% Light=256lux CO2=523ppm Batt=2994mV Hops=3 Energest[CPU=62879 LPM=6455280 TX=21066 RX=90879]
+[210.24s] [Mote 2] [TX] Node=2 Seq=41 Type=DATA Temp=23.48C Humid=54.56% Light=148 CO2=429 Batt=2994mV Suppressed=0
+[210.25s] [Mote 1] [SINK-DATA] Time=210 Node=2 Seq=41 Type=NORMAL Temp=23.48C Humid=54.56% Light=148lux CO2=429ppm Batt=2994mV Hops=1 Energest[CPU=67561 LPM=6612566 TX=21747 RX=91992]
+[210.36s] [Mote 3] [TX] Node=3 Seq=41 Type=DATA Temp=23.80C Humid=54.00% Light=165 CO2=442 Batt=2994mV Suppressed=0
+[210.38s] [Mote 1] [SINK-DATA] Time=210 Node=3 Seq=41 Type=NORMAL Temp=23.80C Humid=54.00% Light=165lux CO2=442ppm Batt=2994mV Hops=1 Energest[CPU=66618 LPM=6612566 TX=21436 RX=92781]
+[210.48s] [Mote 4] [TX] Node=4 Seq=41 Type=DATA Temp=46.62C Humid=53.44% Light=182 CO2=1336 Batt=2994mV Suppressed=0
+[210.51s] [Mote 1] [SINK-DATA] Time=210 Node=4 Seq=41 Type=NORMAL Temp=46.62C Humid=53.44% Light=182lux CO2=1336ppm Batt=2994mV Hops=2 Energest[CPU=68051 LPM=6612566 TX=21687 RX=91008]
+[210.60s] [Mote 5] [TX] Node=5 Seq=41 Type=DATA Temp=24.64C Humid=53.28% Light=219 CO2=479 Batt=2994mV Suppressed=0
+[210.63s] [Mote 1] [SINK-DATA] Time=210 Node=5 Seq=41 Type=NORMAL Temp=24.64C Humid=53.28% Light=219lux CO2=479ppm Batt=2994mV Hops=2 Energest[CPU=66483 LPM=6612566 TX=21861 RX=93293]
+[210.72s] [Mote 6] [TX] Node=6 Seq=41 Type=DATA Temp=24.80C Humid=52.40% Light=220 CO2=485 Batt=2994mV Suppressed=0
+[210.75s] [Mote 1] [SINK-DATA] Time=210 Node=6 Seq=41 Type=NORMAL Temp=24.80C Humid=52.40% Light=220lux CO2=485ppm Batt=2994mV Hops=2 Energest[CPU=68126 LPM=6612566 TX=22128 RX=93972]
+[210.84s] [Mote 7] [TX] Node=7 Seq=41 Type=DATA Temp=25.29C Humid=52.18% Light=254 CO2=507 Batt=2994mV Suppressed=0
+[210.88s] [Mote 1] [SINK-DATA] Time=210 Node=7 Seq=41 Type=NORMAL Temp=25.29C Humid=52.18% Light=254lux CO2=507ppm Batt=2994mV Hops=3 Energest[CPU=68073 LPM=6612566 TX=21703 RX=93469]
+[210.96s] [Mote 8] [TX] Node=8 Seq=41 Type=DATA Temp=25.60C Humid=51.60% Light=270 CO2=520 Batt=2994mV Suppressed=0
+[211.00s] [Mote 1] [SINK-DATA] Time=211 Node=8 Seq=41 Type=NORMAL Temp=25.60C Humid=51.60% Light=270lux CO2=520ppm Batt=2994mV Hops=3 Energest[CPU=64445 LPM=6612566 TX=21550 RX=92986]
+[215.24s] [Mote 2] [TX] Node=2 Seq=42 Type=DATA Temp=23.55C Humid=54.45% Light=165 CO2=427 Batt=2993mV Suppressed=0
+[215.25s] [Mote 1] [SINK-DATA] Time=215 Node=2 Seq=42 Type=NORMAL Temp=23.55C Humid=54.45% Light=165lux CO2=427ppm Batt=2993mV Hops=1 Energest[CPU=68666 LPM=6769852 TX=22319 RX=94113]
+[215.36s] [Mote 3] [TX] Node=3 Seq=42 Type=DATA Temp=24.05C Humid=54.25% Light=200 CO2=450 Batt=2993mV Suppressed=0
+[215.38s] [Mote 1] [SINK-DATA] Time=215 Node=3 Seq=42 Type=NORMAL Temp=24.05C Humid=54.25% Light=200lux CO2=450ppm Batt=2993mV Hops=1 Energest[CPU=67844 LPM=6769852 TX=21960 RX=95333]
+[215.48s] [Mote 4] [TX] Node=4 Seq=42 Type=DATA Temp=46.82C Humid=53.59% Light=212 CO2=1341 Batt=2993mV Suppressed=0
+[215.51s] [Mote 1] [SINK-DATA] Time=215 Node=4 Seq=42 Type=NORMAL Temp=46.82C Humid=53.59% Light=212lux CO2=1341ppm Batt=2993mV Hops=2 Energest[CPU=69540 LPM=6769852 TX=22199 RX=93141]
+[215.60s] [Mote 5] [TX] Node=5 Seq=42 Type=DATA Temp=24.73C Humid=53.21% Light=238 CO2=479 Batt=2993mV Suppressed=0
+[215.63s] [Mote 1] [SINK-DATA] Time=215 Node=5 Seq=42 Type=NORMAL Temp=24.73C Humid=53.21% Light=238lux CO2=479ppm Batt=2993mV Hops=2 Energest[CPU=67785 LPM=6769852 TX=22404 RX=95209]
+[215.72s] [Mote 6] [TX] Node=6 Seq=42 Type=DATA Temp=25.07C Humid=52.69% Light=257 CO2=493 Batt=2993mV Suppressed=0
+[215.84s] [Mote 7] [TX] Node=7 Seq=42 Type=DATA Temp=25.34C Humid=52.03% Light=269 CO2=504 Batt=2993mV Suppressed=0
+[215.88s] [Mote 1] [SINK-DATA] Time=215 Node=7 Seq=42 Type=NORMAL Temp=25.34C Humid=52.03% Light=269lux CO2=504ppm Batt=2993mV Hops=3 Energest[CPU=69445 LPM=6769852 TX=22206 RX=95717]
+[215.96s] [Mote 8] [TX] Node=8 Seq=42 Type=DATA Temp=25.75C Humid=51.65% Light=295 CO2=522 Batt=2993mV Suppressed=0
+[216.00s] [Mote 1] [SINK-DATA] Time=216 Node=8 Seq=42 Type=NORMAL Temp=25.75C Humid=51.65% Light=295lux CO2=522ppm Batt=2993mV Hops=3 Energest[CPU=65415 LPM=6769852 TX=22104 RX=95475]
+[220.24s] [Mote 2] [TX] Node=2 Seq=43 Type=DATA Temp=23.64C Humid=54.38% Light=184 CO2=427 Batt=2993mV Suppressed=0
+[220.25s] [Mote 1] [SINK-DATA] Time=220 Node=2 Seq=43 Type=NORMAL Temp=23.64C Humid=54.38% Light=184lux CO2=427ppm Batt=2993mV Hops=1 Energest[CPU=69876 LPM=6927138 TX=22830 RX=96171]
+[220.36s] [Mote 3] [TX] Node=3 Seq=43 Type=DATA Temp=24.14C Humid=54.18% Light=219 CO2=449 Batt=2993mV Suppressed=0
+[220.38s] [Mote 1] [SINK-DATA] Time=220 Node=3 Seq=43 Type=NORMAL Temp=24.14C Humid=54.18% Light=219lux CO2=449ppm Batt=2993mV Hops=1 Energest[CPU=69130 LPM=6927138 TX=22428 RX=97592]
+[220.48s] [Mote 4] [TX] Node=4 Seq=43 Type=DATA Temp=46.93C Humid=53.56% Light=233 CO2=1341 Batt=2993mV Suppressed=0
+[220.51s] [Mote 1] [SINK-DATA] Time=220 Node=4 Seq=43 Type=NORMAL Temp=46.93C Humid=53.56% Light=233lux CO2=1341ppm Batt=2993mV Hops=2 Energest[CPU=70850 LPM=6927138 TX=22778 RX=95649]
+[220.60s] [Mote 5] [TX] Node=5 Seq=43 Type=DATA Temp=24.72C Humid=52.94% Light=247 CO2=473 Batt=2993mV Suppressed=0
+[220.63s] [Mote 1] [SINK-DATA] Time=220 Node=5 Seq=43 Type=NORMAL Temp=24.72C Humid=52.94% Light=247lux CO2=473ppm Batt=2993mV Hops=2 Energest[CPU=69053 LPM=6927138 TX=22875 RX=97120]
+[220.72s] [Mote 6] [TX] Node=6 Seq=43 Type=DATA Temp=25.19C Humid=52.68% Light=279 CO2=494 Batt=2993mV Suppressed=0
+[220.84s] [Mote 7] [TX] Node=7 Seq=43 Type=DATA Temp=25.45C Humid=52.00% Light=290 CO2=505 Batt=2993mV Suppressed=0
+[220.88s] [Mote 1] [SINK-DATA] Time=220 Node=7 Seq=43 Type=NORMAL Temp=25.45C Humid=52.00% Light=290lux CO2=505ppm Batt=2993mV Hops=3 Energest[CPU=71005 LPM=6927138 TX=22758 RX=98287]
+[220.96s] [Mote 8] [TX] Node=8 Seq=43 Type=DATA Temp=25.73C Humid=51.36% Light=303 CO2=516 Batt=2993mV Suppressed=0
+[221.00s] [Mote 1] [SINK-DATA] Time=221 Node=8 Seq=43 Type=NORMAL Temp=25.73C Humid=51.36% Light=303lux CO2=516ppm Batt=2993mV Hops=3 Energest[CPU=66755 LPM=6927138 TX=22581 RX=97285]
+[225.24s] [Mote 2] [TX] Node=2 Seq=44 Type=DATA Temp=23.81C Humid=54.47% Light=211 CO2=430 Batt=2993mV Suppressed=0
+[225.25s] [Mote 1] [SINK-DATA] Time=225 Node=2 Seq=44 Type=NORMAL Temp=23.81C Humid=54.47% Light=211lux CO2=430ppm Batt=2993mV Hops=1 Energest[CPU=71298 LPM=7084424 TX=23336 RX=98427]
+[225.36s] [Mote 3] [TX] Node=3 Seq=44 Type=DATA Temp=24.16C Humid=53.97% Light=231 CO2=445 Batt=2993mV Suppressed=0
+[225.38s] [Mote 1] [SINK-DATA] Time=225 Node=3 Seq=44 Type=NORMAL Temp=24.16C Humid=53.97% Light=231lux CO2=445ppm Batt=2993mV Hops=1 Energest[CPU=70725 LPM=7084424 TX=23006 RX=99546]
+[225.48s] [Mote 4] [TX] Node=4 Seq=44 Type=DATA Temp=47.03C Humid=53.51% Light=253 CO2=1341 Batt=2993mV Suppressed=0
+[225.51s] [Mote 1] [SINK-DATA] Time=225 Node=4 Seq=44 Type=NORMAL Temp=47.03C Humid=53.51% Light=253lux CO2=1341ppm Batt=2993mV Hops=2 Energest[CPU=72244 LPM=7084424 TX=23254 RX=97751]
+[225.60s] [Mote 5] [TX] Node=5 Seq=44 Type=DATA Temp=24.79C Humid=52.83% Light=264 CO2=472 Batt=2993mV Suppressed=0
+[225.63s] [Mote 1] [SINK-DATA] Time=225 Node=5 Seq=44 Type=NORMAL Temp=24.79C Humid=52.83% Light=264lux CO2=472ppm Batt=2993mV Hops=2 Energest[CPU=70040 LPM=7084424 TX=23354 RX=99667]
+[225.72s] [Mote 6] [TX] Node=6 Seq=44 Type=DATA Temp=25.26C Humid=52.57% Light=296 CO2=493 Batt=2993mV Suppressed=0
+[225.75s] [Mote 1] [SINK-DATA] Time=225 Node=6 Seq=44 Type=NORMAL Temp=25.26C Humid=52.57% Light=296lux CO2=493ppm Batt=2993mV Hops=2 Energest[CPU=72098 LPM=7084424 TX=23682 RX=100943]
+[225.84s] [Mote 7] [TX] Node=7 Seq=44 Type=DATA Temp=25.59C Humid=52.03% Light=314 CO2=507 Batt=2993mV Suppressed=0
+[225.88s] [Mote 1] [SINK-DATA] Time=225 Node=7 Seq=44 Type=NORMAL Temp=25.59C Humid=52.03% Light=314lux CO2=507ppm Batt=2993mV Hops=3 Energest[CPU=72392 LPM=7084424 TX=23232 RX=100535]
+[225.96s] [Mote 8] [TX] Node=8 Seq=44 Type=DATA Temp=25.83C Humid=51.31% Light=323 CO2=516 Batt=2993mV Suppressed=0
+[230.24s] [Mote 2] [TX] Node=2 Seq=45 Type=DATA Temp=23.85C Humid=54.30% Light=225 CO2=427 Batt=2993mV Suppressed=0
+[230.25s] [Mote 1] [SINK-DATA] Time=230 Node=2 Seq=45 Type=NORMAL Temp=23.85C Humid=54.30% Light=225lux CO2=427ppm Batt=2993mV Hops=1 Energest[CPU=72549 LPM=7241710 TX=23813 RX=100920]
+[230.36s] [Mote 3] [TX] Node=3 Seq=45 Type=DATA Temp=24.20C Humid=53.80% Light=245 CO2=442 Batt=2993mV Suppressed=0
+[230.38s] [Mote 1] [SINK-DATA] Time=230 Node=3 Seq=45 Type=NORMAL Temp=24.20C Humid=53.80% Light=245lux CO2=442ppm Batt=2993mV Hops=1 Energest[CPU=71874 LPM=7241710 TX=23500 RX=101911]
+[230.48s] [Mote 4] [TX] Node=4 Seq=45 Type=DATA Temp=47.12C Humid=53.44% Light=272 CO2=1341 Batt=2993mV Suppressed=0
+[230.51s] [Mote 1] [SINK-DATA] Time=230 Node=4 Seq=45 Type=NORMAL Temp=47.12C Humid=53.44% Light=272lux CO2=1341ppm Batt=2993mV Hops=2 Energest[CPU=73580 LPM=7241710 TX=23822 RX=99788]
+[230.60s] [Mote 5] [TX] Node=5 Seq=45 Type=DATA Temp=24.85C Humid=52.70% Light=280 CO2=470 Batt=2993mV Suppressed=0
+[230.63s] [Mote 1] [SINK-DATA] Time=230 Node=5 Seq=45 Type=NORMAL Temp=24.85C Humid=52.70% Light=280lux CO2=470ppm Batt=2993mV Hops=2 Energest[CPU=71130 LPM=7241710 TX=23914 RX=101872]
+[230.72s] [Mote 6] [TX] Node=6 Seq=45 Type=DATA Temp=25.33C Humid=52.46% Light=313 CO2=491 Batt=2993mV Suppressed=0
+[230.75s] [Mote 1] [SINK-DATA] Time=230 Node=6 Seq=45 Type=NORMAL Temp=25.33C Humid=52.46% Light=313lux CO2=491ppm Batt=2993mV Hops=2 Energest[CPU=73200 LPM=7241710 TX=24247 RX=103349]
+[230.84s] [Mote 7] [TX] Node=7 Seq=45 Type=DATA Temp=25.57C Humid=51.74% Light=322 CO2=501 Batt=2993mV Suppressed=0
+[230.88s] [Mote 1] [SINK-DATA] Time=230 Node=7 Seq=45 Type=NORMAL Temp=25.57C Humid=51.74% Light=322lux CO2=501ppm Batt=2993mV Hops=3 Energest[CPU=73511 LPM=7241710 TX=23734 RX=102620]
+[230.96s] [Mote 8] [TX] Node=8 Seq=45 Type=DATA Temp=26.00C Humid=51.40% Light=350 CO2=520 Batt=2993mV Suppressed=0
+[231.00s] [Mote 1] [SINK-DATA] Time=231 Node=8 Seq=45 Type=NORMAL Temp=26.00C Humid=51.40% Light=350lux CO2=520ppm Batt=2993mV Hops=3 Energest[CPU=69411 LPM=7241710 TX=23539 RX=101986]
+[235.24s] [Mote 2] [TX] Node=2 Seq=46 Type=DATA Temp=24.05C Humid=54.45% Light=255 CO2=432 Batt=2993mV Suppressed=0
+[235.25s] [Mote 1] [SINK-DATA] Time=235 Node=2 Seq=46 Type=NORMAL Temp=24.05C Humid=54.45% Light=255lux CO2=432ppm Batt=2993mV Hops=1 Energest[CPU=73565 LPM=7398996 TX=24330 RX=103406]
+[235.36s] [Mote 3] [TX] Node=3 Seq=46 Type=DATA Temp=24.37C Humid=53.89% Light=272 CO2=446 Batt=2993mV Suppressed=0
+[235.38s] [Mote 1] [SINK-DATA] Time=235 Node=3 Seq=46 Type=NORMAL Temp=24.37C Humid=53.89% Light=272lux CO2=446ppm Batt=2993mV Hops=1 Energest[CPU=73428 LPM=7398996 TX=24030 RX=104322]
+[235.48s] [Mote 4] [TX] Node=4 Seq=46 Type=DATA Temp=47.21C Humid=53.37% Light=291 CO2=1340 Batt=2993mV Suppressed=0
+[235.51s] [Mote 1] [SINK-DATA] Time=235 Node=4 Seq=46 Type=NORMAL Temp=47.21C Humid=53.37% Light=291lux CO2=1340ppm Batt=2993mV Hops=2 Energest[CPU=75081 LPM=7398996 TX=24301 RX=101944]
+[235.60s] [Mote 5] [TX] Node=5 Seq=46 Type=DATA Temp=25.04C Humid=52.83% Light=309 CO2=474 Batt=2993mV Suppressed=0
+[235.63s] [Mote 1] [SINK-DATA] Time=235 Node=5 Seq=46 Type=NORMAL Temp=25.04C Humid=52.83% Light=309lux CO2=474ppm Batt=2993mV Hops=2 Energest[CPU=72662 LPM=7398996 TX=24408 RX=104361]
+[235.72s] [Mote 6] [TX] Node=6 Seq=46 Type=DATA Temp=25.34C Humid=52.23% Light=324 CO2=487 Batt=2993mV Suppressed=0
+[235.75s] [Mote 1] [SINK-DATA] Time=235 Node=6 Seq=46 Type=NORMAL Temp=25.34C Humid=52.23% Light=324lux CO2=487ppm Batt=2993mV Hops=2 Energest[CPU=74704 LPM=7398996 TX=24718 RX=105837]
+[235.84s] [Mote 7] [TX] Node=7 Seq=46 Type=DATA Temp=25.70C Humid=51.75% Light=345 CO2=502 Batt=2993mV Suppressed=0
+[235.88s] [Mote 1] [SINK-DATA] Time=235 Node=7 Seq=46 Type=NORMAL Temp=25.70C Humid=51.75% Light=345lux CO2=502ppm Batt=2993mV Hops=3 Energest[CPU=74655 LPM=7398996 TX=24262 RX=104539]
+[235.96s] [Mote 8] [TX] Node=8 Seq=46 Type=DATA Temp=26.13C Humid=51.41% Light=373 CO2=521 Batt=2993mV Suppressed=0
+[236.00s] [Mote 1] [SINK-DATA] Time=236 Node=8 Seq=46 Type=NORMAL Temp=26.13C Humid=51.41% Light=373lux CO2=521ppm Batt=2993mV Hops=3 Energest[CPU=70455 LPM=7398996 TX=24119 RX=104183]
+[240.24s] [Mote 2] [TX] Node=2 Seq=47 Type=DATA Temp=24.05C Humid=54.20% Light=265 CO2=427 Batt=2993mV Suppressed=0
+[240.25s] [Mote 1] [SINK-DATA] Time=240 Node=2 Seq=47 Type=NORMAL Temp=24.05C Humid=54.20% Light=265lux CO2=427ppm Batt=2993mV Hops=1 Energest[CPU=75053 LPM=7556282 TX=24878 RX=105639]
+[240.36s] [Mote 3] [TX] Node=3 Seq=47 Type=DATA Temp=24.40C Humid=53.70% Light=285 CO2=442 Batt=2993mV Suppressed=0
+[240.38s] [Mote 1] [SINK-DATA] Time=240 Node=3 Seq=47 Type=NORMAL Temp=24.40C Humid=53.70% Light=285lux CO2=442ppm Batt=2993mV Hops=1 Energest[CPU=74878 LPM=7556282 TX=24524 RX=106690]
+[240.48s] [Mote 4] [TX] Node=4 Seq=47 Type=DATA Temp=47.34C Humid=53.38% Light=314 CO2=1342 Batt=2993mV Suppressed=0
+[240.51s] [Mote 1] [SINK-DATA] Time=240 Node=4 Seq=47 Type=NORMAL Temp=47.34C Humid=53.38% Light=314lux CO2=1342ppm Batt=2993mV Hops=2 Energest[CPU=76124 LPM=7556282 TX=24798 RX=104066]
+[240.60s] [Mote 5] [TX] Node=5 Seq=47 Type=DATA Temp=25.09C Humid=52.68% Light=324 CO2=472 Batt=2993mV Suppressed=0
+[240.63s] [Mote 1] [SINK-DATA] Time=240 Node=5 Seq=47 Type=NORMAL Temp=25.09C Humid=52.68% Light=324lux CO2=472ppm Batt=2993mV Hops=2 Energest[CPU=73929 LPM=7556282 TX=24860 RX=106657]
+[240.72s] [Mote 6] [TX] Node=6 Seq=47 Type=DATA Temp=25.55C Humid=52.40% Light=355 CO2=492 Batt=2993mV Suppressed=0
+[240.75s] [Mote 1] [SINK-DATA] Time=240 Node=6 Seq=47 Type=NORMAL Temp=25.55C Humid=52.40% Light=355lux CO2=492ppm Batt=2993mV Hops=2 Energest[CPU=75997 LPM=7556282 TX=25297 RX=108305]
+[240.84s] [Mote 7] [TX] Node=7 Seq=47 Type=DATA Temp=25.89C Humid=51.88% Light=374 CO2=507 Batt=2993mV Suppressed=0
+[240.88s] [Mote 1] [SINK-DATA] Time=240 Node=7 Seq=47 Type=NORMAL Temp=25.89C Humid=51.88% Light=374lux CO2=507ppm Batt=2993mV Hops=3 Energest[CPU=76058 LPM=7556282 TX=24818 RX=107066]
+[240.96s] [Mote 8] [TX] Node=8 Seq=47 Type=DATA Temp=26.17C Humid=51.24% Light=387 CO2=518 Batt=2993mV Suppressed=0
+[241.00s] [Mote 1] [SINK-DATA] Time=241 Node=8 Seq=47 Type=NORMAL Temp=26.17C Humid=51.24% Light=387lux CO2=518ppm Batt=2993mV Hops=3 Energest[CPU=71439 LPM=7556282 TX=24576 RX=106762]
+[240.90s] [Mote 1] --- [NETWORK-SUMMARY @ 240 s] ---
+[240.91s] [Mote 1] Total Nodes Registered: 7
+[240.92s] [Mote 1] Total Packets Received: 306 | Total Expected: 329 | Global PDR: 93.01%
+[240.95s] [Mote 1]   Node  2: PktsRecv=47   Lost=0   PDR=100.0% LastSeen=0   s Temp=24.05C Batt=2993mV
+[240.96s] [Mote 1]   Node  3: PktsRecv=47   Lost=0   PDR=100.0% LastSeen=0   s Temp=24.40C Batt=2993mV
+[240.97s] [Mote 1]   Node  4: PktsRecv=43   Lost=4   PDR=91.5% LastSeen=0   s Temp=47.34C Batt=2993mV
+[240.98s] [Mote 1]   Node  5: PktsRecv=47   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.09C Batt=2993mV
+[240.99s] [Mote 1]   Node  6: PktsRecv=43   Lost=4   PDR=91.5% LastSeen=0   s Temp=25.55C Batt=2993mV
+[241.00s] [Mote 1]   Node  7: PktsRecv=42   Lost=5   PDR=89.4% LastSeen=0   s Temp=25.89C Batt=2993mV
+[241.01s] [Mote 1]   Node  8: PktsRecv=37   Lost=10  PDR=78.7% LastSeen=0   s Temp=26.17C Batt=2993mV
+[240.99s] [Mote 1] ------------------------------------
+[245.24s] [Mote 2] [TX] Node=2 Seq=48 Type=DATA Temp=24.19C Humid=54.23% Light=289 CO2=429 Batt=2992mV Suppressed=0
+[245.25s] [Mote 1] [SINK-DATA] Time=245 Node=2 Seq=48 Type=NORMAL Temp=24.19C Humid=54.23% Light=289lux CO2=429ppm Batt=2992mV Hops=1 Energest[CPU=76234 LPM=7713568 TX=25385 RX=107989]
+[245.16s] [Mote 2] [ENERGY-MOTE-2] Total_mJ=277.71 (CPU=12.56, LPM=38.84, TX=40.44, RX=185.87)
+[245.17s] [Mote 2] [MOTE-2-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.36s] [Mote 3] [TX] Node=3 Seq=48 Type=DATA Temp=24.61C Humid=53.87% Light=316 CO2=448 Batt=2992mV Suppressed=0
+[245.38s] [Mote 1] [SINK-DATA] Time=245 Node=3 Seq=48 Type=NORMAL Temp=24.61C Humid=53.87% Light=316lux CO2=448ppm Batt=2992mV Hops=1 Energest[CPU=76246 LPM=7713568 TX=25100 RX=109052]
+[245.24s] [Mote 3] [ENERGY-MOTE-3] Total_mJ=279.09 (CPU=12.56, LPM=38.84, TX=39.98, RX=187.70)
+[245.25s] [Mote 3] [MOTE-3-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.48s] [Mote 4] [TX] Node=4 Seq=48 Type=DATA Temp=47.47C Humid=53.39% Light=337 CO2=1343 Batt=2992mV Suppressed=0
+[245.51s] [Mote 1] [SINK-DATA] Time=245 Node=4 Seq=48 Type=NORMAL Temp=47.47C Humid=53.39% Light=337lux CO2=1343ppm Batt=2992mV Hops=2 Energest[CPU=77140 LPM=7713568 TX=25316 RX=106659]
+[245.32s] [Mote 4] [ENERGY-MOTE-4] Total_mJ=275.46 (CPU=12.71, LPM=38.84, TX=40.33, RX=183.58)
+[245.33s] [Mote 4] [MOTE-4-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.60s] [Mote 5] [TX] Node=5 Seq=48 Type=DATA Temp=25.29C Humid=52.83% Light=354 CO2=477 Batt=2992mV Suppressed=0
+[245.63s] [Mote 1] [SINK-DATA] Time=245 Node=5 Seq=48 Type=NORMAL Temp=25.29C Humid=52.83% Light=354lux CO2=477ppm Batt=2992mV Hops=2 Energest[CPU=75204 LPM=7713568 TX=25320 RX=109235]
+[245.40s] [Mote 5] [ENERGY-MOTE-5] Total_mJ=279.58 (CPU=12.39, LPM=38.84, TX=40.34, RX=188.01)
+[245.41s] [Mote 5] [MOTE-5-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.72s] [Mote 6] [TX] Node=6 Seq=48 Type=DATA Temp=25.70C Humid=52.45% Light=380 CO2=495 Batt=2992mV Suppressed=0
+[245.75s] [Mote 1] [SINK-DATA] Time=245 Node=6 Seq=48 Type=NORMAL Temp=25.70C Humid=52.45% Light=380lux CO2=495ppm Batt=2992mV Hops=2 Energest[CPU=77332 LPM=7713568 TX=25773 RX=110858]
+[245.48s] [Mote 6] [ENERGY-MOTE-6] Total_mJ=283.45 (CPU=12.74, LPM=38.84, TX=41.06, RX=190.81)
+[245.49s] [Mote 6] [MOTE-6-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.84s] [Mote 7] [TX] Node=7 Seq=48 Type=DATA Temp=25.93C Humid=51.71% Light=388 CO2=504 Batt=2992mV Suppressed=0
+[245.88s] [Mote 1] [SINK-DATA] Time=245 Node=7 Seq=48 Type=NORMAL Temp=25.93C Humid=51.71% Light=388lux CO2=504ppm Batt=2992mV Hops=3 Energest[CPU=77262 LPM=7713568 TX=25276 RX=109326]
+[245.56s] [Mote 7] [ENERGY-MOTE-7] Total_mJ=280.01 (CPU=12.73, LPM=38.84, TX=40.27, RX=188.17)
+[245.57s] [Mote 7] [MOTE-7-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[245.96s] [Mote 8] [TX] Node=8 Seq=48 Type=DATA Temp=26.27C Humid=51.19% Light=407 CO2=518 Batt=2992mV Suppressed=0
+[246.00s] [Mote 1] [SINK-DATA] Time=246 Node=8 Seq=48 Type=NORMAL Temp=26.27C Humid=51.19% Light=407lux CO2=518ppm Batt=2992mV Hops=3 Energest[CPU=72428 LPM=7713568 TX=25138 RX=108682]
+[245.64s] [Mote 8] [ENERGY-MOTE-8] Total_mJ=277.88 (CPU=11.94, LPM=38.84, TX=40.05, RX=187.06)
+[245.65s] [Mote 8] [MOTE-8-EFFICIENCY] Samples=48 Transmitted=48 Suppressed=0 RadioSaving=0.0%
+[250.24s] [Mote 2] [TX] Node=2 Seq=49 Type=DATA Temp=24.39C Humid=54.38% Light=319 CO2=434 Batt=2992mV Suppressed=0
+[250.25s] [Mote 1] [SINK-DATA] Time=250 Node=2 Seq=49 Type=NORMAL Temp=24.39C Humid=54.38% Light=319lux CO2=434ppm Batt=2992mV Hops=1 Energest[CPU=77736 LPM=7870854 TX=25924 RX=110516]
+[250.36s] [Mote 3] [TX] Node=3 Seq=49 Type=DATA Temp=24.61C Humid=53.62% Light=326 CO2=443 Batt=2992mV Suppressed=0
+[250.38s] [Mote 1] [SINK-DATA] Time=250 Node=3 Seq=49 Type=NORMAL Temp=24.61C Humid=53.62% Light=326lux CO2=443ppm Batt=2992mV Hops=1 Energest[CPU=77315 LPM=7870854 TX=25585 RX=111063]
+[250.48s] [Mote 4] [TX] Node=4 Seq=49 Type=DATA Temp=47.48C Humid=53.16% Light=348 CO2=1339 Batt=2992mV Suppressed=0
+[250.51s] [Mote 1] [SINK-DATA] Time=250 Node=4 Seq=49 Type=NORMAL Temp=47.48C Humid=53.16% Light=348lux CO2=1339ppm Batt=2992mV Hops=2 Energest[CPU=78623 LPM=7870854 TX=25855 RX=109004]
+[250.60s] [Mote 5] [TX] Node=5 Seq=49 Type=DATA Temp=25.34C Humid=52.68% Light=369 CO2=474 Batt=2992mV Suppressed=0
+[250.63s] [Mote 1] [SINK-DATA] Time=250 Node=5 Seq=49 Type=NORMAL Temp=25.34C Humid=52.68% Light=369lux CO2=474ppm Batt=2992mV Hops=2 Energest[CPU=76276 LPM=7870854 TX=25852 RX=111755]
+[250.72s] [Mote 6] [TX] Node=6 Seq=49 Type=DATA Temp=25.73C Humid=52.26% Light=393 CO2=491 Batt=2992mV Suppressed=0
+[250.75s] [Mote 1] [SINK-DATA] Time=250 Node=6 Seq=49 Type=NORMAL Temp=25.73C Humid=52.26% Light=393lux CO2=491ppm Batt=2992mV Hops=2 Energest[CPU=78505 LPM=7870854 TX=26247 RX=112796]
+[250.84s] [Mote 7] [TX] Node=7 Seq=49 Type=DATA Temp=25.99C Humid=51.58% Light=404 CO2=502 Batt=2992mV Suppressed=0
+[250.88s] [Mote 1] [SINK-DATA] Time=250 Node=7 Seq=49 Type=NORMAL Temp=25.99C Humid=51.58% Light=404lux CO2=502ppm Batt=2992mV Hops=3 Energest[CPU=78445 LPM=7870854 TX=25758 RX=111844]
+[250.96s] [Mote 8] [TX] Node=8 Seq=49 Type=DATA Temp=26.42C Humid=51.24% Light=432 CO2=521 Batt=2992mV Suppressed=0
+[251.00s] [Mote 1] [SINK-DATA] Time=251 Node=8 Seq=49 Type=NORMAL Temp=26.42C Humid=51.24% Light=432lux CO2=521ppm Batt=2992mV Hops=3 Energest[CPU=73657 LPM=7870854 TX=25651 RX=111261]
+[255.24s] [Mote 2] [TX] Node=2 Seq=50 Type=DATA Temp=24.43C Humid=54.21% Light=333 CO2=431 Batt=2992mV Suppressed=0
+[255.25s] [Mote 1] [SINK-DATA] Time=255 Node=2 Seq=50 Type=NORMAL Temp=24.43C Humid=54.21% Light=333lux CO2=431ppm Batt=2992mV Hops=1 Energest[CPU=79227 LPM=8028140 TX=26442 RX=112958]
+[255.36s] [Mote 3] [TX] Node=3 Seq=50 Type=DATA Temp=24.81C Humid=53.77% Light=356 CO2=448 Batt=2992mV Suppressed=0
+[255.38s] [Mote 1] [SINK-DATA] Time=255 Node=3 Seq=50 Type=NORMAL Temp=24.81C Humid=53.77% Light=356lux CO2=448ppm Batt=2992mV Hops=1 Energest[CPU=78292 LPM=8028140 TX=26058 RX=113275]
+[255.48s] [Mote 4] [TX] Node=4 Seq=50 Type=DATA Temp=47.60C Humid=53.15% Light=370 CO2=1340 Batt=2992mV Suppressed=0
+[255.51s] [Mote 1] [SINK-DATA] Time=255 Node=4 Seq=50 Type=NORMAL Temp=47.60C Humid=53.15% Light=370lux CO2=1340ppm Batt=2992mV Hops=2 Energest[CPU=79900 LPM=8028140 TX=26421 RX=111303]
+[255.60s] [Mote 5] [TX] Node=5 Seq=50 Type=DATA Temp=25.46C Humid=52.67% Light=391 CO2=475 Batt=2992mV Suppressed=0
+[255.63s] [Mote 1] [SINK-DATA] Time=255 Node=5 Seq=50 Type=NORMAL Temp=25.46C Humid=52.67% Light=391lux CO2=475ppm Batt=2992mV Hops=2 Energest[CPU=77271 LPM=8028140 TX=26419 RX=114205]
+[255.72s] [Mote 6] [TX] Node=6 Seq=50 Type=DATA Temp=25.83C Humid=52.21% Light=413 CO2=491 Batt=2992mV Suppressed=0
+[255.75s] [Mote 1] [SINK-DATA] Time=255 Node=6 Seq=50 Type=NORMAL Temp=25.83C Humid=52.21% Light=413lux CO2=491ppm Batt=2992mV Hops=2 Energest[CPU=79952 LPM=8028140 TX=26798 RX=114819]
+[255.84s] [Mote 7] [TX] Node=7 Seq=50 Type=DATA Temp=26.14C Humid=51.63% Light=429 CO2=504 Batt=2992mV Suppressed=0
+[255.88s] [Mote 1] [SINK-DATA] Time=255 Node=7 Seq=50 Type=NORMAL Temp=26.14C Humid=51.63% Light=429lux CO2=504ppm Batt=2992mV Hops=3 Energest[CPU=79851 LPM=8028140 TX=26276 RX=113974]
+[255.96s] [Mote 8] [TX] Node=8 Seq=50 Type=DATA Temp=26.55C Humid=51.25% Light=455 CO2=522 Batt=2992mV Suppressed=0
+[256.00s] [Mote 1] [SINK-DATA] Time=256 Node=8 Seq=50 Type=NORMAL Temp=26.55C Humid=51.25% Light=455lux CO2=522ppm Batt=2992mV Hops=3 Energest[CPU=75148 LPM=8028140 TX=26134 RX=113640]
+[260.24s] [Mote 2] [TX] Node=2 Seq=51 Type=DATA Temp=24.43C Humid=53.96% Light=343 CO2=426 Batt=2992mV Suppressed=0
+[260.25s] [Mote 1] [SINK-DATA] Time=260 Node=2 Seq=51 Type=NORMAL Temp=24.43C Humid=53.96% Light=343lux CO2=426ppm Batt=2992mV Hops=1 Energest[CPU=80825 LPM=8185426 TX=26904 RX=114805]
+[260.36s] [Mote 3] [TX] Node=3 Seq=51 Type=DATA Temp=24.80C Humid=53.50% Light=365 CO2=442 Batt=2992mV Suppressed=0
+[260.38s] [Mote 1] [SINK-DATA] Time=260 Node=3 Seq=51 Type=NORMAL Temp=24.80C Humid=53.50% Light=365lux CO2=442ppm Batt=2992mV Hops=1 Energest[CPU=79662 LPM=8185426 TX=26512 RX=115202]
+[260.48s] [Mote 4] [TX] Node=4 Seq=51 Type=DATA Temp=47.64C Humid=52.98% Light=384 CO2=1337 Batt=2992mV Suppressed=0
+[260.51s] [Mote 1] [SINK-DATA] Time=260 Node=4 Seq=51 Type=NORMAL Temp=47.64C Humid=52.98% Light=384lux CO2=1337ppm Batt=2992mV Hops=2 Energest[CPU=80800 LPM=8185426 TX=26980 RX=113310]
+[260.60s] [Mote 5] [TX] Node=5 Seq=51 Type=DATA Temp=25.47C Humid=52.44% Light=402 CO2=471 Batt=2992mV Suppressed=0
+[260.63s] [Mote 1] [SINK-DATA] Time=260 Node=5 Seq=51 Type=NORMAL Temp=25.47C Humid=52.44% Light=402lux CO2=471ppm Batt=2992mV Hops=2 Energest[CPU=78480 LPM=8185426 TX=26909 RX=116285]
+[260.72s] [Mote 6] [TX] Node=6 Seq=51 Type=DATA Temp=26.00C Humid=52.30% Light=440 CO2=495 Batt=2992mV Suppressed=0
+[260.75s] [Mote 1] [SINK-DATA] Time=260 Node=6 Seq=51 Type=NORMAL Temp=26.00C Humid=52.30% Light=440lux CO2=495ppm Batt=2992mV Hops=2 Energest[CPU=81108 LPM=8185426 TX=27269 RX=116999]
+[260.84s] [Mote 7] [TX] Node=7 Seq=51 Type=DATA Temp=26.22C Humid=51.54% Light=447 CO2=503 Batt=2992mV Suppressed=0
+[260.88s] [Mote 1] [SINK-DATA] Time=260 Node=7 Seq=51 Type=NORMAL Temp=26.22C Humid=51.54% Light=447lux CO2=503ppm Batt=2992mV Hops=3 Energest[CPU=81156 LPM=8185426 TX=26804 RX=116517]
+[260.96s] [Mote 8] [TX] Node=8 Seq=51 Type=DATA Temp=26.56C Humid=51.02% Light=466 CO2=518 Batt=2992mV Suppressed=0
+[261.00s] [Mote 1] [SINK-DATA] Time=261 Node=8 Seq=51 Type=NORMAL Temp=26.56C Humid=51.02% Light=466lux CO2=518ppm Batt=2992mV Hops=3 Energest[CPU=76141 LPM=8185426 TX=26608 RX=115441]
+[265.24s] [Mote 2] [TX] Node=2 Seq=52 Type=DATA Temp=24.64C Humid=54.13% Light=374 CO2=432 Batt=2992mV Suppressed=0
+[265.25s] [Mote 1] [SINK-DATA] Time=265 Node=2 Seq=52 Type=NORMAL Temp=24.64C Humid=54.13% Light=374lux CO2=432ppm Batt=2992mV Hops=1 Energest[CPU=81860 LPM=8342712 TX=27411 RX=117136]
+[265.36s] [Mote 3] [TX] Node=3 Seq=52 Type=DATA Temp=24.89C Humid=53.43% Light=384 CO2=442 Batt=2992mV Suppressed=0
+[265.38s] [Mote 1] [SINK-DATA] Time=265 Node=3 Seq=52 Type=NORMAL Temp=24.89C Humid=53.43% Light=384lux CO2=442ppm Batt=2992mV Hops=1 Energest[CPU=80913 LPM=8342712 TX=26992 RX=117434]
+[265.48s] [Mote 4] [TX] Node=4 Seq=52 Type=DATA Temp=25.23C Humid=52.91% Light=403 CO2=456 Batt=2992mV Suppressed=0
+[265.51s] [Mote 1] [SINK-DATA] Time=265 Node=4 Seq=52 Type=NORMAL Temp=25.23C Humid=52.91% Light=403lux CO2=456ppm Batt=2992mV Hops=2 Energest[CPU=81934 LPM=8342712 TX=27528 RX=115201]
+[265.60s] [Mote 5] [TX] Node=5 Seq=52 Type=DATA Temp=25.67C Humid=52.59% Light=432 CO2=476 Batt=2992mV Suppressed=0
+[265.63s] [Mote 1] [SINK-DATA] Time=265 Node=5 Seq=52 Type=NORMAL Temp=25.67C Humid=52.59% Light=432lux CO2=476ppm Batt=2992mV Hops=2 Energest[CPU=79756 LPM=8342712 TX=27435 RX=118225]
+[265.72s] [Mote 6] [TX] Node=6 Seq=52 Type=DATA Temp=26.06C Humid=52.17% Light=456 CO2=493 Batt=2992mV Suppressed=0
+[265.75s] [Mote 1] [SINK-DATA] Time=265 Node=6 Seq=52 Type=NORMAL Temp=26.06C Humid=52.17% Light=456lux CO2=493ppm Batt=2992mV Hops=2 Energest[CPU=82144 LPM=8342712 TX=27755 RX=118869]
+[265.84s] [Mote 7] [TX] Node=7 Seq=52 Type=DATA Temp=26.36C Humid=51.57% Light=471 CO2=505 Batt=2992mV Suppressed=0
+[265.88s] [Mote 1] [SINK-DATA] Time=265 Node=7 Seq=52 Type=NORMAL Temp=26.36C Humid=51.57% Light=471lux CO2=505ppm Batt=2992mV Hops=3 Energest[CPU=82680 LPM=8342712 TX=27296 RX=118767]
+[265.96s] [Mote 8] [TX] Node=8 Seq=52 Type=DATA Temp=26.79C Humid=51.23% Light=499 CO2=524 Batt=2992mV Suppressed=0
+[266.00s] [Mote 1] [SINK-DATA] Time=266 Node=8 Seq=52 Type=NORMAL Temp=26.79C Humid=51.23% Light=499lux CO2=524ppm Batt=2992mV Hops=3 Energest[CPU=77684 LPM=8342712 TX=27096 RX=117662]
+[270.24s] [Mote 2] [TX] Node=2 Seq=53 Type=DATA Temp=24.64C Humid=53.88% Light=384 CO2=427 Batt=2992mV Suppressed=0
+[270.25s] [Mote 1] [SINK-DATA] Time=270 Node=2 Seq=53 Type=NORMAL Temp=24.64C Humid=53.88% Light=384lux CO2=427ppm Batt=2992mV Hops=1 Energest[CPU=82982 LPM=8499998 TX=27883 RX=119038]
+[270.36s] [Mote 3] [TX] Node=3 Seq=53 Type=DATA Temp=25.08C Humid=53.56% Light=413 CO2=446 Batt=2992mV Suppressed=0
+[270.38s] [Mote 1] [SINK-DATA] Time=270 Node=3 Seq=53 Type=NORMAL Temp=25.08C Humid=53.56% Light=413lux CO2=446ppm Batt=2992mV Hops=1 Energest[CPU=82416 LPM=8499998 TX=27540 RX=119593]
+[270.48s] [Mote 4] [TX] Node=4 Seq=53 Type=DATA Temp=25.50C Humid=53.20% Light=440 CO2=465 Batt=2992mV Suppressed=0
+[270.51s] [Mote 1] [SINK-DATA] Time=270 Node=4 Seq=53 Type=NORMAL Temp=25.50C Humid=53.20% Light=440lux CO2=465ppm Batt=2992mV Hops=2 Energest[CPU=82977 LPM=8499998 TX=28041 RX=117284]
+[270.60s] [Mote 5] [TX] Node=5 Seq=53 Type=DATA Temp=25.65C Humid=52.30% Light=440 CO2=470 Batt=2992mV Suppressed=0
+[270.63s] [Mote 1] [SINK-DATA] Time=270 Node=5 Seq=53 Type=NORMAL Temp=25.65C Humid=52.30% Light=440lux CO2=470ppm Batt=2992mV Hops=2 Energest[CPU=81222 LPM=8499998 TX=27957 RX=120822]
+[270.72s] [Mote 6] [TX] Node=6 Seq=53 Type=DATA Temp=26.16C Humid=52.12% Light=476 CO2=493 Batt=2992mV Suppressed=0
+[270.75s] [Mote 1] [SINK-DATA] Time=270 Node=6 Seq=53 Type=NORMAL Temp=26.16C Humid=52.12% Light=476lux CO2=493ppm Batt=2992mV Hops=2 Energest[CPU=83718 LPM=8499998 TX=28282 RX=120879]
+[270.84s] [Mote 7] [TX] Node=7 Seq=53 Type=DATA Temp=26.55C Humid=51.70% Light=500 CO2=510 Batt=2992mV Suppressed=0
+[270.96s] [Mote 8] [TX] Node=8 Seq=53 Type=DATA Temp=26.73C Humid=50.86% Light=503 CO2=516 Batt=2992mV Suppressed=0
+[271.00s] [Mote 1] [SINK-DATA] Time=271 Node=8 Seq=53 Type=NORMAL Temp=26.73C Humid=50.86% Light=503lux CO2=516ppm Batt=2992mV Hops=3 Energest[CPU=78829 LPM=8499998 TX=27672 RX=119857]
+[275.24s] [Mote 2] [TX] Node=2 Seq=54 Type=DATA Temp=24.70C Humid=53.75% Light=400 CO2=425 Batt=2991mV Suppressed=0
+[275.25s] [Mote 1] [SINK-DATA] Time=275 Node=2 Seq=54 Type=NORMAL Temp=24.70C Humid=53.75% Light=400lux CO2=425ppm Batt=2991mV Hops=1 Energest[CPU=84535 LPM=8657284 TX=28351 RX=121378]
+[275.36s] [Mote 3] [TX] Node=3 Seq=54 Type=DATA Temp=25.23C Humid=53.61% Light=438 CO2=449 Batt=2991mV Suppressed=0
+[275.38s] [Mote 1] [SINK-DATA] Time=275 Node=3 Seq=54 Type=NORMAL Temp=25.23C Humid=53.61% Light=438lux CO2=449ppm Batt=2991mV Hops=1 Energest[CPU=83640 LPM=8657284 TX=28023 RX=121789]
+[275.48s] [Mote 4] [TX] Node=4 Seq=54 Type=DATA Temp=25.55C Humid=53.05% Light=455 CO2=462 Batt=2991mV Suppressed=0
+[275.51s] [Mote 1] [SINK-DATA] Time=275 Node=4 Seq=54 Type=NORMAL Temp=25.55C Humid=53.05% Light=455lux CO2=462ppm Batt=2991mV Hops=2 Energest[CPU=84436 LPM=8657284 TX=28535 RX=119865]
+[275.60s] [Mote 5] [TX] Node=5 Seq=54 Type=DATA Temp=25.77C Humid=52.29% Light=462 CO2=471 Batt=2991mV Suppressed=0
+[275.72s] [Mote 6] [TX] Node=6 Seq=54 Type=DATA Temp=26.22C Humid=51.99% Light=492 CO2=491 Batt=2991mV Suppressed=0
+[275.75s] [Mote 1] [SINK-DATA] Time=275 Node=6 Seq=54 Type=NORMAL Temp=26.22C Humid=51.99% Light=492lux CO2=491ppm Batt=2991mV Hops=2 Energest[CPU=84838 LPM=8657284 TX=28742 RX=122740]
+[275.84s] [Mote 7] [TX] Node=7 Seq=54 Type=DATA Temp=26.58C Humid=51.51% Light=513 CO2=506 Batt=2991mV Suppressed=0
+[275.88s] [Mote 1] [SINK-DATA] Time=275 Node=7 Seq=54 Type=NORMAL Temp=26.58C Humid=51.51% Light=513lux CO2=506ppm Batt=2991mV Hops=3 Energest[CPU=85316 LPM=8657284 TX=28424 RX=123454]
+[275.96s] [Mote 8] [TX] Node=8 Seq=54 Type=DATA Temp=26.97C Humid=51.09% Light=537 CO2=523 Batt=2991mV Suppressed=0
+[276.00s] [Mote 1] [SINK-DATA] Time=276 Node=8 Seq=54 Type=NORMAL Temp=26.97C Humid=51.09% Light=537lux CO2=523ppm Batt=2991mV Hops=3 Energest[CPU=80140 LPM=8657284 TX=28143 RX=122312]
+[280.24s] [Mote 2] [TX] Node=2 Seq=55 Type=DATA Temp=24.89C Humid=53.88% Light=429 CO2=429 Batt=2991mV Suppressed=0
+[280.25s] [Mote 1] [SINK-DATA] Time=280 Node=2 Seq=55 Type=NORMAL Temp=24.89C Humid=53.88% Light=429lux CO2=429ppm Batt=2991mV Hops=1 Energest[CPU=85591 LPM=8814570 TX=28872 RX=123263]
+[280.36s] [Mote 3] [TX] Node=3 Seq=55 Type=DATA Temp=25.25C Humid=53.40% Light=450 CO2=445 Batt=2991mV Suppressed=0
+[280.38s] [Mote 1] [SINK-DATA] Time=280 Node=3 Seq=55 Type=NORMAL Temp=25.25C Humid=53.40% Light=450lux CO2=445ppm Batt=2991mV Hops=1 Energest[CPU=84748 LPM=8814570 TX=28512 RX=124138]
+[280.48s] [Mote 4] [TX] Node=4 Seq=55 Type=DATA Temp=25.63C Humid=52.96% Light=473 CO2=461 Batt=2991mV Suppressed=0
+[280.51s] [Mote 1] [SINK-DATA] Time=280 Node=4 Seq=55 Type=NORMAL Temp=25.63C Humid=52.96% Light=473lux CO2=461ppm Batt=2991mV Hops=2 Energest[CPU=85985 LPM=8814570 TX=29001 RX=121982]
+[280.60s] [Mote 5] [TX] Node=5 Seq=55 Type=DATA Temp=25.87C Humid=52.24% Light=482 CO2=471 Batt=2991mV Suppressed=0
+[280.63s] [Mote 1] [SINK-DATA] Time=280 Node=5 Seq=55 Type=NORMAL Temp=25.87C Humid=52.24% Light=482lux CO2=471ppm Batt=2991mV Hops=2 Energest[CPU=83340 LPM=8814570 TX=28875 RX=125273]
+[280.72s] [Mote 6] [TX] Node=6 Seq=55 Type=DATA Temp=26.39C Humid=52.08% Light=519 CO2=494 Batt=2991mV Suppressed=0
+[280.75s] [Mote 1] [SINK-DATA] Time=280 Node=6 Seq=55 Type=NORMAL Temp=26.39C Humid=52.08% Light=519lux CO2=494ppm Batt=2991mV Hops=2 Energest[CPU=85856 LPM=8814570 TX=29308 RX=125166]
+[280.84s] [Mote 7] [TX] Node=7 Seq=55 Type=DATA Temp=26.55C Humid=51.20% Light=520 CO2=500 Batt=2991mV Suppressed=0
+[280.88s] [Mote 1] [SINK-DATA] Time=280 Node=7 Seq=55 Type=NORMAL Temp=26.55C Humid=51.20% Light=520lux CO2=500ppm Batt=2991mV Hops=3 Energest[CPU=86898 LPM=8814570 TX=28918 RX=125376]
+[280.96s] [Mote 8] [TX] Node=8 Seq=55 Type=DATA Temp=27.01C Humid=50.92% Light=551 CO2=520 Batt=2991mV Suppressed=0
+[281.00s] [Mote 1] [SINK-DATA] Time=281 Node=8 Seq=55 Type=NORMAL Temp=27.01C Humid=50.92% Light=551lux CO2=520ppm Batt=2991mV Hops=3 Energest[CPU=81051 LPM=8814570 TX=28634 RX=124620]
+[285.24s] [Mote 2] [TX] Node=2 Seq=56 Type=DATA Temp=24.94C Humid=53.73% Light=444 CO2=427 Batt=2991mV Suppressed=0
+[285.25s] [Mote 1] [SINK-DATA] Time=285 Node=2 Seq=56 Type=NORMAL Temp=24.94C Humid=53.73% Light=444lux CO2=427ppm Batt=2991mV Hops=1 Energest[CPU=86756 LPM=8971856 TX=29364 RX=125443]
+[285.36s] [Mote 3] [TX] Node=3 Seq=56 Type=DATA Temp=25.25C Humid=53.15% Light=460 CO2=440 Batt=2991mV Suppressed=0
+[285.38s] [Mote 1] [SINK-DATA] Time=285 Node=3 Seq=56 Type=NORMAL Temp=25.25C Humid=53.15% Light=460lux CO2=440ppm Batt=2991mV Hops=1 Energest[CPU=85923 LPM=8971856 TX=28992 RX=126727]
+[285.48s] [Mote 4] [TX] Node=4 Seq=56 Type=DATA Temp=25.62C Humid=52.69% Light=482 CO2=456 Batt=2991mV Suppressed=0
+[285.51s] [Mote 1] [SINK-DATA] Time=285 Node=4 Seq=56 Type=NORMAL Temp=25.62C Humid=52.69% Light=482lux CO2=456ppm Batt=2991mV Hops=2 Energest[CPU=87324 LPM=8971856 TX=29520 RX=124318]
+[285.60s] [Mote 5] [TX] Node=5 Seq=56 Type=DATA Temp=26.09C Humid=52.43% Light=514 CO2=477 Batt=2991mV Suppressed=0
+[285.63s] [Mote 1] [SINK-DATA] Time=285 Node=5 Seq=56 Type=NORMAL Temp=26.09C Humid=52.43% Light=514lux CO2=477ppm Batt=2991mV Hops=2 Energest[CPU=84830 LPM=8971856 TX=29344 RX=127581]
+[285.72s] [Mote 6] [TX] Node=6 Seq=56 Type=DATA Temp=26.35C Humid=51.75% Light=525 CO2=487 Batt=2991mV Suppressed=0
+[285.75s] [Mote 1] [SINK-DATA] Time=285 Node=6 Seq=56 Type=NORMAL Temp=26.35C Humid=51.75% Light=525lux CO2=487ppm Batt=2991mV Hops=2 Energest[CPU=86812 LPM=8971856 TX=29885 RX=127546]
+[285.84s] [Mote 7] [TX] Node=7 Seq=56 Type=DATA Temp=26.68C Humid=51.21% Light=543 CO2=501 Batt=2991mV Suppressed=0
+[285.88s] [Mote 1] [SINK-DATA] Time=285 Node=7 Seq=56 Type=NORMAL Temp=26.68C Humid=51.21% Light=543lux CO2=501ppm Batt=2991mV Hops=3 Energest[CPU=88059 LPM=8971856 TX=29394 RX=127763]
+[285.96s] [Mote 8] [TX] Node=8 Seq=56 Type=DATA Temp=27.00C Humid=50.65% Light=560 CO2=515 Batt=2991mV Suppressed=0
+[286.00s] [Mote 1] [SINK-DATA] Time=286 Node=8 Seq=56 Type=NORMAL Temp=27.00C Humid=50.65% Light=560lux CO2=515ppm Batt=2991mV Hops=3 Energest[CPU=82472 LPM=8971856 TX=29084 RX=126465]
+[290.24s] [Mote 2] [TX] Node=2 Seq=57 Type=DATA Temp=25.04C Humid=53.68% Light=464 CO2=427 Batt=2991mV Suppressed=0
+[290.25s] [Mote 1] [SINK-DATA] Time=290 Node=2 Seq=57 Type=NORMAL Temp=25.04C Humid=53.68% Light=464lux CO2=427ppm Batt=2991mV Hops=1 Energest[CPU=88139 LPM=9129142 TX=29907 RX=127635]
+[290.36s] [Mote 3] [TX] Node=3 Seq=57 Type=DATA Temp=25.45C Humid=53.30% Light=490 CO2=445 Batt=2991mV Suppressed=0
+[290.38s] [Mote 1] [SINK-DATA] Time=290 Node=3 Seq=57 Type=NORMAL Temp=25.45C Humid=53.30% Light=490lux CO2=445ppm Batt=2991mV Hops=1 Energest[CPU=86859 LPM=9129142 TX=29549 RX=128756]
+[290.48s] [Mote 4] [TX] Node=4 Seq=57 Type=DATA Temp=25.88C Humid=52.96% Light=518 CO2=464 Batt=2991mV Suppressed=0
+[290.51s] [Mote 1] [SINK-DATA] Time=290 Node=4 Seq=57 Type=NORMAL Temp=25.88C Humid=52.96% Light=518lux CO2=464ppm Batt=2991mV Hops=2 Energest[CPU=88551 LPM=9129142 TX=30039 RX=126197]
+[290.60s] [Mote 5] [TX] Node=5 Seq=57 Type=DATA Temp=26.12C Humid=52.24% Light=527 CO2=473 Batt=2991mV Suppressed=0
+[290.63s] [Mote 1] [SINK-DATA] Time=290 Node=5 Seq=57 Type=NORMAL Temp=26.12C Humid=52.24% Light=527lux CO2=473ppm Batt=2991mV Hops=2 Energest[CPU=86244 LPM=9129142 TX=29807 RX=129564]
+[290.72s] [Mote 6] [TX] Node=6 Seq=57 Type=DATA Temp=26.54C Humid=51.88% Light=554 CO2=492 Batt=2991mV Suppressed=0
+[290.75s] [Mote 1] [SINK-DATA] Time=290 Node=6 Seq=57 Type=NORMAL Temp=26.54C Humid=51.88% Light=554lux CO2=492ppm Batt=2991mV Hops=2 Energest[CPU=87759 LPM=9129142 TX=30437 RX=129416]
+[290.84s] [Mote 7] [TX] Node=7 Seq=57 Type=DATA Temp=26.92C Humid=51.44% Light=577 CO2=508 Batt=2991mV Suppressed=0
+[290.88s] [Mote 1] [SINK-DATA] Time=290 Node=7 Seq=57 Type=NORMAL Temp=26.92C Humid=51.44% Light=577lux CO2=508ppm Batt=2991mV Hops=3 Energest[CPU=89277 LPM=9129142 TX=29927 RX=129651]
+[290.96s] [Mote 8] [TX] Node=8 Seq=57 Type=DATA Temp=27.28C Humid=50.96% Light=598 CO2=524 Batt=2991mV Suppressed=0
+[291.00s] [Mote 1] [SINK-DATA] Time=291 Node=8 Seq=57 Type=NORMAL Temp=27.28C Humid=50.96% Light=598lux CO2=524ppm Batt=2991mV Hops=3 Energest[CPU=83749 LPM=9129142 TX=29585 RX=128563]
+[295.24s] [Mote 2] [TX] Node=2 Seq=58 Type=DATA Temp=25.21C Humid=53.77% Light=491 CO2=430 Batt=2991mV Suppressed=0
+[295.25s] [Mote 1] [SINK-DATA] Time=295 Node=2 Seq=58 Type=NORMAL Temp=25.21C Humid=53.77% Light=491lux CO2=430ppm Batt=2991mV Hops=1 Energest[CPU=89676 LPM=9286428 TX=30419 RX=129910]
+[295.36s] [Mote 3] [TX] Node=3 Seq=58 Type=DATA Temp=25.62C Humid=53.39% Light=517 CO2=448 Batt=2991mV Suppressed=0
+[295.38s] [Mote 1] [SINK-DATA] Time=295 Node=3 Seq=58 Type=NORMAL Temp=25.62C Humid=53.39% Light=517lux CO2=448ppm Batt=2991mV Hops=1 Energest[CPU=88264 LPM=9286428 TX=30049 RX=131306]
+[295.48s] [Mote 4] [TX] Node=4 Seq=58 Type=DATA Temp=25.93C Humid=52.81% Light=533 CO2=461 Batt=2991mV Suppressed=0
+[295.60s] [Mote 5] [TX] Node=5 Seq=58 Type=DATA Temp=26.15C Humid=52.05% Light=540 CO2=470 Batt=2991mV Suppressed=0
+[295.63s] [Mote 1] [SINK-DATA] Time=295 Node=5 Seq=58 Type=NORMAL Temp=26.15C Humid=52.05% Light=540lux CO2=470ppm Batt=2991mV Hops=2 Energest[CPU=87698 LPM=9286428 TX=30345 RX=132015]
+[295.72s] [Mote 6] [TX] Node=6 Seq=58 Type=DATA Temp=26.59C Humid=51.73% Light=569 CO2=489 Batt=2991mV Suppressed=0
+[295.75s] [Mote 1] [SINK-DATA] Time=295 Node=6 Seq=58 Type=NORMAL Temp=26.59C Humid=51.73% Light=569lux CO2=489ppm Batt=2991mV Hops=2 Energest[CPU=88660 LPM=9286428 TX=30983 RX=131971]
+[295.84s] [Mote 7] [TX] Node=7 Seq=58 Type=DATA Temp=27.00C Humid=51.35% Light=595 CO2=507 Batt=2991mV Suppressed=0
+[295.88s] [Mote 1] [SINK-DATA] Time=295 Node=7 Seq=58 Type=NORMAL Temp=27.00C Humid=51.35% Light=595lux CO2=507ppm Batt=2991mV Hops=3 Energest[CPU=90719 LPM=9286428 TX=30437 RX=131880]
+[295.96s] [Mote 8] [TX] Node=8 Seq=58 Type=DATA Temp=27.21C Humid=50.57% Light=601 CO2=515 Batt=2991mV Suppressed=0
+[296.00s] [Mote 1] [SINK-DATA] Time=296 Node=8 Seq=58 Type=NORMAL Temp=27.21C Humid=50.57% Light=601lux CO2=515ppm Batt=2991mV Hops=3 Energest[CPU=84794 LPM=9286428 TX=30106 RX=130458]
+[300.24s] [Mote 2] [TX] Node=2 Seq=59 Type=DATA Temp=25.31C Humid=53.72% Light=511 CO2=430 Batt=2991mV Suppressed=0
+[300.25s] [Mote 1] [SINK-DATA] Time=300 Node=2 Seq=59 Type=NORMAL Temp=25.31C Humid=53.72% Light=511lux CO2=430ppm Batt=2991mV Hops=1 Energest[CPU=91108 LPM=9443714 TX=30974 RX=132427]
+[300.36s] [Mote 3] [TX] Node=3 Seq=59 Type=DATA Temp=25.59C Humid=53.08% Light=524 CO2=442 Batt=2991mV Suppressed=0
+[300.38s] [Mote 1] [SINK-DATA] Time=300 Node=3 Seq=59 Type=NORMAL Temp=25.59C Humid=53.08% Light=524lux CO2=442ppm Batt=2991mV Hops=1 Energest[CPU=89250 LPM=9443714 TX=30523 RX=133623]
+[300.48s] [Mote 4] [TX] Node=4 Seq=59 Type=DATA Temp=26.08C Humid=52.86% Light=558 CO2=464 Batt=2991mV Suppressed=0
+[300.51s] [Mote 1] [SINK-DATA] Time=300 Node=4 Seq=59 Type=NORMAL Temp=26.08C Humid=52.86% Light=558lux CO2=464ppm Batt=2991mV Hops=2 Energest[CPU=91005 LPM=9443714 TX=30996 RX=130409]
+[300.60s] [Mote 5] [TX] Node=5 Seq=59 Type=DATA Temp=26.34C Humid=52.18% Light=569 CO2=474 Batt=2991mV Suppressed=0
+[300.63s] [Mote 1] [SINK-DATA] Time=300 Node=5 Seq=59 Type=NORMAL Temp=26.34C Humid=52.18% Light=569lux CO2=474ppm Batt=2991mV Hops=2 Energest[CPU=89276 LPM=9443714 TX=30828 RX=134057]
+[300.72s] [Mote 6] [TX] Node=6 Seq=59 Type=DATA Temp=26.70C Humid=51.70% Light=590 CO2=490 Batt=2991mV Suppressed=0
+[300.75s] [Mote 1] [SINK-DATA] Time=300 Node=6 Seq=59 Type=NORMAL Temp=26.70C Humid=51.70% Light=590lux CO2=490ppm Batt=2991mV Hops=2 Energest[CPU=89882 LPM=9443714 TX=31533 RX=134488]
+[300.84s] [Mote 7] [TX] Node=7 Seq=59 Type=DATA Temp=27.01C Humid=51.12% Light=606 CO2=503 Batt=2991mV Suppressed=0
+[300.88s] [Mote 1] [SINK-DATA] Time=300 Node=7 Seq=59 Type=NORMAL Temp=27.01C Humid=51.12% Light=606lux CO2=503ppm Batt=2991mV Hops=3 Energest[CPU=91897 LPM=9443714 TX=30946 RX=133756]
+[300.96s] [Mote 8] [TX] Node=8 Seq=59 Type=DATA Temp=27.33C Humid=50.56% Light=623 CO2=516 Batt=2991mV Suppressed=0
+[301.00s] [Mote 1] [SINK-DATA] Time=301 Node=8 Seq=59 Type=NORMAL Temp=27.33C Humid=50.56% Light=623lux CO2=516ppm Batt=2991mV Hops=3 Energest[CPU=86292 LPM=9443714 TX=30583 RX=132417]
+[300.90s] [Mote 1] --- [NETWORK-SUMMARY @ 300 s] ---
+[300.91s] [Mote 1] Total Nodes Registered: 7
+[300.92s] [Mote 1] Total Packets Received: 387 | Total Expected: 413 | Global PDR: 93.70%
+[300.95s] [Mote 1]   Node  2: PktsRecv=59   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.31C Batt=2991mV
+[300.96s] [Mote 1]   Node  3: PktsRecv=59   Lost=0   PDR=100.0% LastSeen=0   s Temp=25.59C Batt=2991mV
+[300.97s] [Mote 1]   Node  4: PktsRecv=54   Lost=5   PDR=91.5% LastSeen=0   s Temp=26.08C Batt=2991mV
+[300.98s] [Mote 1]   Node  5: PktsRecv=58   Lost=1   PDR=98.3% LastSeen=0   s Temp=26.34C Batt=2991mV
+[300.99s] [Mote 1]   Node  6: PktsRecv=55   Lost=4   PDR=93.2% LastSeen=0   s Temp=26.70C Batt=2991mV
+[301.00s] [Mote 1]   Node  7: PktsRecv=53   Lost=6   PDR=89.8% LastSeen=0   s Temp=27.01C Batt=2991mV
+[301.01s] [Mote 1]   Node  8: PktsRecv=49   Lost=10  PDR=83.1% LastSeen=0   s Temp=27.33C Batt=2991mV
+[300.99s] [Mote 1] ------------------------------------
+[300.00s] [Mote 1] =================================================================
+[300.00s] [Mote 1]   SIMULATION COMPLETED SUCCESSFULLY (5 Simulated Minutes)        
+[300.00s] [Mote 1] =================================================================

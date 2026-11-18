@@ -1,0 +1,31 @@
+# Compiled Contiki / MSP430 Binaries
+*.sky
+*.cooja
+*.z1
+*.hex
+*.ihex
+*.a
+*.o
+*.obj
+obj_*
+symbols.c
+symbols.h
+
+# Cooja Temporary & Autosave Files
+.cooja
+cooja.log
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

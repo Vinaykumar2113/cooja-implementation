@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Environmental Monitoring & Energy-Efficient WSN Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="dashboard-container">
+    
+    <!-- Top Header -->
+    <header class="dashboard-header">
+      <div>
+        <div class="brand-badge">IEEE 802.15.4 • 6LoWPAN • RPL • Contiki / Cooja</div>
+        <h1 class="dashboard-title">Smart Environmental Monitoring &amp; Energy-Efficient Data Collection</h1>
+        <p class="dashboard-subtitle">Wireless Sensor Network Telemetry, Energest Power Profiling &amp; Dynamic Duty Cycling</p>
+      </div>
+      <div class="header-status-pill">
+        <div class="pulsing-dot"></div>
+        <span style="font-size: 13px; font-weight: 600;">Simulation Telemetry Active</span>
+      </div>
+    </header>
+
+    <!-- Critical Alert Banner -->
+    <div class="alert-banner">
+      <div class="alert-icon-wrap">
+        <span class="alert-badge">PRIORITY EVENT</span>
+        <span>Mote 4 detected extreme thermal surge (&gt;45°C) &amp; CO2 spike (1320 PPM) — Dispatched emergency alert packet via multi-hop RPL</span>
+      </div>
+      <span style="font-size: 12px; color: var(--accent-red); font-weight: bold;">Immediate TX Triggered</span>
+    </div>
+
+    <!-- KPI Metric Cards Grid -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Packet Delivery Ratio (PDR)</div>
+        <div class="kpi-value kpi-highlight-green">100.0%</div>
+        <div class="kpi-subtext">vs. 93.7% in congested periodic baseline</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Redundant Radio Transmissions Suppressed</div>
+        <div class="kpi-value kpi-highlight-purple">70.8%</div>
+        <div class="kpi-subtext">238 out of 336 samples saved via adaptive delta</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Net Network Energy Reduction</div>
+        <div class="kpi-value kpi-highlight-cyan">56.8%</div>
+        <div class="kpi-subtext">844.7 mJ (Adaptive) vs. 1953.2 mJ (Periodic)</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Average Node Power Draw</div>
+        <div class="kpi-value kpi-highlight-yellow">0.40 mW</div>
+        <div class="kpi-subtext">Estimated node lifetime: ~8.7 years on 2x AA</div>
+      </div>
+    </section>
+
+    <!-- Interactive Topology & Telemetry Charts Grid -->
+    <section class="main-grid">
+      <!-- 2D Topology Canvas -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Live 2D Network Topology &amp; RPL Routes</h2>
+          <span style="font-size: 12px; color: var(--text-muted);">Interactive packet traffic view</span>
+        </div>
+        <div class="topology-canvas-wrap">
+          <canvas id="topologyCanvas"></canvas>
+        </div>
+      </div>
+
+      <!-- Real-time Telemetry Canvas -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Environmental Telemetry (Temperature °C)</h2>
+          <span style="font-size: 12px; color: var(--text-muted);">Time-series &amp; wildfire anomaly detection</span>
+        </div>
+        <div class="telemetry-chart-wrap">
+          <canvas id="telemetryCanvas"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mote Status & Telemetry Table -->
+    <section class="card table-card">
+      <div class="card-header">
+        <h2 class="card-title">Wireless Sensor Node Registry &amp; Health Matrix</h2>
+        <span style="font-size: 12px; color: var(--text-muted);">TelosB / Tmote Sky hardware profiles</span>
+      </div>
+      <div class="table-responsive">
+        <table class="mote-table">
+          <thead>
+            <tr>
+              <th>Node ID</th>
+              <th>Network Role</th>
+              <th>Temperature</th>
+              <th>Humidity</th>
+              <th>Ambient Light</th>
+              <th>CO2 / Air Quality</th>
+              <th>Battery (mV)</th>
+              <th>Radio Suppression</th>
+              <th>Total Energy</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="moteTableBody">
+            <!-- Populated dynamically by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Benchmark Evaluation Vector Charts -->
+    <section class="card" style="margin-bottom: 24px;">
+      <div class="card-header">
+        <h2 class="card-title">Cooja Simulation Experimental Benchmark Charts</h2>
+        <span style="font-size: 12px; color: var(--text-muted);">Publication-grade vector analysis generated from simulation logs</span>
+      </div>
+      <div class="charts-grid">
+        <div class="svg-container">
+          <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text-muted);">Energy Consumption: Adaptive vs. Periodic</h3>
+          <img src="../analysis/output/chart1_energy_comparison.svg" alt="Energy Comparison Chart">
+        </div>
+        <div class="svg-container">
+          <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text-muted);">Energest Subsystem Power Breakdown</h3>
+          <img src="../analysis/output/chart2_energy_breakdown.svg" alt="Energest Breakdown Chart">
+        </div>
+        <div class="svg-container">
+          <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text-muted);">Environmental Telemetry &amp; Anomaly Spike</h3>
+          <img src="../analysis/output/chart3_environmental_telemetry.svg" alt="Environmental Telemetry Chart">
+        </div>
+        <div class="svg-container">
+          <h3 style="font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text-muted);">Reliability (PDR) vs. Radio Suppression</h3>
+          <img src="../analysis/output/chart4_radio_suppression_pdr.svg" alt="Reliability and PDR Chart">
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+      <p>Smart Environmental Monitoring and Energy-Efficient Data Collection in Wireless Sensor Networks Using Cooja</p>
+      <p style="margin-top: 4px; color: var(--text-dim); font-size: 12px;">Engineered with Contiki-NG, Cooja Network Simulator, RPL Routing Protocol, and IEEE 802.15.4 Radio Stack.</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

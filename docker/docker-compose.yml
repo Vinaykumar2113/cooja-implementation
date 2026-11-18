@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  cooja-simulation:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: cooja_env_monitoring
+    volumes:
+      - ..:/home/user/project
+    environment:
+      - CONTIKI=/home/user/contiki-ng
+    command: bash cooja-simulations/scripts/run_simulation_headless.sh
